@@ -5,61 +5,167 @@
   <title>Game Security Radar – News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #050816; color: #e5e7eb; }
-    header { padding: 20px; background: #0b1120; border-bottom: 1px solid #1f2937; }
-    h1 { margin: 0; font-size: 24px; }
-    a { color: #60a5fa; }
-    main { max-width: 900px; margin: 20px auto; padding: 0 16px; }
-    .subtitle { color: #9ca3af; margin-top: 4px; }
-    .section-title { margin-top: 24px; font-size: 18px; }
-    .card { border: 1px solid #1f2937; border-radius: 8px; padding: 16px; margin-top: 12px; background: #020617; }
+    :root {
+      --bg: #020617;
+      --card: #0b1120;
+      --border: #1e293b;
+      --accent: #38bdf8;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+    }
+    * { box-sizing: border-box; }
 
-    .news-item { margin-top: 16px; }
-    .news-title { font-size: 16px; margin-bottom: 4px; }
-    .news-summary { color: #d1d5db; margin-bottom: 8px; }
-    .news-points { margin-left: 18px; margin-bottom: 8px; }
-    .news-points li { margin-bottom: 4px; }
-    .news-meta, .news-tags { font-size: 13px; color: #9ca3af; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000 100%);
+      color: var(--text-main);
+    }
 
-    footer { margin-top: 40px; padding: 16px; text-align: center; color: #6b7280; font-size: 12px; border-top: 1px solid #1f2937; }
+    header {
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(16px);
+      background: linear-gradient(to right, rgba(15,23,42,0.95), rgba(15,23,42,0.7));
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .nav {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand-logo {
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      border: 1px solid rgba(56,189,248,0.1);
+      background: radial-gradient(circle at 30% 0, #38bdf8 0, #0f172a 45%, #020617 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: #e0f2fe;
+      font-weight: 600;
+    }
+    .brand-text-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .brand-text-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .nav-links a {
+      margin-left: 16px;
+      font-size: 14px;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .section-sub {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+
+    .card-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .card {
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      padding: 14px 16px;
+    }
+    .card-title {
+      font-size: 15px;
+      margin: 0 0 6px;
+    }
+    .card-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+    .card-text {
+      font-size: 13px;
+      color: var(--text-main);
+      margin: 0 0 10px;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 11px;
+    }
+    .pill {
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.4);
+      color: var(--text-muted);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 10px 16px 16px;
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+      background: #020617;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Game Security Radar</h1>
-    <div class="subtitle">Latest cybersecurity and game threat news.</div>
-    <div class="subtitle"><a href="index.html">← Back to home</a></div>
+    <div class="nav">
+      <div class="brand">
+        <div class="brand-logo">R</div>
+        <div>
+          <div class="brand-text-title">Game Security Radar</div>
+          <div class="brand-text-sub">Full news feed</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">← Home</a>
+        <a href="tools.html">Tools</a>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section>
-      <h2 class="section-title">News feed</h2>
-      <div class="card">
-        <!-- здесь будут статьи -->
-        <!-- для примера вставим ту же новость, что на главной -->
-        <article class="news-item">
-          <h2 class="news-title">
-            Gaming cheats increasingly used to deliver malware
-          </h2>
-          <p class="news-summary">
-            Security researchers report a rise in cheat loaders and cracked game tools that secretly install infostealers and remote access trojans on gamers' PCs.
-          </p>
-          <ul class="news-points">
-            <li><strong>What happened:</strong> Attackers bundle infostealers and RATs with popular cheat tools and cracked game utilities.</li>
-            <li><strong>Attack method:</strong> Users download cheats from untrusted sites; installers drop both the cheat and hidden malware.</li>
-            <li><strong>Who is affected:</strong> PC gamers seeking free cheats or cracks for popular online titles.</li>
-            <li><strong>Impact:</strong> Theft of game accounts, payment data, browser cookies, and possible full system compromise.</li>
-            <li><strong>Mitigation:</strong> Avoid cheats and cracks, use reputable anti-malware, and enable multi-factor authentication on game platforms.</li>
-          </ul>
-          <p class="news-meta">
-            Source: <a href="https://www.pcmatic.com/blog/gaming-cheats-are-the-new-cyber-threat-insights-from-a-cybersecurity-expert/" target="_blank" rel="noopener noreferrer">
-              PC Matic – Gaming cheats as a new cyber threat
-            </a>
-          </p>
-          <p class="news-tags">
-            Tags: gaming, cheats, malware, infostealer, game-threats
-          </p>
-        </article>
+      <h1 class="section-title">All incident notes</h1>
+      <p class="section-sub">
+        The complete rolling log, newest first. Items load from <code>news.json</code>.
+      </p>
+
+      <div class="card-list" id="news-feed">
+        <div class="card">
+          <p style="color: var(--text-muted); font-size: 13px;">Loading news...</p>
+        </div>
       </div>
     </section>
   </main>
@@ -67,5 +173,36 @@
   <footer>
     &copy; 2026 Game Security Radar
   </footer>
+
+  <script>
+    fetch('news.json')
+      .then(r => r.json())
+      .then(data => {
+        const items = data.items || [];
+        const container = document.getElementById('news-feed');
+        if (!items.length) {
+          container.innerHTML = '<div class="card"><p style="color: var(--text-muted); font-size: 13px;">No news items yet.</p></div>';
+          return;
+        }
+        container.innerHTML = '';
+        items.forEach(item => {
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <h2 class="card-title">${item.title}</h2>
+            <div class="card-meta">${item.date} · ${item.source || ''}</div>
+            <p class="card-text">${item.summary}</p>
+            <div class="pill-row">
+              ${(item.tags || []).map(t => `<span class="pill">${t}</span>`).join('')}
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      })
+      .catch(() => {
+        const container = document.getElementById('news-feed');
+        container.innerHTML = '<div class="card"><p style="color: var(--text-muted); font-size: 13px;">Failed to load news feed.</p></div>';
+      });
+  </script>
 </body>
 </html>
