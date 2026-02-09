@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "2026-02-09",
+  "items": [
+    {
+      "id": "2026-02-09-steam-phishing",
+      "date": "2026-02-09",
+      "title": "Steam account phishing via fake support tickets",
+      "summary": "Attackers lure users to a fake support portal that steals logins and 2FA codes; targets high-value trading accounts.",
+      "source": "community reports",
+      "tags": ["Account takeover", "Phishing", "Steam"]
+    }
+  ]
+}
