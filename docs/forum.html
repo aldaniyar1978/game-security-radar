@@ -1,1 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Radar | Community Forum</title>
+    <style>
+        :root {
+            --bg: #020617;
+            --card: #0b1120;
+            --border: #1e293b;
+            --accent: #38bdf8;
+            --text-main: #e5e7eb;
+            --text-muted: #9ca3af;
+            --success: #10b981;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #020617;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+        body.light-theme {
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --border: #e2e8f0;
+            --accent: #0284c7;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+        }
+        header {
+            background: rgba(11, 17, 32, 0.9);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--accent); text-decoration: none; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; margin-left: 1.5rem; }
+        .nav-links a:hover { color: var(--accent); }
+        
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; display: grid; grid-template-columns: 1fr 300px; gap: 2rem; }
+        
+        .forum-main { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; overflow: hidden; }
+        .forum-header { padding: 1.5rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        
+        .post { padding: 1.5rem; border-bottom: 1px solid var(--border); transition: background 0.2s; cursor: pointer; }
+        .post:hover { background: rgba(56, 189, 248, 0.05); }
+        .post-title { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--accent); }
+        .post-meta { display: flex; gap: 1rem; font-size: 0.85rem; color: var(--text-muted); }
+        .post-tag { background: rgba(56, 189, 248, 0.1); color: var(--accent); padding: 0.1rem 0.5rem; border-radius: 0.25rem; font-weight: 600; }
 
+        .sidebar { display: flex; flex-direction: column; gap: 2rem; }
+        .widget { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1.5rem; }
+        .widget-title { font-size: 1rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+        
+        /* Monetization Widgets */
+        .premium-card { background: linear-gradient(135deg, #1e293b, #0f172a); border: 1px solid var(--accent); text-align: center; }
+        .btn-premium { background: var(--accent); color: white; border: none; padding: 0.75rem; border-radius: 0.5rem; width: 100%; cursor: pointer; font-weight: 700; margin-top: 1rem; }
+        
+        .ad-space { background: rgba(255, 255, 0, 0.05); border: 1px dashed #ffff00; color: #ffff00; text-align: center; padding: 2rem 1rem; font-size: 0.8rem; border-radius: 0.5rem; }
+
+        .create-post-btn { background: var(--accent); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 0.5rem; cursor: pointer; font-weight: 600; }
+        
+        /* Modal */
+        #postModal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-content { background: var(--card); border: 1px solid var(--border); padding: 2rem; border-radius: 1rem; width: 500px; }
+        .modal-content input, .modal-content textarea { width: 100%; background: var(--bg); border: 1px solid var(--border); color: white; padding: 0.75rem; margin: 1rem 0; border-radius: 0.5rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">🛡️ Cyber Radar</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="news.html">News</a>
+                <a href="forum.html">Forum</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="forum-main">
+            <div class="forum-header">
+                <h2>Security Community</h2>
+                <button class="create-post-btn" onclick="openModal()">+ New Discussion</button>
+            </div>
+            <div id="posts-container">
+                <!-- Sample Posts -->
+                <div class="post">
+                    <span class="post-tag">Zero-Day</span>
+                    <h3 class="post-title">New RCE exploit targeting SolarWinds exposed servers</h3>
+                    <div class="post-meta">
+                        <span>👤 admin</span>
+                        <span>💬 24 replies</span>
+                        <span>👁️ 1.2k views</span>
+                    </div>
+                </div>
+                <div class="post">
+                    <span class="post-tag">Malware</span>
+                    <h3 class="post-title">Analysis of DKnife framework used in recent AitM attacks</h3>
+                    <div class="post-meta">
+                        <span>👤 cyb3r_ghost</span>
+                        <span>💬 15 replies</span>
+                        <span>👁️ 850 views</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="widget premium-card">
+                <h3 class="widget-title">Go Premium</h3>
+                <p>Get exclusive access to private exploit databases and early threat alerts.</p>
+                <button class="btn-premium">$19.99 / month</button>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">Promoted Tool</h3>
+                <div class="ad-space">
+                    <strong>Your Tool Here</strong><br>
+                    Reach 50,000+ security professionals daily.<br>
+                    <a href="#" style="color:var(--accent)">Contact Sales</a>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">Stats</h3>
+                <p>Members: 12,430</p>
+                <p>Online: 452</p>
+                <p>Threads: 8,921</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="postModal">
+        <div class="modal-content">
+            <h3>Start a Discussion</h3>
+            <input type="text" id="postTitle" placeholder="Thread Title">
+            <textarea id="postText" rows="5" placeholder="Content..."></textarea>
+            <button class="create-post-btn" style="width:100%" onclick="savePost()">Post Community Alert</button>
+            <button onclick="closeModal()" style="background:none; border:none; color:var(--text-muted); width:100%; margin-top:1rem; cursor:pointer">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        function openModal() { document.getElementById('postModal').style.display = 'flex'; }
+        function closeModal() { document.getElementById('postModal').style.display = 'none'; }
+        
+        function savePost() {
+            const title = document.getElementById('postTitle').value;
+            if(!title) return;
+            
+            const postHtml = `
+                <div class="post">
+                    <span class="post-tag">User Post</span>
+                    <h3 class="post-title">${title}</h3>
+                    <div class="post-meta">
+                        <span>👤 User_#${Math.floor(Math.random()*1000)}</span>
+                        <span>💬 0 replies</span>
+                        <span>👁️ 1 view</span>
+                    </div>
+                </div>
+            `;
+            document.getElementById('posts-container').insertAdjacentHTML('afterbegin', postHtml);
+            closeModal();
+            document.getElementById('postTitle').value = '';
+            document.getElementById('postText').value = '';
+        }
+    </script>
+</body>
+</html>
