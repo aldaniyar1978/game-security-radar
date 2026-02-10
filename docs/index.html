@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Главная</title>
+    <title>Cyber Radar | Global Security Intelligence</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         :root {
@@ -14,97 +14,114 @@
             --text-main: #e5e7eb;
             --text-muted: #9ca3af;
         }
+
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: 'Inter', system-ui, sans-serif;
             background: #020617;
             color: var(--text-main);
+            line-height: 1.6;
             overflow-x: hidden;
         }
+
         header {
-            background: rgba(11, 17, 32, 0.8);
-            padding: 1.5rem 2rem;
-            position: absolute; width: 100%; top: 0; z-index: 100;
+            background: rgba(11, 17, 32, 0.9);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid var(--border);
+            position: fixed; width: 100%; top: 0; z-index: 1000;
+            backdrop-filter: blur(10px);
         }
+
         .header-content {
-            max-width: 1200px; margin: 0 auto;
-            display: flex; justify-content: space-between; align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .logo { font-size: 1.5rem; font-weight: 800; color: var(--accent); text-decoration: none; }
-        .nav-links a { color: var(--text-main); text-decoration: none; margin-left: 2rem; font-weight: 500; }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        nav { display: flex; gap: 2rem; }
+        nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--accent); }
 
         .hero {
             height: 100vh;
-            display: flex; flex-direction: column; justify-content: center; align-items: center;
-            text-align: center; background: radial-gradient(circle at center, #1e293b 0%, #020617 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             padding: 0 1rem;
+            background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
         }
-        .hero h1 {
-            font-size: 4.5rem; margin-bottom: 1.5rem;
-            background: linear-gradient(to bottom, #fff 20%, var(--accent));
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-        }
-        .hero p { font-size: 1.25rem; color: var(--text-muted); max-width: 700px; margin-bottom: 3rem; }
-        
-        .cta-group { display: flex; gap: 1.5rem; }
-        .btn {
-            padding: 1rem 2.5rem; border-radius: 0.5rem; text-decoration: none;
-            font-weight: 700; transition: all 0.3s;
-        }
-        .btn-primary { background: var(--accent); color: #000; }
-        .btn-primary:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(56, 189, 248, 0.4); }
-        .btn-secondary { border: 1px solid var(--border); color: #fff; }
-        .btn-secondary:hover { background: rgba(255,255,255,0.05); }
 
-        .features {
-            max-width: 1200px; margin: -100px auto 100px;
-            display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; padding: 0 1rem;
+        .hero-content h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #fff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-        .feature-card {
-            background: var(--card); border: 1px solid var(--border);
-            padding: 2.5rem; border-radius: 1.5rem; transition: transform 0.3s;
+
+        .hero-content p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
         }
-        .feature-card:hover { transform: translateY(-10px); border-color: var(--accent); }
-        .feature-card h3 { color: var(--accent); margin-bottom: 1rem; font-size: 1.5rem; }
-        .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        .btn {
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--bg);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <a href="index.html" class="logo">Cyber Radar</a>
-            <nav class="nav-links">
-                <a href="news.html">Новости</a>
-                <a href="exploits.html">Уязвимости</a>
-                <a href="forum.html">Форум</a>
+            <a href="index.html" class="logo">🛡️ Cyber Radar</a>
+            <nav>
+                <a href="news.html">News</a>
+                <a href="exploits.html">Exploits</a>
+                <a href="forum.html">Community</a>
             </nav>
         </div>
     </header>
 
     <section class="hero">
-        <h1>Ваш Радар в мире киберугроз</h1>
-        <p>Централизованный хаб для специалистов по ИБ: актуальные новости, база эксплойтов и живое сообщество исследователей.</p>
-        <div class="cta-group">
-            <a href="news.html" class="btn btn-primary">Читать Новости</a>
-            <a href="forum.html" class="btn btn-secondary">Вступить в Сообщество</a>
+        <div class="hero-content">
+            <h1>Stay Ahead of Cyber Threats</h1>
+            <p>Real-time vulnerability intelligence, defense scripts, and a community of security professionals at your fingertips.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center;">
+                <a href="news.html" class="btn btn-primary">Browse Intelligence</a>
+                <a href="forum.html" class="btn" style="border: 1px solid var(--border); color: white;">Join Community</a>
+            </div>
         </div>
     </section>
-
-    <section class="features">
-        <div class="feature-card">
-            <h3>Live Intelligence</h3>
-            <p>Автоматизированный сбор данных из топовых источников разведки: BleepingComputer, The Hacker News и др.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Exploit DB</h3>
-            <p>Мгновенный доступ к свежим CVE и аналитическим данным об уязвимостях через CIRCL API.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Professional Forum</h3>
-            <p>Закрытое обсуждение техник обхода EDR, реверса малвари и поиска баунти-проектов.</p>
-        </div>
-    </section>
-
-    <script src="theme.js"></script>
 </body>
 </html>
