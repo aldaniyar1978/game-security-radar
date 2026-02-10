@@ -125,5 +125,5 @@ def fetch_and_update():
     save_news(data)
     print(f"\nUpdated news.json: {new_count} new items, {len(data['items'])} total")
 
-if __name__ == '__main__":
+if __name__ == '__main__':
     fetch_and_update()
