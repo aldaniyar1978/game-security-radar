@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Radar | Global Security Intelligence</title>
+    <link rel="stylesheet" href="theme.css">
     <style>
         :root {
             --bg: #020617;
@@ -40,7 +41,6 @@
         .logo { font-size: 1.5rem; font-weight: 700; color: var(--accent); text-decoration: none; }
         .nav-links a { color: var(--text-muted); text-decoration: none; margin-left: 1.5rem; transition: color 0.3s; }
         .nav-links a:hover { color: var(--accent); }
-
         .hero {
             padding: 8rem 2rem;
             text-align: center;
@@ -57,7 +57,6 @@
             font-weight: 700;
             display: inline-block;
         }
-
         .features { max-width: 1200px; margin: -4rem auto 4rem; padding: 0 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
         .feature-card {
             background: var(--bg-alt);
@@ -84,14 +83,12 @@
             </div>
         </div>
     </header>
-
     <main>
         <section class="hero">
             <h1>Monitor. Detect. Defend.</h1>
             <p>The world's most advanced open-source cybersecurity intelligence platform. Real-time news, exploit tracking, and research tools.</p>
             <a href="news.html" class="btn-primary">Launch Intelligence Feed</a>
         </section>
-
         <div class="features">
             <a href="news.html" class="feature-card">
                 <h3>📡 Real-time News</h3>
@@ -99,7 +96,7 @@
             </a>
             <a href="exploits.html" class="feature-card">
                 <h3>🔍 Exploit Database</h3>
-                <p>Live CVE tracking and vulnerability intelligence synced from NIST databases.</p>
+                <p>Live CVE tracking and vulnerability intelligence synced from global databases.</p>
             </a>
             <a href="forum.html" class="feature-card">
                 <h3>👥 Security Forum</h3>
@@ -107,5 +104,6 @@
             </a>
         </div>
     </main>
+    <script src="theme.js"></script>
 </body>
 </html>
