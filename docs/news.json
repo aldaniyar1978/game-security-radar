@@ -376,4 +376,32 @@
       ]
     }
   ]
+    {
+      "id": "e4a1b2c3d4e5",
+      "date": "2026-02-12",
+      "title": "Microsoft Warns of New Zero-Day in Outlook",
+      "summary": "A critical vulnerability in Microsoft Outlook allows attackers to execute code remotely. Patch is currently in development.",
+      "url": "https://example.com/outlook-zero-day",
+      "source": "Cyber Security News",
+      "tags": ["Zero-Day", "Microsoft"]
+    },
+    {
+      "id": "f5b2c3d4e5f6",
+      "date": "2026-02-11",
+      "title": "Ransomware Attack Hits Major Healthcare Provider",
+      "summary": "Patient data has been compromised in a large-scale ransomware attack. Systems are being restored from backups.",
+      "url": "https://example.com/healthcare-ransomware",
+      "source": "HealthSec",
+      "tags": ["Ransomware", "Healthcare"]
+    },
+    {
+      "id": "a1b2c3d4e5f7",
+      "date": "2026-02-10",
+      "title": "New Linux Kernel Bug Exposed",
+      "summary": "A privilege escalation bug in the Linux kernel has been discovered. Users are advised to update their systems immediately.",
+      "url": "https://example.com/linux-kernel-bug",
+      "source": "LinuxSec",
+      "tags": ["Linux", "Exploit"]
+    }
+  ]
 }
