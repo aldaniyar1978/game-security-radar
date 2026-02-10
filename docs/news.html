@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Security News</title>
+    <title>Cyber Radar | Новости Безопасности</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; margin-top: 2rem; }
-        .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: 0.3s; cursor: pointer; display: flex; flex-direction: column; }
-        .post-card:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        .news-img { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid var(--border); }
+        .post-card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; overflow: hidden; transition: 0.3s; cursor: pointer; display: flex; flex-direction: column; }
+        .post-card:hover { transform: translateY(-5px); border-color: #38bdf8; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         .news-content { padding: 1.5rem; flex-grow: 1; }
-        .details-content { display: none; padding: 1.5rem; border-top: 1px solid var(--border); background: rgba(0,0,0,0.2); animation: fadeIn 0.5s; }
+        .details-content { display: none; padding: 1.5rem; border-top: 1px solid #334155; background: rgba(0,0,0,0.2); animation: fadeIn 0.5s; }
         .post-card.active .details-content { display: block; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-        .tag { font-size: 0.7rem; color: var(--accent); font-weight: 800; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; display: block; }
-        .rec-box { background: rgba(56, 189, 248, 0.1); border-left: 4px solid var(--accent); padding: 1rem; margin: 1rem 0; border-radius: 0 8px 8px 0; }
-        .btn-action { background: var(--accent); color: var(--bg); padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; font-size: 0.9rem; }
-        .btn-outline { background: transparent; border: 1px solid var(--accent); color: var(--accent); margin-left: 0.5rem; }
+        .tag { font-size: 0.7rem; color: #38bdf8; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; display: block; }
+        .btn-action { background: #38bdf8; color: #020617; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; font-size: 0.9rem; }
+        .hint { font-size: 0.8rem; color: #94a3b8; margin-top: 0.5rem; }
     </style>
 </head>
 <body>
@@ -25,160 +23,69 @@
         <div class="header-content">
             <a href="index.html" class="logo">🛡️ Cyber Radar</a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="news.html" class="active">News</a>
-                <a href="exploits.html">Exploits</a>
-                <a href="forum.html">Community</a>
+                <a href="index.html">Главная</a>
+                <a href="news.html" class="active">Новости</a>
+                <a href="exploits.html">Уязвимости</a>
+                <a href="forum.html">Сообщество</a>
             </nav>
         </div>
     </header>
 
     <main class="container" style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
-        <div style="text-align: center; margin-bottom: 4rem;">
-            <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">Global Threat Intelligence Feed</h1>
-            <p style="color: var(--text-muted);">Real-time monitoring of the dark web, exploit databases, and cloud security trends.</p>
-        </div>
-
+        <h1 style="color: #fff;">Лента Киберразведки</h1>
+        <p style="color: #94a3b8;">Мониторинг даркнета, баз эксплойтов и трендов облачной безопасности в реальном времени.</p>
+        
         <div class="news-grid">
-            <!-- News 1 -->
             <div class="post-card" onclick="this.classList.toggle('active')">
-                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" alt="Cyber" class="news-img">
                 <div class="news-content">
-                    <span class="tag">Espionage • UNC3886</span>
-                    <h3>UNC3886 Exploit Chain Targets Cloud Infrastructure</h3>
-                    <p style="color: var(--text-muted);">Chinese-linked group uses sophisticated VMWare zero-days to move laterally across isolated networks.</p>
+                    <span class="tag">Критическая Уязвимость</span>
+                    <h3>CVE-2024-38063: Zero-Click RCE в IPv6</h3>
+                    <p>Катастрофическая уязвимость в сетевом стеке Windows позволяет полный захват системы через пакеты IPv6.</p>
+                    <p class="hint">Нажмите, чтобы развернуть подробности и скачать инструменты</p>
                 </div>
                 <div class="details-content">
-                    <p>The attackers leveraged CVE-2024-XXXX to bypass authentication on vCenter servers. This allows them to execute code with root privileges on the underlying ESXi hosts.</p>
-                    <div class="rec-box">
-                        <strong>Recommendations:</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
-                            <li>Isolate management networks from the public internet.</li>
-                            <li>Enable enhanced logging for vCenter logins.</li>
-                            <li>Update ESXi hosts to build 245XXXX.</li>
-                        </ul>
-                    </div>
-                    <div style="display: flex; flex-wrap: wrap;">
-                        <a href="scripts/vmware_audit.py" class="btn-action">🐍 Download Audit Script</a>
-                        <a href="exploits.html" class="btn-action btn-outline">🔗 View in DB</a>
+                    <p style="color: #fff;">Атакующему достаточно отправить специально сформированный пакет на открытый IPv6 адрес для выполнения кода с системными привилегиями.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" class="btn-action">Скачать Сканер (.exe)</a>
+                        <a href="#" class="btn-action" style="background: #1e293b; border: 1px solid #38bdf8; color: #38bdf8;">Python Скрипт (.py)</a>
                     </div>
                 </div>
             </div>
 
-            <!-- News 2 -->
             <div class="post-card" onclick="this.classList.toggle('active')">
-                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80" alt="Data" class="news-img">
                 <div class="news-content">
-                    <span class="tag">Cloud • AWS Security</span>
-                    <h3>Misconfigured S3 Buckets Leak 1.5TB of Financial Data</h3>
-                    <p style="color: var(--text-muted);">Publicly accessible storage instances exposed sensitive banking records of over 2 million customers.</p>
+                    <span class="tag">Облако • AWS</span>
+                    <h3>Утечка 1.5ТБ данных S3 из-за ошибок настройки</h3>
+                    <p>Публично доступные хранилища раскрыли банковские записи более 2 миллионов клиентов.</p>
+                    <p class="hint">Нажмите для деталей</p>
                 </div>
                 <div class="details-content">
-                    <p>Analysis shows the leak was caused by a faulty IAM policy applied during a recent migration. The data included SSNs, account balances, and transaction history.</p>
-                    <div class="rec-box">
-                        <strong>Recommendations:</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
-                            <li>Run AWS Access Analyzer on all S3 resources.</li>
-                            <li>Implement "Block Public Access" at the account level.</li>
-                            <li>Enable MFA-delete for sensitive buckets.</li>
-                        </ul>
+                    <p style="color: #fff;">Утечка была вызвана неверной политикой IAM. Данные включали номера страхования, балансы счетов и историю транзакций.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" class="btn-action">Проверка ведра (.exe)</a>
                     </div>
-                    <a href="scripts/aws_s3_checker.py" class="btn-action">🐍 Run Security Check</a>
                 </div>
             </div>
 
-            <!-- News 3 -->
             <div class="post-card" onclick="this.classList.toggle('active')">
-                <img src="https://images.unsplash.com/photo-1558494949-ef0109111df1?auto=format&fit=crop&w=800&q=80" alt="Hardware" class="news-img">
                 <div class="news-content">
                     <span class="tag">Ransomware • Black Basta</span>
-                    <h3>Black Basta BYOVD: The New Defense Killer</h3>
-                    <p style="color: var(--text-muted);">The ransomware group is now using "Bring Your Own Vulnerable Driver" to blind EDR solutions.</p>
+                    <h3>Black Basta BYOVD: Убийца EDR</h3>
+                    <p>Группировка использует метод "Bring Your Own Vulnerable Driver" для ослепления систем защиты.</p>
+                    <p class="hint">Нажмите для деталей</p>
                 </div>
                 <div class="details-content">
-                    <p>By loading a signed but vulnerable driver (like Landesk), attackers can terminate security processes from kernel space, bypassing standard protection mechanisms.</p>
-                    <div class="rec-box">
-                        <strong>Recommendations:</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
-                            <li>Enable Microsoft's Vulnerable Driver Blocklist.</li>
-                            <li>Monitor for unusual driver loads (Sysmon ID 6).</li>
-                            <li>Audit local administrator privileges.</li>
-                        </ul>
+                    <p style="color: #fff;">Загружая подписанный, но уязвимый драйвер, хакеры могут завершать процессы безопасности из пространства ядра.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" class="btn-action">Детектор (.exe)</a>
                     </div>
-                    <a href="scripts/scanner_v1.py" class="btn-action">🐍 Download Detection Script</a>
-                </div>
-            </div>
-
-            <!-- News 4 -->
-            <div class="post-card" onclick="this.classList.toggle('active')">
-                <img src="https://images.unsplash.com/photo-1510511459019-5dee667ff1f6?auto=format&fit=crop&w=800&q=80" alt="Network" class="news-img">
-                <div class="news-content">
-                    <span class="tag">Network • AitM Frameworks</span>
-                    <h3>DKnife AitM Framework Exploiting Enterprise Routers</h3>
-                    <p style="color: var(--text-muted);">Automated toolkit simplifies traffic hijacking and credential harvesting via compromised edge devices.</p>
-                </div>
-                <div class="details-content">
-                    <p>DKnife creates a persistent "Man-in-the-Middle" state on the router itself, allowing attackers to inject malicious scripts into unencrypted web traffic.</p>
-                    <div class="rec-box">
-                        <strong>Recommendations:</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
-                            <li>Enforce HSTS on all internal applications.</li>
-                            <li>Rotate administrative passwords for network gear monthly.</li>
-                            <li>Disable remote management interfaces.</li>
-                        </ul>
-                    </div>
-                    <a href="scripts/net_audit.py" class="btn-action">🐍 Traffic Audit Tool</a>
-                </div>
-            </div>
-
-            <!-- News 5 -->
-            <div class="post-card" onclick="this.classList.toggle('active')">
-                <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80" alt="Windows" class="news-img">
-                <div class="news-content">
-                    <span class="tag">Critical • Windows TCP/IP</span>
-                    <h3>CVE-2024-38063: Zero-Click RCE in IPv6</h3>
-                    <p style="color: var(--text-muted);">A catastrophic vulnerability in the Windows networking stack allows full takeover via IPv6 packets.</p>
-                </div>
-                <div class="details-content">
-                    <p>This vulnerability is highly wormable. An attacker only needs to send a crafted packet to an open IPv6 address to gain system-level code execution.</p>
-                    <div class="rec-box">
-                        <strong>Recommendations:</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
-                            <li>Install KB50415XX immediately.</li>
-                            <li>Disable IPv6 if not strictly required.</li>
-                            <li>Filter IPv6 traffic at the perimeter firewall.</li>
-                        </ul>
-                    </div>
-                    <a href="scripts/ipv6_check.py" class="btn-action">🐍 Vulnerability Scanner</a>
-                </div>
-            </div>
-
-            <!-- News 6 -->
-            <div class="post-card" onclick="this.classList.toggle('active')">
-                <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="Code" class="news-img">
-                <div class="news-content">
-                    <span class="tag">DevOps • GitHub Actions</span>
-                    <h3>GitHub Actions Secrets Leaked via Workflow Artifacts</h3>
-                    <p style="color: var(--text-muted);">Security researchers warn about improper artifact handling exposing sensitive API tokens.</p>
-                </div>
-                <div class="details-content">
-                    <p>Workflows that debug environment variables into text files and upload them as artifacts can expose long-lived credentials to anyone with read access to the repo.</p>
-                    <div class="rec-box">
-                        <strong>Recommendations:</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.2rem;">
-                            <li>Use GitHub Action "secrets" masking.</li>
-                            <li>Audit artifact retention policies.</li>
-                            <li>Use short-lived OIDC tokens instead of static keys.</li>
-                        </ul>
-                    </div>
-                    <a href="scripts/gh_audit.py" class="btn-action">🐍 Audit GitHub Actions</a>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer style="text-align: center; padding: 4rem 1rem; border-top: 1px solid var(--border); margin-top: 4rem;">
-        <p style="color: var(--text-muted);">&copy; 2026 Cyber Radar Intelligence • Automated Hourly Updates</p>
+    <footer style="text-align: center; padding: 2rem; color: #94a3b8; border-top: 1px solid #334155; margin-top: 4rem;">
+        &copy; 2026 Cyber Radar Intelligence • Автоматические обновления каждый час
     </footer>
 </body>
 </html>
