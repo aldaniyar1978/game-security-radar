@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Community</title>
+    <title>Cyber Radar | Сообщество</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         .container { max-width: 1200px; margin: 2rem auto; padding: 0 2rem; display: flex; gap: 2rem; }
         .sidebar { width: 250px; flex-shrink: 0; }
-        .sidebar-menu { list-style: none; }
-        .sidebar-menu a { color: var(--text-muted); text-decoration: none; display: block; padding: 0.8rem 1rem; border-radius: 8px; transition: 0.3s; }
-        .sidebar-menu a:hover { background: rgba(56, 189, 248, 0.1); color: var(--accent); }
         .main-content { flex-grow: 1; }
-        .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
-        .avatar { width: 45px; height: 45px; background: var(--accent); border-radius: 50%; margin-right: 1rem; }
-        .post-header { display: flex; align-items: center; margin-bottom: 1rem; }
-        .post-actions { display: flex; gap: 2rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--text-muted); }
-        .btn-download { background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; }
-        .btn-new-post { background: var(--accent); color: var(--bg); border: none; padding: 0.8rem 1.5rem; border-radius: 8px; font-weight: bold; cursor: pointer; margin-bottom: 2rem; width: 100%; transition: 0.3s; }
+        .forum-card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
+        .forum-card h3 { color: #38bdf8; margin-bottom: 0.5rem; }
+        .forum-card p { color: #94a3b8; }
+        .user-info { display: flex; align-items: center; gap: 0.5rem; color: #38bdf8; font-size: 0.8rem; margin-bottom: 1rem; }
+        .btn-new-post { background: #38bdf8; color: #020617; border: none; padding: 0.8rem 1.5rem; border-radius: 8px; font-weight: bold; cursor: pointer; margin-bottom: 2rem; width: 100%; }
     </style>
 </head>
 <body>
@@ -25,51 +21,52 @@
         <div class="header-content">
             <a href="index.html" class="logo">🛡️ Cyber Radar</a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="news.html">News</a>
-                <a href="exploits.html">Exploits</a>
-                <a href="forum.html" class="active">Community</a>
+                <a href="index.html">Главная</a>
+                <a href="news.html">Новости</a>
+                <a href="exploits.html">Уязвимости</a>
+                <a href="forum.html" class="active">Сообщество</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <aside class="sidebar">
-            <button class="btn-new-post" onclick="alert('Posting will be available after registration.')">+ New Post</button>
-            <h3 style="margin-bottom: 1rem;">Discussions</h3>
-            <ul class="sidebar-menu">
-                <li><a href="#">🏠 All Topics</a></li>
-                <li><a href="#">🔥 Popular</a></li>
-                <li><a href="#">🆕 New</a></li>
-                <li><a href="scripts/instruction_v1.txt" target="_blank">🛠️ Tools & Scripts</a></li>
-            </ul>
+            <button class="btn-new-post" onclick="alert('Регистрация временно закрыта')">Новый Пост</button>
+            <nav class="sidebar-nav" style="color: #94a3b8;">
+                <p>Разделы:</p>
+                <ul style="list-style: none; padding: 0;">
+                    <li># Общий чат</li>
+                    <li># Эксплойты</li>
+                    <li># Обучение</li>
+                </ul>
+            </nav>
         </aside>
 
         <main class="main-content">
-            <div class="post-card">
-                <div class="post-header">
-                    <div class="avatar"></div>
-                    <div>
-                        <h4>SecurityEnthusiast</h4>
-                        <span style="font-size: 0.85rem; color: var(--text-muted);">2h ago • Verified Researcher</span>
-                    </div>
-                </div>
-                <h3 style="margin-bottom: 0.5rem;">Automated Analysis Tool for Black Basta BYOVD</h3>
-                <p style="color: var(--text-muted); margin-bottom: 1rem;">Developed a simple scanner for identifying vulnerable drivers used in recent attacks. Works on Python.</p>
-                <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border-left: 4px solid var(--accent);">
-                    <h4 style="margin-bottom: 0.5rem;">Download:</h4>
-                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                        <a href="scripts/scanner_v1.py" class="btn-download">🐍 .PY Script</a>
-                        <a href="#" onclick="alert('EXE version in progress.')" class="btn-download" style="background: var(--text-muted);">💻 .EXE (Win)</a>
-                    </div>
-                </div>
-                <div class="post-actions">
-                    <span>💬 24 comments</span>
-                    <span>⬆️ 156 votes</span>
-                    <span>🔗 Share</span>
-                </div>
+            <h2 style="color: #fff; margin-bottom: 2rem;">Последние Обсуждения</h2>
+            
+            <div class="forum-card">
+                <div class="user-info">👤 Admin • 2 часа назад</div>
+                <h3>Правила сообщества</h3>
+                <p>Добро пожаловать! Пожалуйста, ознакомьтесь с правилами публикации эксплойтов.</p>
+            </div>
+
+            <div class="forum-card">
+                <div class="user-info">👤 Ghost_In_Shell • 5 часов назад</div>
+                <h3>Обход защиты в Windows 11</h3>
+                <p>Кто-нибудь пробовал новый метод инъекции через планировщик задач?</p>
+            </div>
+
+            <div class="forum-card">
+                <div class="user-info">👤 Root_Access • Вчера</div>
+                <h3>Скрипты для сканирования S3</h3>
+                <p>Выложил обновленную версию чекера в разделе инструментов. Проверяйте!</p>
             </div>
         </main>
     </div>
+
+    <footer style="text-align: center; padding: 2rem; color: #94a3b8; border-top: 1px solid #334155; margin-top: 4rem;">
+        &copy; 2026 Cyber Radar Intelligence
+    </footer>
 </body>
 </html>
