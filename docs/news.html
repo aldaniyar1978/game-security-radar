@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Новости ИБ</title>
+    <title>Cyber Radar | Security News</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         :root {
@@ -202,24 +202,24 @@
                 Cyber Radar
             </a>
             <nav class="nav-links">
-                <a href="index.html">Главная</a>
-                <a href="news.html" style="color: var(--accent)">Новости</a>
-                <a href="exploits.html">Уязвимости</a>
-                <a href="forum.html">Форум</a>
+                <a href="index.html">Home</a>
+                <a href="news.html" style="color: var(--accent)">News</a>
+                <a href="exploits.html">Exploits</a>
+                <a href="forum.html">Forum</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <section class="hero">
-            <h1>Разведка Угроз</h1>
-            <p>Глобальный мониторинг киберугроз в реальном времени из проверенных источников.</p>
+            <h1>Intelligence Feed</h1>
+            <p>Real-time cybersecurity threats and global security analysis from multiple trusted sources.</p>
         </section>
 
         <div id="news-container" class="news-grid">
             <div class="loading">
                 <div class="spinner"></div>
-                <p>Синхронизация с каналами разведки...</p>
+                <p>Decoding latest feeds from multiple intelligence sources...</p>
             </div>
         </div>
     </div>
@@ -241,7 +241,7 @@
                 const fetchPromises = RSS_FEEDS.map(async (feedUrl) => {
                     try {
                         const encodedUrl = encodeURIComponent(feedUrl);
-                        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodedUrl}&api_key=oyebz0q8m0jym5l1yq9z1z1z1z1z1z1z`; // Demo key or none
+                        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodedUrl}`;
                         const response = await fetch(apiUrl);
                         const data = await response.json();
                         if (data.status === 'ok' && data.items) {
@@ -269,15 +269,15 @@
                             container.innerHTML += `
                                 <div class="ad-banner">
                                     <div class="ad-content">
-                                        <h4>🛡️ NordVPN для профессионалов</h4>
-                                        <p>Защитите свои данные и смените IP одним кликом. Скидка 63% для читателей Cyber Radar.</p>
+                                        <h4>🛡️ NordVPN for Professionals</h4>
+                                        <p>Protect your data and change IP with one click. 63% discount for Cyber Radar readers.</p>
                                     </div>
-                                    <a href="https://nordvpn.com" target="_blank" class="ad-btn">Получить защиту</a>
+                                    <a href="https://nordvpn.com" target="_blank" class="ad-btn">Get Protection</a>
                                 </div>
                             `;
                         }
 
-                        const date = new Date(item.pubDate).toLocaleDateString('ru-RU', { 
+                        const date = new Date(item.pubDate).toLocaleDateString('en-US', { 
                             day: 'numeric', month: 'short', year: 'numeric' 
                         });
                         
@@ -301,7 +301,7 @@
                                     <h3 class="card-title">${item.title}</h3>
                                     <p class="card-excerpt">${item.description.replace(/<[^>]*>/g, '').substring(0, 160)}...</p>
                                     <div class="card-meta">
-                                        <span>👤 ${item.author || 'Cyber Unit'}</span>
+                                        <span>👤 ${item.author || 'Intelligence Unit'}</span>
                                         <span>📅 ${date}</span>
                                     </div>
                                 </div>
@@ -311,7 +311,7 @@
                     });
                 }
             } catch (error) {
-                container.innerHTML = '<p style="text-align:center; padding:3rem;">Ошибка загрузки данных. Пожалуйста, попробуйте позже.</p>';
+                container.innerHTML = '<p style="text-align:center; padding:3rem;">Failed to fetch intelligence data. Please try again later.</p>';
             }
         }
 
