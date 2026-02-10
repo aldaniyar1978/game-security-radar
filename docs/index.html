@@ -6,56 +6,6 @@
     <title>Cyber Radar | Global Security Intelligence</title>
     <link rel="stylesheet" href="theme.css">
     <style>
-        :root {
-            --bg: #020617;
-            --card: #0b1120;
-            --border: #1e293b;
-            --accent: #38bdf8;
-            --text-main: #e5e7eb;
-            --text-muted: #9ca3af;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: 'Inter', system-ui, sans-serif;
-            background: #020617;
-            color: var(--text-main);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        header {
-            background: rgba(11, 17, 32, 0.9);
-            padding: 1rem 2rem;
-            border-bottom: 1px solid var(--border);
-            position: fixed; width: 100%; top: 0; z-index: 1000;
-            backdrop-filter: blur(10px);
-        }
-
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        nav { display: flex; gap: 2rem; }
-        nav a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        nav a:hover { color: var(--accent); }
-
         .hero {
             height: 100vh;
             display: flex;
@@ -65,7 +15,6 @@
             padding: 0 1rem;
             background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
         }
-
         .hero-content h1 {
             font-size: 4rem;
             margin-bottom: 1.5rem;
@@ -73,14 +22,12 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-
         .hero-content p {
             font-size: 1.25rem;
             color: var(--text-muted);
             max-width: 600px;
             margin: 0 auto 2.5rem;
         }
-
         .btn {
             padding: 1rem 2.5rem;
             border-radius: 8px;
@@ -89,12 +36,10 @@
             transition: all 0.3s;
             display: inline-block;
         }
-
         .btn-primary {
             background: var(--accent);
             color: var(--bg);
         }
-
         .btn-primary:hover {
             transform: translateY(-2px);
             box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
@@ -106,6 +51,7 @@
         <div class="header-content">
             <a href="index.html" class="logo">🛡️ Cyber Radar</a>
             <nav>
+                <a href="index.html" class="active">Home</a>
                 <a href="news.html">News</a>
                 <a href="exploits.html">Exploits</a>
                 <a href="forum.html">Community</a>
