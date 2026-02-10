@@ -34,3 +34,6 @@ if __name__ == "__main__":
         mitigation = generate_mitigation(item)
         update_site(mitigation)
     print("[Bot] Task completed successfully.")
+
+
+# End of script
