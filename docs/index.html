@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Global Security Intelligence</title>
+    <title>Cyber Radar | Глобальная Разведка Угроз</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         .hero { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 0 1rem; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); position: relative; overflow: hidden; }
         .hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png'); opacity: 0.1; }
         .hero-content { position: relative; z-index: 1; max-width: 800px; }
         .hero-content h1 { font-size: 4rem; margin-bottom: 1.5rem; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.3)); }
-        .hero-content p { font-size: 1.25rem; color: var(--text-muted); margin-bottom: 2.5rem; line-height: 1.6; }
+        .hero-content p { font-size: 1.25rem; color: #94a3b8; margin-bottom: 2.5rem; line-height: 1.6; }
         .cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-        .btn-primary { background: var(--accent); color: var(--bg); padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: 0.3s; box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4); }
+        .btn-primary { background: #38bdf8; color: #020617; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: 0.3s; box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4); }
         .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 6px 25px rgba(56, 189, 248, 0.6); }
         .btn-secondary { background: rgba(255,255,255,0.05); color: #fff; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem; border: 1px solid rgba(255,255,255,0.1); transition: 0.3s; }
         .btn-secondary:hover { background: rgba(255,255,255,0.1); }
+        .latest-news { padding: 4rem 1rem; background: #020617; }
+        .section-title { text-align: center; color: #fff; margin-bottom: 3rem; font-size: 2.5rem; }
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        .news-item { background: #1e293b; padding: 1.5rem; border-radius: 12px; border: 1px solid #334155; }
+        .news-item h3 { color: #38bdf8; margin-bottom: 1rem; }
+        .news-item p { color: #94a3b8; font-size: 0.9rem; }
+        .download-badge { display: inline-block; padding: 0.3rem 0.6rem; background: #22c55e; color: #fff; border-radius: 4px; font-size: 0.8rem; margin-top: 1rem; text-decoration: none; }
     </style>
 </head>
 <body>
@@ -23,49 +30,49 @@
         <div class="header-content">
             <a href="index.html" class="logo">🛡️ Cyber Radar</a>
             <nav>
-                <a href="index.html" class="active">Home</a>
-                <a href="news.html">News</a>
-                <a href="exploits.html">Exploits</a>
-                <a href="forum.html">Community</a>
+                <a href="index.html" class="active">Главная</a>
+                <a href="news.html">Новости</a>
+                <a href="exploits.html">Уязвимости</a>
+                <a href="forum.html">Сообщество</a>
             </nav>
         </div>
     </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Your Radar in Cyber Threats</h1>
-            <p>Tracking the latest vulnerabilities, providing verified analysis scripts, and connecting security professionals worldwide.</p>
+            <h1>Ваш Радар в Мире Киберугроз</h1>
+            <p>Отслеживание новейших уязвимостей, предоставление проверенных скриптов анализа и объединение профессионалов в области безопасности.</p>
             <div class="cta-group">
-                <a href="news.html" class="btn-primary">Read News</a>
-                <a href="exploits.html" class="btn-secondary">Exploit Database</a>
-                <a href="forum.html" class="btn-secondary">Join Community</a>
+                <a href="news.html" class="btn-primary">Читать Новости</a>
+                <a href="exploits.html" class="btn-secondary">База Эксплойтов</a>
+                <a href="forum.html" class="btn-secondary">Сообщество</a>
             </div>
         </div>
     </section>
 
-    <section class="container" style="padding: 5rem 1rem; text-align: center;">
-        <h2 style="font-size: 2.5rem; margin-bottom: 3rem;">Why Choose Us?</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-            <div class="card" style="padding: 2rem;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
-                <h3>Speed</h3>
-                <p style="color: var(--text-muted);">Real-time intelligence on emerging threats, published within hours of discovery.</p>
+    <section class="latest-news">
+        <h2 class="section-title">Последние Обновления</h2>
+        <div class="news-grid">
+            <div class="news-item">
+                <h3>CVE-2024-38063: Zero-Click RCE в IPv6</h3>
+                <p>Критическая уязвимость в сетевом стеке Windows. Рекомендуется немедленное обновление.</p>
+                <a href="news.html" class="download-badge">Скачать Сканер (.exe)</a>
             </div>
-            <div class="card" style="padding: 2rem;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">🛠️</div>
-                <h3>Tools</h3>
-                <p style="color: var(--text-muted);">Every report includes practical Python scripts and automated mitigation guides.</p>
+            <div class="news-item">
+                <h3>Black Basta BYOVD: Обход EDR</h3>
+                <p>Группировка использует уязвимые драйверы для отключения защиты. Читайте наш отчет.</p>
+                <a href="news.html" class="download-badge">Аудит-скрипт (.py)</a>
             </div>
-            <div class="card" style="padding: 2rem;">
-                <div style="font-size: 3rem; margin-bottom: 1rem;">🤝</div>
-                <h3>Community</h3>
-                <p style="color: var(--text-muted);">Collaborate with thousands of experts in our exclusive security forum.</p>
+            <div class="news-item">
+                <h3>Утечка 1.5ТБ данных S3</h3>
+                <p>Миллионы записей оказались в открытом доступе из-за ошибки настройки AWS.</p>
+                <a href="news.html" class="download-badge">Проверка S3 (.exe)</a>
             </div>
         </div>
     </section>
 
-    <footer style="text-align: center; padding: 4rem 1rem; background: #020617; border-top: 1px solid var(--border);">
-        <p style="color: var(--text-muted);">&copy; 2026 Cyber Radar. All rights reserved.</p>
+    <footer>
+        <p>&copy; 2026 Cyber Radar Intelligence. Все права защищены.</p>
     </footer>
 </body>
 </html>
