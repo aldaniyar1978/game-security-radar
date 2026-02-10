@@ -1,0 +1,32 @@
+name: CyberBot Auto-Generator
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run CyberBot
+        run: python docs/scripts/cyber_bot.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'CyberBot'
+          git config --global user.email 'bot@cyber-radar.com'
+          git add .
+          git commit -m "Auto-generated news and scripts" || echo "No changes to commit"
+          git push
