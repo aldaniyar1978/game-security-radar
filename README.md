@@ -1,3 +1,3 @@
-# Game Security Radar
+# Cyber Radar
 
 Curated cybersecurity and game threat intelligence.
