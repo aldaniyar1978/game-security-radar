@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Global Community</title>
+    <title>Киберрадар | Сообщество</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         .container { max-width: 1200px; margin: 2rem auto; padding: 0 2rem; display: flex; gap: 2rem; }
@@ -15,7 +15,6 @@
         .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
         .avatar { width: 45px; height: 45px; background: var(--accent); border-radius: 50%; margin-right: 1rem; }
         .post-header { display: flex; align-items: center; margin-bottom: 1rem; }
-        .tag { font-size: 0.8rem; color: var(--accent); background: rgba(56, 189, 248, 0.1); padding: 0.2rem 0.6rem; border-radius: 4px; margin-right: 0.5rem; cursor: pointer; }
         .post-actions { display: flex; gap: 2rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--text-muted); }
         .btn-download { background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; }
     </style>
@@ -23,53 +22,66 @@
 <body>
     <header>
         <div class="header-content">
-            <a href="index.html" class="logo">🛡️ Cyber Radar</a>
+            <a href="index.html" class="logo">🛡️ Киберрадар</a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="news.html">News</a>
-                <a href="exploits.html">Exploits</a>
-                <a href="forum.html" class="active">Community</a>
+                <a href="index.html">Дом</a>
+                <a href="news.html">Новости</a>
+                <a href="exploits.html">Эксплойты</a>
+                <a href="forum.html" class="active">Сообщество</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <aside class="sidebar">
-            <h3 style="margin-bottom: 1rem;">Discussions</h3>
+            <h3 style="margin-bottom: 1rem;">Обсуждения</h3>
             <ul class="sidebar-menu">
-                <li><a href="#">🏠 All Topics</a></li>
-                <li><a href="#">🔥 Popular</a></li>
-                <li><a href="#">🆕 Recent</a></li>
-                <li><a href="scripts/instruction_v1.txt" target="_blank">🛠️ Scripts & Tools</a></li>
+                <li><a href="#">🏠 Все темы</a></li>
+                <li><a href="#">🔥 Популярное</a></li>
+                <li><a href="#">🆕 Новое</a></li>
+                <li><a href="scripts/instruction_v1.txt" target="_blank">🛠️ Скрипты и инструменты</a></li>
             </ul>
         </aside>
 
         <main class="main-content">
+            <!-- Post 1 -->
             <div class="post-card">
                 <div class="post-header">
                     <div class="avatar"></div>
                     <div>
                         <h4>SecurityEnthusiast</h4>
-                        <span style="font-size: 0.85rem; color: var(--text-muted);">2 hours ago • Verified Researcher</span>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">2 часа назад • Проверенный исследователь</span>
                     </div>
                 </div>
-                <h3 style="margin-bottom: 0.5rem;">Automated Analysis of Black Basta Payloads</h3>
-                <p style="color: var(--text-muted); margin-bottom: 1rem;">I've been analyzing the recent BYOVD tactics used by Black Basta. I've developed a simple scanner to detect vulnerable drivers on your system.</p>
+                <h3 style="margin-bottom: 0.5rem;">Автоматизированный анализ полезной нагрузки Black Basta</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">Я разработал простой сканер для обнаружения уязвимых драйверов, которые использует группировка для обхода защиты.</p>
                 
                 <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border-left: 4px solid var(--accent);">
-                    <h4 style="margin-bottom: 0.5rem;">Download Detection Tool:</h4>
+                    <h4 style="margin-bottom: 0.5rem;">Скачать инструмент:</h4>
                     <div style="display: flex; gap: 1rem;">
-                        <a href="scripts/scanner_v1.py" class="btn-download">🐍 Download .PY Script</a>
-                        <a href="#" onclick="alert('EXE conversion in progress. Use Python script for now.')" class="btn-download" style="background: var(--text-muted);">💻 Download .EXE (Win)</a>
+                        <a href="scripts/scanner_v1.py" class="btn-download">🐍 Скачать .PY Скрипт</a>
+                        <a href="#" onclick="alert('EXE версия готовится. Используйте Python скрипт.')" class="btn-download" style="background: var(--text-muted);">💻 Скачать .EXE (Win)</a>
                     </div>
-                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Note: EXE version requires no Python installation but might be flagged by AV as generic. Script is safer for inspection.</p>
                 </div>
 
                 <div class="post-actions">
-                    <span>💬 24 Comments</span>
-                    <span>⬆️ 156 Upvotes</span>
-                    <span>🔗 Share</span>
+                    <span>💬 24 комментария</span>
+                    <span>⬆️ 156 голосов</span>
+                    <span>🔗 Поделиться</span>
                 </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="post-card">
+                <div class="post-header">
+                    <div class="avatar" style="background: #10b981;"></div>
+                    <div>
+                        <h4>Admin_Radar</h4>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">5 часов назад • Администратор</span>
+                    </div>
+                </div>
+                <h3 style="margin-bottom: 0.5rem;">Добро пожаловать в сообщество Киберрадар!</h3>
+                <p style="color: var(--text-muted);">Здесь мы делимся актуальными угрозами и способами их нейтрализации. Пожалуйста, соблюдайте правила.</p>
             </div>
         </main>
     </div>
