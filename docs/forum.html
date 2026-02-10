@@ -13,6 +13,7 @@
             --text-main: #e5e7eb;
             --text-muted: #9ca3af;
             --success: #10b981;
+            --error: #ef4444;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -20,14 +21,6 @@
             background: #020617;
             color: var(--text-main);
             line-height: 1.6;
-        }
-        body.light-theme {
-            --bg: #f8fafc;
-            --card: #ffffff;
-            --border: #e2e8f0;
-            --accent: #0284c7;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
         }
         header {
             background: rgba(11, 17, 32, 0.9);
@@ -63,7 +56,6 @@
         .widget { background: var(--card); border: 1px solid var(--border); border-radius: 0.75rem; padding: 1.5rem; }
         .widget-title { font-size: 1rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
         
-        /* Monetization Widgets */
         .premium-card { background: linear-gradient(135deg, #1e293b, #0f172a); border: 1px solid var(--accent); text-align: center; }
         .btn-premium { background: var(--accent); color: white; border: none; padding: 0.75rem; border-radius: 0.5rem; width: 100%; cursor: pointer; font-weight: 700; margin-top: 1rem; }
         
@@ -71,10 +63,11 @@
 
         .create-post-btn { background: var(--accent); color: white; border: none; padding: 0.6rem 1.2rem; border-radius: 0.5rem; cursor: pointer; font-weight: 600; }
         
-        /* Modal */
         #postModal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; justify-content: center; align-items: center; }
         .modal-content { background: var(--card); border: 1px solid var(--border); padding: 2rem; border-radius: 1rem; width: 500px; }
         .modal-content input, .modal-content textarea { width: 100%; background: var(--bg); border: 1px solid var(--border); color: white; padding: 0.75rem; margin: 1rem 0; border-radius: 0.5rem; }
+        
+        .mod-warning { color: var(--error); font-size: 0.85rem; margin-top: 0.5rem; display: none; padding: 0.5rem; background: rgba(239, 68, 68, 0.1); border-radius: 0.25rem; }
     </style>
 </head>
 <body>
@@ -84,7 +77,8 @@
             <div class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="news.html">News</a>
-                <a href="forum.html">Forum</a>
+                <a href="exploits.html">Exploits</a>
+                <a href="forum.html" style="color:var(--accent)">Forum</a>
             </div>
         </div>
     </header>
@@ -93,10 +87,12 @@
         <div class="forum-main">
             <div class="forum-header">
                 <h2>Security Community</h2>
-                <button class="create-post-btn" onclick="openModal()">+ New Discussion</button>
+                <div style="display:flex; gap:10px; align-items:center">
+                    <span style="font-size:0.7rem; color:var(--success)">● AI-Moderation Active</span>
+                    <button class="create-post-btn" onclick="openModal()">+ New Discussion</button>
+                </div>
             </div>
             <div id="posts-container">
-                <!-- Sample Posts -->
                 <div class="post">
                     <span class="post-tag">Zero-Day</span>
                     <h3 class="post-title">New RCE exploit targeting SolarWinds exposed servers</h3>
@@ -133,38 +129,55 @@
                     <a href="#" style="color:var(--accent)">Contact Sales</a>
                 </div>
             </div>
-
-            <div class="widget">
-                <h3 class="widget-title">Stats</h3>
-                <p>Members: 12,430</p>
-                <p>Online: 452</p>
-                <p>Threads: 8,921</p>
-            </div>
         </div>
     </div>
 
     <div id="postModal">
         <div class="modal-content">
             <h3>Start a Discussion</h3>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem">Note: This forum is for security research only. Illegal content is strictly prohibited.</p>
             <input type="text" id="postTitle" placeholder="Thread Title">
             <textarea id="postText" rows="5" placeholder="Content..."></textarea>
+            <div id="modWarning" class="mod-warning">⚠️ System detected prohibited content (hacking/criminal activity). Post blocked.</div>
             <button class="create-post-btn" style="width:100%" onclick="savePost()">Post Community Alert</button>
             <button onclick="closeModal()" style="background:none; border:none; color:var(--text-muted); width:100%; margin-top:1rem; cursor:pointer">Cancel</button>
         </div>
     </div>
 
     <script>
+        // Automatic Moderation Engine
+        const FORBIDDEN_WORDS = [
+            'crack', 'hack', 'carding', 'cc shop', 'leak data', 'sell account', 
+            'ddos service', 'hire hacker', 'stolen', 'bypass paywall', 'free money',
+            'exploit kit for sale', 'malware buy', 'dark web link', 'botnet rental'
+        ];
+
         function openModal() { document.getElementById('postModal').style.display = 'flex'; }
-        function closeModal() { document.getElementById('postModal').style.display = 'none'; }
+        function closeModal() { 
+            document.getElementById('postModal').style.display = 'none'; 
+            document.getElementById('modWarning').style.display = 'none';
+        }
         
         function savePost() {
-            const title = document.getElementById('postTitle').value;
+            const title = document.getElementById('postTitle').value.toLowerCase();
+            const text = document.getElementById('postText').value.toLowerCase();
+            const warning = document.getElementById('modWarning');
+
+            // Scan for prohibited content
+            const isIllegal = FORBIDDEN_WORDS.some(word => title.includes(word) || text.includes(word));
+
+            if (isIllegal) {
+                warning.style.display = 'block';
+                console.warn('Post blocked by AutoMod: Potential criminal content detected.');
+                return;
+            }
+
             if(!title) return;
             
             const postHtml = `
                 <div class="post">
                     <span class="post-tag">User Post</span>
-                    <h3 class="post-title">${title}</h3>
+                    <h3 class="post-title">${document.getElementById('postTitle').value}</h3>
                     <div class="post-meta">
                         <span>👤 User_#${Math.floor(Math.random()*1000)}</span>
                         <span>💬 0 replies</span>
