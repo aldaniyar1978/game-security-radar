@@ -4,109 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Radar | Global Community</title>
+    <link rel="stylesheet" href="theme.css">
     <style>
-        :root {
-            --bg: #020617;
-            --card: #0b1120;
-            --border: #1e293b;
-            --accent: #38bdf8;
-            --text-main: #e5e7eb;
-            --text-muted: #9ca3af;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: 'Inter', system-ui, sans-serif;
-            background: #020617;
-            color: var(--text-main);
-            line-height: 1.6;
-        }
-        header {
-            background: rgba(11, 17, 32, 0.9);
-            padding: 1rem 2rem;
-            border-bottom: 1px solid var(--border);
-            position: sticky; top: 0; z-index: 1000;
-            backdrop-filter: blur(10px);
-        }
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent);
-            text-decoration: none;
-        }
-        nav { display: flex; gap: 2rem; }
-        nav a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        nav a:hover, nav a.active { color: var(--accent); }
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-            display: flex;
-            gap: 2rem;
-        }
-        .sidebar {
-            width: 250px;
-            flex-shrink: 0;
-        }
-        .sidebar-menu {
-            list-style: none;
-        }
-        .sidebar-menu a {
-            color: var(--text-muted);
-            text-decoration: none;
-            display: block;
-            padding: 0.8rem 1rem;
-            border-radius: 8px;
-        }
-        .sidebar-menu a:hover {
-            background: rgba(56, 189, 248, 0.1);
-            color: var(--accent);
-        }
-        .main-content {
-            flex-grow: 1;
-        }
-        .post-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        .avatar {
-            width: 45px;
-            height: 45px;
-            background: var(--accent);
-            border-radius: 50%;
-            margin-right: 1rem;
-        }
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 2rem; display: flex; gap: 2rem; }
+        .sidebar { width: 250px; flex-shrink: 0; }
+        .sidebar-menu { list-style: none; }
+        .sidebar-menu a { color: var(--text-muted); text-decoration: none; display: block; padding: 0.8rem 1rem; border-radius: 8px; transition: 0.3s; }
+        .sidebar-menu a:hover { background: rgba(56, 189, 248, 0.1); color: var(--accent); }
+        .main-content { flex-grow: 1; }
+        .post-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
+        .avatar { width: 45px; height: 45px; background: var(--accent); border-radius: 50%; margin-right: 1rem; }
         .post-header { display: flex; align-items: center; margin-bottom: 1rem; }
-        .tag {
-            font-size: 0.8rem;
-            color: var(--accent);
-            background: rgba(56, 189, 248, 0.1);
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            margin-right: 0.5rem;
-        }
-        .post-actions {
-            display: flex;
-            gap: 2rem;
-            margin-top: 1.5rem;
-            padding-top: 1rem;
-            border-top: 1px solid var(--border);
-            color: var(--text-muted);
-        }
+        .tag { font-size: 0.8rem; color: var(--accent); background: rgba(56, 189, 248, 0.1); padding: 0.2rem 0.6rem; border-radius: 4px; margin-right: 0.5rem; cursor: pointer; }
+        .post-actions { display: flex; gap: 2rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--text-muted); }
+        .btn-download { background: var(--accent); color: var(--bg); padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem; }
     </style>
 </head>
 <body>
@@ -143,11 +54,17 @@
                     </div>
                 </div>
                 <h3 style="margin-bottom: 0.5rem;">Automated Analysis of Black Basta Payloads</h3>
-                <p style="color: var(--text-muted); margin-bottom: 1rem;">I've been analyzing the recent BYOVD tactics used by Black Basta. It seems they are specifically targeting exposed SMB ports.</p>
-                <div style="display: flex;">
-                    <span class="tag">#BlackBasta</span>
-                    <span class="tag">#BYOVD</span>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">I've been analyzing the recent BYOVD tactics used by Black Basta. I've developed a simple scanner to detect vulnerable drivers on your system.</p>
+                
+                <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; border-left: 4px solid var(--accent);">
+                    <h4 style="margin-bottom: 0.5rem;">Download Detection Tool:</h4>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="scripts/scanner_v1.py" class="btn-download">🐍 Download .PY Script</a>
+                        <a href="#" onclick="alert('EXE conversion in progress. Use Python script for now.')" class="btn-download" style="background: var(--text-muted);">💻 Download .EXE (Win)</a>
+                    </div>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Note: EXE version requires no Python installation but might be flagged by AV as generic. Script is safer for inspection.</p>
                 </div>
+
                 <div class="post-actions">
                     <span>💬 24 Comments</span>
                     <span>⬆️ 156 Upvotes</span>
