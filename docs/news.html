@@ -18,53 +18,61 @@
         .hint { font-size: 0.8rem; color: #94a3b8; margin-top: 0.5rem; }
     </style>
 </head>
-    <script>
-async function loadNews() {
-    const container = document.getElementById('news-list');
-    const res = await fetch('data/feed.json');
-    const items = await res.json();
-
-    items.forEach(item => {
-        const card = document.createElement('article');
-        card.className = 'news-card';
-        card.innerHTML = `
-            <h2 class="news-title">
-                <a href="news-${item.id}.html">${item.newsTitle}</a>
-            </h2>
-            <div class="news-meta">
-                <span>${item.date}</span>
-                <span class="news-severity ${item.severity}">${item.severity.toUpperCase()}</span>
-                <span>${item.tag}</span>
-            </div>
-            <p class="news-body">${item.newsBody}</p>
-        `;
-        container.appendChild(card);
-    });
-}
-loadNews();
-</script>
 <body>
     <header>
         <div class="header-content">
             <a href="index.html" class="logo">🛡️ Cyber Radar</a>
             <nav>
-    <a href="index.html">Home</a>
-    <a href="news.html" class="active">News</a>
-    <a href="recommendations.html">Recommendations</a>
-    <a href="exploits.html">Vulnerabilities</a>
-    <a href="forum.html">Community</a>
-    <a href="about.html">About</a>
-</nav>
+                <a href="index.html">Home</a>
+                <a href="news.html" class="active">News</a>
+                <a href="recommendations.html">Recommendations</a>
+                <a href="exploits.html">Vulnerabilities</a>
+                <a href="forum.html">Community</a>
+                <a href="about.html">About</a>
+            </nav>
         </div>
     </header>
+
     <main class="container" style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
-    <h1 style="color:#fff;">Security News</h1>
-    <p style="color:#94a3b8;">Краткая лента событий, используемая для генерации рекомендаций.</p>
-    <div id="news-list"></div>
-</main>
+        <h1 style="color:#fff;">Security News</h1>
+        <p style="color:#94a3b8;">Краткая лента событий, используемая для генерации рекомендаций.</p>
+        <div id="news-list"></div>
+    </main>
 
     <footer style="text-align: center; padding: 2rem; color: #94a3b8; border-top: 1px solid #334155; margin-top: 4rem;">
         &copy; 2026 Cyber Radar Intelligence • Updated just now
     </footer>
+
+    <script>
+    async function loadNews() {
+        const container = document.getElementById('news-list');
+        try {
+            const res = await fetch('data/feed.json');
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            const items = await res.json();
+
+            items.forEach(item => {
+                const card = document.createElement('article');
+                card.className = 'news-card';
+                card.innerHTML = `
+                    <h2 class="news-title">
+                        <a href="news-${item.id}.html">${item.newsTitle}</a>
+                    </h2>
+                    <div class="news-meta">
+                        <span>${item.date}</span>
+                        <span class="news-severity ${item.severity}">${item.severity.toUpperCase()}</span>
+                        <span>${item.tag}</span>
+                    </div>
+                    <p class="news-body">${item.newsBody}</p>
+                `;
+                container.appendChild(card);
+            });
+        } catch (e) {
+            console.error(e);
+            container.innerHTML = '<p style="color:#f97316;">Failed to load news feed.</p>';
+        }
+    }
+    loadNews();
+    </script>
 </body>
 </html>
