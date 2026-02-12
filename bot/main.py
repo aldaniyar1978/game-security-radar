@@ -60,18 +60,15 @@ def classify_stack(text: str):
 
 def build_scripts(article, tech_tags, security_tags):
     title = article["title"]
-    url = article["url"]
+    url = article.get("url", "")
     scripts = []
 
-    # Общие вспомогательные переменные
-    today = datetime.utcnow().strftime("%Y-%m-%d")
-
-    # --- Ransomware / Malware / Data breach ---
+    # Generic helpers
+    # Ransomware / Malware / Data breach
     if any(t in security_tags for t in ["Ransomware", "Malware", "Data breach"]):
-        # Логи Windows (PowerShell)
         scripts.append(
             {
-                "name": "PowerShell: поиск подозрительных процессов и автозапуска",
+                "name": "PowerShell: hunt for suspicious processes and autoruns",
                 "language": "powershell",
                 "body": r"""
 Get-WmiObject Win32_Process |
@@ -83,10 +80,9 @@ Get-CimInstance Win32_StartupCommand |
 """.strip(),
             }
         )
-        # Логи Linux (bash)
         scripts.append(
             {
-                "name": "Linux: поиск подозрительных процессов и бинарей",
+                "name": "Linux: hunt for suspicious processes and SUID binaries",
                 "language": "bash",
                 "body": r"""
 ps aux | egrep "crypto|minerd|xmrig|kdevtmpfsi" | grep -v egrep || echo "No obvious miners found"
@@ -96,27 +92,27 @@ find / -xdev -type f -perm -4000 2>/dev/null
             }
         )
 
-    # --- Vulnerability / CVE / exploit ---
-    if "Vulnerability" in security_tags:
+    # Vulnerability / exploit
+    if "Vulnerability" in security_tags and url:
         scripts.append(
             {
-                "name": "Поиск обращения к URL из новости в web-логах (Linux)",
+                "name": "Search for requests related to this article URL in web logs (Linux)",
                 "language": "bash",
                 "body": rf"""
-# Замените access.log на путь к вашим логам
+# Replace access.log paths with your actual web server logs
 grep -i "{url}" /var/log/nginx/access.log* /var/log/apache2/access.log* 2>/dev/null || echo "No hits for indicator"
 """.strip(),
             }
         )
 
-    # --- Cloud / AWS S3 ---
-    if "Cloud" in tech_tags or "AWS" in article["summary"].upper() or "S3" in article["summary"]:
+    # Cloud / AWS S3
+    if "Cloud" in tech_tags:
         scripts.append(
             {
-                "name": "AWS CLI: базовая проверка публичных бакетов S3",
+                "name": "AWS CLI: basic public S3 bucket exposure check",
                 "language": "bash",
                 "body": r"""
-# Требуется настроенный AWS CLI и права на просмотр S3
+# Requires configured AWS CLI with permissions to list and read S3 ACLs
 aws s3api list-buckets --query "Buckets[].Name" --output text | tr '\t' '\n' | while read B; do
   echo "Bucket: $B"
   aws s3api get-bucket-acl --bucket "$B" --query "Grants[].Grantee.URI" --output text 2>/dev/null |
@@ -126,42 +122,42 @@ done
             }
         )
 
-    # --- VMware / ESXi ---
+    # VMware / ESXi
     if "VMware" in tech_tags:
         scripts.append(
             {
-                "name": "ESXi: проверка неавторизованных SSH-доступов",
+                "name": "ESXi / Linux: review SSH authentication attempts",
                 "language": "bash",
                 "body": r"""
-# Пример для ESXi: анализ SSH-логов (если включено логирование)
+# Example SSH log review (adjust paths for your system)
 grep -i "sshd" /var/log/auth.log /var/log/messages* 2>/dev/null | egrep "Failed|Accepted"
 """.strip(),
             }
         )
 
-    # --- Phishing / Account takeover / M365 ---
-    if any(t in security_tags for t in ["Phishing", "Account takeover"]) or "M365" in tech_tags:
+    # M365 / Phishing / Account takeover
+    if any(t in security_tags for t in ["Phishing", "Account takeover"]):
         scripts.append(
             {
-                "name": "M365: поиск подозрительных входов (пример AzureAD / Entra)",
+                "name": "M365: search for suspicious sign‑ins in unified audit log",
                 "language": "powershell",
                 "body": r"""
-# Требуется модуль AzureAD / MSGraph и права чтения логов
+# Requires Exchange Online / Security & Compliance modules and permissions to read audit logs
 Search-UnifiedAuditLog -StartDate (Get-Date).AddDays(-3) -EndDate (Get-Date) -Operations UserLoggedIn |
-  Where-Object { $_.ClientIP -notlike "your_country_ip_range*" } |
+  Where-Object { $_.ClientIP -notlike "YOUR_TRUSTED_RANGE*" } |
   Select-Object UserId, ClientIP, Operation, CreationDate
 """.strip(),
             }
         )
 
-    # --- Generic fallback ---
+    # Generic fallback
     if not scripts:
         scripts.append(
             {
-                "name": "Generic: поиск IOC из новости в логах",
+                "name": "Generic: search for IOCs from the article across logs",
                 "language": "bash",
-                "body": rf"""
-# Замените PATTERN на домены/IP/URL из статьи:
+                "body": r"""
+# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:
 grep -Ei "PATTERN" /var/log/* 2>/dev/null || echo "No hits for pattern"
 """.strip(),
             }
@@ -170,54 +166,63 @@ grep -Ei "PATTERN" /var/log/* 2>/dev/null || echo "No hits for pattern"
     return scripts
 
 
+
 def build_recommendations(article):
-    text = f"{article['title']} {article['summary']}".lower()
+    text = f"{article['title']} {article.get('summary', '')}".lower()
     security_tags = article.get("tags", [])
     tech_tags = classify_stack(text)
 
     recos = []
 
-    # Базовые рекомендации по типу новости
+    # Ransomware
     if "Ransomware" in security_tags:
         recos.extend(
             [
-                "Проверить актуальность резервных копий и возможность восстановления без выкупа.",
-                "Провести инвентарь открытых RDP/VPN-доступов и ограничить их по MFA и сети.",
-                "Проверить наличие инструментов EDR/XDR на всех критичных узлах.",
+                "Validate the integrity and recoverability of recent backups for all critical systems.",
+                "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation.",
+                "Ensure EDR/XDR coverage and logging are enabled on all high-value assets.",
             ]
         )
+
+    # Malware
     if "Malware" in security_tags:
         recos.extend(
             [
-                "Запустить внеплановое антивирусное сканирование на серверах и рабочих станциях.",
-                "Собрать и проанализировать подозрительные бинарные файлы из Temp/AppData для реверса или отправки в песочницу.",
+                "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+                "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline.",
             ]
         )
+
+    # Vulnerability / CVE
     if "Vulnerability" in security_tags:
         recos.extend(
             [
-                "Сопоставить затронутые версии ПО из новости с реально используемыми в инфраструктуре.",
-                "При отсутствии патча — внедрить временные меры: WAF-правила, ограничение доступа, сегментация.",
+                "Map affected product versions from the article to the software actually deployed in your environment.",
+                "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation.",
             ]
         )
+
+    # Data breach
     if "Data breach" in security_tags:
         recos.extend(
             [
-                "Проверить, используются ли затронутые сервисы/подрядчики в вашей организации.",
-                "Оценить необходимость смены паролей и ротации ключей/токенов, связанных с затронутым сервисом.",
+                "Verify whether the impacted service, vendor, or product is used inside your organization.",
+                "Assess the need to rotate passwords, keys, and tokens associated with the affected service.",
             ]
         )
+
+    # Phishing / Account takeover
     if "Phishing" in security_tags or "Account takeover" in security_tags:
         recos.extend(
             [
-                "Провести таргетированное обучение сотрудников по новым шаблонам фишинга.",
-                "Проверить политики MFA и невозможность обхода через устаревшие протоколы (POP/IMAP, legacy auth).",
+                "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
+                "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth, other non‑MFA flows).",
             ]
         )
 
     if not recos:
         recos.append(
-            "Оценить релевантность новости для вашей среды и сопоставить указанные техники с используемыми технологиями."
+            "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
         )
 
     scripts = build_scripts(article, tech_tags, security_tags)
@@ -226,13 +231,15 @@ def build_recommendations(article):
         "id": article["id"],
         "date": article["date"],
         "title": article["title"],
-        "url": article["url"],
-        "source": article["source"],
+        "url": article.get("url", ""),
+        "source": article.get("source", ""),
+        "summary": article.get("summary", ""),
         "tags": security_tags,
         "tech": tech_tags,
         "recommendations": recos,
         "scripts": scripts,
     }
+
 
 
 def main():
