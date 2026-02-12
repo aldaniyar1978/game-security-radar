@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Radar | Новости Безопасности</title>
+    <title>Cyber Radar | Security News Feed</title>
     <link rel="stylesheet" href="theme.css">
     <style>
         .news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; margin-top: 2rem; }
@@ -23,46 +23,46 @@
         <div class="header-content">
             <a href="index.html" class="logo">🛡️ Cyber Radar</a>
             <nav>
-                <a href="index.html">Главная</a>
-                <a href="news.html" class="active">Новости</a>
-                <a href="exploits.html">Уязвимости</a>
-                <a href="forum.html">Сообщество</a>
+                <a href="index.html">Home</a>
+                <a href="news.html" class="active">News</a>
+                <a href="exploits.html">Vulnerabilities</a>
+                <a href="forum.html">Community</a>
             </nav>
         </div>
     </header>
 
     <main class="container" style="max-width: 1200px; margin: 3rem auto; padding: 0 1rem;">
-        <h1 style="color: #fff;">Лента Киберразведки</h1>
-        <p style="color: #94a3b8;">Мониторинг даркнета, баз эксплойтов и трендов облачной безопасности.</p>
+        <h1 style="color: #fff;">Cyber Intelligence Feed</h1>
+        <p style="color: #94a3b8;">Monitoring threat reports, exploit databases, and cloud security trends.</p>
         
         <div class="news-grid">
             <div class="post-card" onclick="this.classList.toggle('active')">
                 <div class="news-content">
-                    <span class="tag">Критическая Уязвимость</span>
-                    <h3>CVE-2024-38063: Zero-Click RCE в IPv6</h3>
-                    <p>Катастрофическая уязвимость в сетевом стеке Windows. Позволяет захват системы без участия пользователя.</p>
-                    <p class="hint">Нажмите для подробностей и загрузки инструментов</p>
+                    <span class="tag">Critical Vulnerability</span>
+                    <h3>CVE-2024-38063: Zero-Click RCE in IPv6</h3>
+                    <p>A catastrophic vulnerability in the Windows networking stack that allows full system compromise without user interaction.</p>
+                    <p class="hint">Click to see details and tools</p>
                 </div>
                 <div class="details-content">
-                    <p style="color: #fff;">Уязвимость в драйвере tcpip.sys. Требуется обновление KB50415XX.</p>
+                    <p style="color: #fff;">The issue resides in tcpip.sys. Immediate deployment of update KB50415XX is recommended.</p>
                     <div style="margin-top: 1rem;">
-                        <a href="scripts/scanner.exe" class="btn-action">Скачать Сканер (.exe)</a>
-                        <a href="scripts/ipv6_check.py" class="btn-action" style="background: #1e293b; border: 1px solid #38bdf8; color: #38bdf8;">Скрипт (.py)</a>
+                        <a href="scripts/scanner.exe" class="btn-action">Download Scanner (.exe)</a>
+                        <a href="scripts/ipv6_check.py" class="btn-action" style="background: #1e293b; border: 1px solid #38bdf8; color: #38bdf8;">Detection Script (.py)</a>
                     </div>
                 </div>
             </div>
 
             <div class="post-card" onclick="this.classList.toggle('active')">
                 <div class="news-content">
-                    <span class="tag">Утечка Данных</span>
-                    <h3>Утечка 1.5ТБ данных из AWS S3</h3>
-                    <p>Миллионы банковских записей оказались в открытом доступе из-за ошибки конфигурации.</p>
-                    <p class="hint">Нажмите для деталей</p>
+                    <span class="tag">Data Breach</span>
+                    <h3>1.5 TB of AWS S3 Data Exposed</h3>
+                    <p>Millions of financial records were left publicly accessible due to a misconfigured storage bucket.</p>
+                    <p class="hint">Click to see details</p>
                 </div>
                 <div class="details-content">
-                    <p style="color: #fff;">Рекомендуется проверить настройки разрешений ваших хранилищ.</p>
+                    <p style="color: #fff;">You should review and harden bucket ACLs and public access settings across all S3 environments.</p>
                     <div style="margin-top: 1rem;">
-                        <a href="scripts/s3_checker.exe" class="btn-action">Проверка ведра (.exe)</a>
+                        <a href="scripts/s3_checker.exe" class="btn-action">Bucket Audit Tool (.exe)</a>
                     </div>
                 </div>
             </div>
@@ -70,44 +70,44 @@
             <div class="post-card" onclick="this.classList.toggle('active')">
                 <div class="news-content">
                     <span class="tag">Ransomware</span>
-                    <h3>Black Basta: Новые методы обхода EDR</h3>
-                    <p>Группировка использует уязвимые драйверы для отключения антивирусного ПО.</p>
-                    <p class="hint">Нажмите для деталей</p>
+                    <h3>Black Basta: New EDR Evasion Techniques</h3>
+                    <p>The group abuses vulnerable drivers to disable antivirus and EDR solutions before deploying payloads.</p>
+                    <p class="hint">Click to see details</p>
                 </div>
                 <div class="details-content">
-                    <p style="color: #fff;">Метод Bring Your Own Vulnerable Driver (BYOVD) становится стандартом для вымогателей.</p>
+                    <p style="color: #fff;">The Bring Your Own Vulnerable Driver (BYOVD) technique is becoming a standard play for modern ransomware crews.</p>
                     <div style="margin-top: 1rem;">
-                        <a href="scripts/detector.exe" class="btn-action">Детектор (.exe)</a>
+                        <a href="scripts/detector.exe" class="btn-action">Driver Detector (.exe)</a>
                     </div>
                 </div>
             </div>
 
             <div class="post-card" onclick="this.classList.toggle('active')">
                 <div class="news-content">
-                    <span class="tag">Шпионаж</span>
-                    <h3>UNC3886 атакует VMWare ESXi</h3>
-                    <p>Китайские хакеры используют 0-day для закрепления в изолированных сетях.</p>
-                    <p class="hint">Нажмите для деталей</p>
+                    <span class="tag">Espionage</span>
+                    <h3>UNC3886 Targets VMware ESXi</h3>
+                    <p>China‑linked operators leverage 0‑days to persist inside segmented and high‑value networks.</p>
+                    <p class="hint">Click to see details</p>
                 </div>
                 <div class="details-content">
-                    <p style="color: #fff;">Используются уязвимости vCenter для выполнения кода с правами root.</p>
+                    <p style="color: #fff;">Exploitation of vCenter vulnerabilities allows attackers to execute code with root privileges on ESXi hosts.</p>
                     <div style="margin-top: 1rem;">
-                        <a href="scripts/audit.exe" class="btn-action">Аудит (.exe)</a>
+                        <a href="scripts/audit.exe" class="btn-action">ESXi Audit Tool (.exe)</a>
                     </div>
                 </div>
             </div>
 
             <div class="post-card" onclick="this.classList.toggle('active')">
                 <div class="news-content">
-                    <span class="tag">Фишинг</span>
-                    <h3>Новая волна AitM атак на Office 365</h3>
-                    <p>Хакеры обходят многофакторную аутентификацию через прокси-серверы.</p>
-                    <p class="hint">Нажмите для деталей</p>
+                    <span class="tag">Phishing</span>
+                    <h3>New Wave of M365 Adversary‑in‑the‑Middle Attacks</h3>
+                    <p>Threat actors bypass MFA by proxying login flows and stealing live session tokens.</p>
+                    <p class="hint">Click to see details</p>
                 </div>
                 <div class="details-content">
-                    <p style="color: #fff;">Злоумышленники перехватывают токены сессии в реальном времени.</p>
+                    <p style="color: #fff;">Attackers intercept and replay session cookies in real time, enabling full mailbox and data access.</p>
                     <div style="margin-top: 1rem;">
-                        <a href="#" class="btn-action">Руководство по защите</a>
+                        <a href="#" class="btn-action">Defense Playbook</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
     </main>
 
     <footer style="text-align: center; padding: 2rem; color: #94a3b8; border-top: 1px solid #334155; margin-top: 4rem;">
-        &copy; 2026 Cyber Radar Intelligence • Обновлено только что
+        &copy; 2026 Cyber Radar Intelligence • Updated just now
     </footer>
 </body>
 </html>
