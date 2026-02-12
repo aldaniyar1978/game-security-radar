@@ -1,6 +1,62 @@
 {
-  "generatedAt": "2026-02-12T17:50:09Z",
+  "generatedAt": "2026-02-12T18:45:55Z",
   "items": [
+    {
+      "id": "37caeae68b6b",
+      "date": "2026-02-12",
+      "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+      "url": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+      "source": "The Hacker News",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "69fe9fb706f1",
+      "date": "2026-02-12",
+      "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Other Devices",
+      "url": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "49a5c84d2aab",
+      "date": "2026-02-12",
+      "title": "Odido data breach exposes personal info of 6.2 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ],
+      "tech": [
+        "Telecom"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
     {
       "id": "2b23c62ec5ee",
       "date": "2026-02-12",

@@ -2,6 +2,52 @@
   "lastUpdated": "2026-02-12",
   "items": [
     {
+      "id": "49a5c84d2aab",
+      "date": "2026-02-12",
+      "title": "Odido data breach exposes personal info of 6.2 million customers",
+      "summary": "Dutch telecommunications provider Odido is warning that it suffered a cyberattack that reportedly exposed the personal data of 6.2 million customers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/odido-data-breach-exposes-personal-info-of-62-million-customers/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ]
+    },
+    {
+      "id": "69fe9fb706f1",
+      "date": "2026-02-12",
+      "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Other Devices",
+      "summary": "Apple on Wednesday released iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS updates to address a zero-day flaw that it said has been exploited in sophisticated cyber attacks.\nThe vulnerabilit...",
+      "url": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
+      "id": "9927488dd2d3",
+      "date": "2026-02-12",
+      "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+      "summary": "Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by th...",
+      "url": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
+      "id": "37caeae68b6b",
+      "date": "2026-02-12",
+      "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+      "summary": "Google on Thursday said it observed the North Korea-linked threat actor known as UNC2970 using its generative artificial intelligence (AI) model Gemini to conduct reconnaissance on its targets, as ...",
+      "url": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ]
+    },
+    {
       "id": "2b23c62ec5ee",
       "date": "2026-02-12",
       "title": "WordPress plugin with 900k installs vulnerable to critical RCE flaw",
@@ -516,50 +562,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Data breach"
-      ]
-    },
-    {
-      "id": "bc06193fbfd6",
-      "date": "2026-02-09",
-      "title": "Microsoft: Exchange Online flags legitimate emails as phishing",
-      "summary": "Microsoft is investigating an ongoing Exchange Online issue that mistakenly flags legitimate emails as phishing and quarantines them.",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-flags-legitimate-emails-as-phishing/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Phishing"
-      ]
-    },
-    {
-      "id": "edd97ce3b198",
-      "date": "2026-02-09",
-      "title": "Men charged in FanDuel scheme fueled by thousands of stolen identities",
-      "summary": "Two Connecticut men face federal charges for allegedly defrauding FanDuel and other online gambling sites of $3 million over several years using the stolen identities of approximately 3,000 victims.",
-      "url": "https://www.bleepingcomputer.com/news/security/men-charged-in-massive-fanduel-fraud-scheme-fueled-by-thousands-of-stolen-identities/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "021f21373368",
-      "date": "2026-02-09",
-      "title": "BeyondTrust warns of critical RCE flaw in remote support software",
-      "summary": "BeyondTrust warned customers to patch a critical security flaw in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow unauthenticated attackers to execute arbitrary code.",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-rce-flaw-in-remote-support-software/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "84c427992b2a",
-      "date": "2026-02-09",
-      "title": "Password guessing without AI: How attackers build targeted wordlists",
-      "summary": "Attackers don't need AI to crack passwords, they build targeted wordlists from an organization's own public language. This article explains how tools like CeWL turn websites into high-success password lists.",
-      "url": "https://www.bleepingcomputer.com/news/security/password-guessing-without-ai-how-attackers-build-targeted-wordlists/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
