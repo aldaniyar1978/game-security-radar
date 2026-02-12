@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-12",
   "items": [
     {
+      "id": "6f45c0c9e647",
+      "date": "2026-02-12",
+      "title": "Romania's oil pipeline operator Conpet confirms data stolen in attack",
+      "summary": "Romania's national oil pipeline operator, Conpet S.A., confirmed that the Qilin ransomware gang stole company data in an attack last week. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/romanias-oil-pipeline-operator-conpet-confirms-data-stolen-in-attack/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Ransomware"
+      ]
+    },
+    {
       "id": "49a5c84d2aab",
       "date": "2026-02-12",
       "title": "Odido data breach exposes personal info of 6.2 million customers",
@@ -551,17 +563,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "acf7f1b64dde",
-      "date": "2026-02-08",
-      "title": "European Commission discloses breach that exposed staff data",
-      "summary": "The European Commission is investigating a breach after finding evidence that its mobile device management platform was hacked.",
-      "url": "https://www.bleepingcomputer.com/news/security/european-commission-discloses-breach-that-exposed-staff-data/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Data breach"
       ]
     }
   ]

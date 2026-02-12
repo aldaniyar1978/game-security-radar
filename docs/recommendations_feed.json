@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-02-12T18:45:55Z",
+  "generatedAt": "2026-02-12T19:43:30Z",
   "items": [
+    {
+      "id": "6f45c0c9e647",
+      "date": "2026-02-12",
+      "title": "Romania's oil pipeline operator Conpet confirms data stolen in attack",
+      "url": "https://www.bleepingcomputer.com/news/security/romanias-oil-pipeline-operator-conpet-confirms-data-stolen-in-attack/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Ransomware"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
     {
       "id": "37caeae68b6b",
       "date": "2026-02-12",
