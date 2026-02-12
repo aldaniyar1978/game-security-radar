@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cyber Radar – Security Recommendations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #080910;
+      color: #f5f5f5;
+    }
+    header {
+      padding: 1.5rem 1rem;
+      border-bottom: 1px solid #22263a;
+      background: #05060b;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    header p {
+      margin: 0.3rem 0 0;
+      color: #a0a4c0;
+      font-size: 0.9rem;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 3rem;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: #8d91b3;
+      margin-bottom: 1rem;
+    }
+    .card {
+      border: 1px solid #262a40;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1.2rem;
+      background: #0b0c17;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.01), 0 18px 45px rgba(0,0,0,0.7);
+    }
+    .card h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.1rem;
+    }
+    .card a.title-link {
+      color: #7fd4ff;
+      text-decoration: none;
+    }
+    .card a.title-link:hover {
+      text-decoration: underline;
+    }
+    .tags {
+      margin: 0.3rem 0 0.5rem;
+      font-size: 0.8rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 0.15rem 0.45rem;
+      margin: 0 0.25rem 0.25rem 0;
+      border-radius: 999px;
+      border: 1px solid #333858;
+      color: #c5c9ff;
+      background: rgba(40, 45, 90, 0.6);
+    }
+    .tag.tech {
+      color: #a2ffdd;
+      border-color: #2b7a58;
+      background: rgba(20, 80, 60, 0.5);
+    }
+    .summary {
+      font-size: 0.9rem;
+      color: #c0c4e0;
+      margin-bottom: 0.6rem;
+    }
+    .section-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+      margin-bottom: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #9ea3d1;
+    }
+    ul.reco-list {
+      margin: 0.2rem 0 0.6rem 1.1rem;
+      padding: 0;
+      font-size: 0.9rem;
+    }
+    ul.reco-list li {
+      margin-bottom: 0.2rem;
+    }
+    details {
+      margin-top: 0.4rem;
+      font-size: 0.88rem;
+    }
+    details summary {
+      cursor: pointer;
+      color: #7fd4ff;
+    }
+    pre {
+      margin-top: 0.3rem;
+      padding: 0.6rem 0.7rem;
+      border-radius: 6px;
+      background: #05060b;
+      color: #e8ecff;
+      font-size: 0.8rem;
+      overflow-x: auto;
+      border: 1px solid #22263a;
+    }
+    code {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .pill {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.12rem 0.45rem;
+      border-radius: 999px;
+      border: 1px solid #363b5a;
+      color: #a0a4c0;
+      margin-left: 0.4rem;
+    }
+    .loader {
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #9ea3d1;
+    }
+    .error {
+      color: #ff8f8f;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cyber Radar – Security Recommendations</h1>
+    <p>Auto-generated short recommendations and hunt scripts for the latest news feed.</p>
+  </header>
+
+  <main>
+    <div class="meta" id="meta"></div>
+    <div id="loader" class="loader">Loading recommendations…</div>
+    <div id="error" class="error" style="display:none;"></div>
+    <div id="cards"></div>
+  </main>
+
+  <script>
+    async function loadRecommendations() {
+      const metaEl = document.getElementById("meta");
+      const cardsEl = document.getElementById("cards");
+      const loaderEl = document.getElementById("loader");
+      const errorEl = document.getElementById("error");
+
+      try {
+        const resp = await fetch("security_recommendations.json", {
+          cache: "no-cache"
+        });
+        if (!resp.ok) {
+          throw new Error("HTTP " + resp.status);
+        }
+        const data = await resp.json();
+
+        loaderEl.style.display = "none";
+
+        metaEl.textContent = data.lastUpdated
+          ? "Last updated: " + data.lastUpdated
+          : "";
+
+        const items = Array.isArray(data.items) ? data.items : [];
+        if (!items.length) {
+          cardsEl.innerHTML = "<p>No recommendations yet.</p>";
+          return;
+        }
+
+        items.forEach(item => {
+          const card = document.createElement("article");
+          card.className = "card";
+
+          const h2 = document.createElement("h2");
+          if (item.url) {
+            const link = document.createElement("a");
+            link.href = item.url;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = item.title || "(no title)";
+            link.className = "title-link";
+            h2.appendChild(link);
+          } else {
+            h2.textContent = item.title || "(no title)";
+          }
+
+          const metaLine = document.createElement("div");
+          metaLine.className = "meta";
+          const date = item.date || "";
+          const source = item.source || "";
+          metaLine.textContent = [date, source].filter(Boolean).join(" • ");
+
+          const tagsDiv = document.createElement("div");
+          tagsDiv.className = "tags";
+          const secTags = Array.isArray(item.tags) ? item.tags : [];
+          const techTags = Array.isArray(item.tech) ? item.tech : [];
+
+          secTags.forEach(t => {
+            const span = document.createElement("span");
+            span.className = "tag";
+            span.textContent = t;
+            tagsDiv.appendChild(span);
+          });
+          techTags.forEach(t => {
+            const span = document.createElement("span");
+            span.className = "tag tech";
+            span.textContent = t;
+            tagsDiv.appendChild(span);
+          });
+
+          const summary = document.createElement("div");
+          summary.className = "summary";
+          if (item.summary) {
+            summary.textContent = item.summary;
+          }
+
+          const recoTitle = document.createElement("div");
+          recoTitle.className = "section-title";
+          recoTitle.textContent = "Recommended actions";
+
+          const recoList = document.createElement("ul");
+          recoList.className = "reco-list";
+          (item.recommendations || []).forEach(r => {
+            const li = document.createElement("li");
+            li.textContent = r;
+            recoList.appendChild(li);
+          });
+
+          const scriptsTitle = document.createElement("div");
+          scriptsTitle.className = "section-title";
+          scriptsTitle.textContent = "Hunt / investigation scripts";
+
+          (item.scripts || []).forEach(s => {
+            const details = document.createElement("details");
+            const summaryEl = document.createElement("summary");
+            summaryEl.textContent = s.name || "Script";
+            if (s.language) {
+              const pill = document.createElement("span");
+              pill.className = "pill";
+              pill.textContent = s.language;
+              summaryEl.appendChild(pill);
+            }
+            const pre = document.createElement("pre");
+            const code = document.createElement("code");
+            code.textContent = s.body || "";
+            pre.appendChild(code);
+
+            details.appendChild(summaryEl);
+            details.appendChild(pre);
+            card.appendChild(details);
+          });
+
+          card.appendChild(h2);
+          card.appendChild(metaLine);
+          card.appendChild(tagsDiv);
+          if (item.summary) {
+            card.appendChild(summary);
+          }
+          card.appendChild(recoTitle);
+          card.appendChild(recoList);
+          card.appendChild(scriptsTitle);
+
+          cardsEl.appendChild(card);
+        });
+      } catch (e) {
+        loaderEl.style.display = "none";
+        errorEl.style.display = "block";
+        errorEl.textContent = "Failed to load recommendations: " + e.message;
+      }
+    }
+
+    loadRecommendations();
+  </script>
+</body>
+</html>
