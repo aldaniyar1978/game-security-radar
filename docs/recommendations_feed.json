@@ -1,0 +1,357 @@
+{
+  "generatedAt": "2026-02-12T17:50:09Z",
+  "items": [
+    {
+      "id": "2b23c62ec5ee",
+      "date": "2026-02-12",
+      "title": "WordPress plugin with 900k installs vulnerable to critical RCE flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-900k-installs-vulnerable-to-critical-rce-flaw/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "b3c00659835b",
+      "date": "2026-02-10",
+      "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
+      "url": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "4fe26708d087",
+      "date": "2026-02-12",
+      "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+      "url": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "a85675565d7f",
+      "date": "2026-02-12",
+      "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
+      "url": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "5317c724f850",
+      "date": "2026-02-12",
+      "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Apple Devices",
+      "url": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "ab1e2e00d11d",
+      "date": "2026-02-11",
+      "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
+      "url": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Account takeover"
+      ],
+      "tech": [
+        "Windows"
+      ],
+      "top_recommendations": [
+        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
+        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
+      ]
+    },
+    {
+      "id": "8555b4fc0197",
+      "date": "2026-02-11",
+      "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
+      "url": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+      "source": "The Hacker News",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ],
+      "tech": [
+        "Cloud"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "b690cac87aeb",
+      "date": "2026-02-11",
+      "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
+      "url": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Windows",
+        "Cloud"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "10adbb41a76e",
+      "date": "2026-02-11",
+      "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
+      "url": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Linux"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "6ce20ac4aa20",
+      "date": "2026-02-12",
+      "title": "Fake AI Chrome extensions with 300K users steal credentials, emails",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-ai-chrome-extensions-with-300k-users-steal-credentials-emails/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
+        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
+      ]
+    },
+    {
+      "id": "d6a6d1f46d77",
+      "date": "2026-02-12",
+      "title": "Google says hackers are abusing Gemini AI for all attacks stages",
+      "url": "https://www.bleepingcomputer.com/news/security/google-says-hackers-are-abusing-gemini-ai-for-all-attacks-stages/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
+    {
+      "id": "05755a076a07",
+      "date": "2026-02-12",
+      "title": "Apple fixes zero-day flaw used in 'extremely sophisticated' attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-zero-day-flaw-used-in-extremely-sophisticated-attacks/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "fb1205232f72",
+      "date": "2026-02-11",
+      "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Windows"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "10ee7108428a",
+      "date": "2026-02-11",
+      "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Phishing",
+        "Account takeover"
+      ],
+      "tech": [
+        "Windows"
+      ],
+      "top_recommendations": [
+        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
+        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
+      ]
+    },
+    {
+      "id": "093d651f7467",
+      "date": "2026-02-11",
+      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Ransomware"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
+    {
+      "id": "f0fb0efe1c82",
+      "date": "2026-02-12",
+      "title": "Senegalese Data Breaches Expose Lack of 'Security Maturity'",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-breach-senegal-national-biometric-database",
+      "source": "Dark Reading",
+      "severity": "High",
+      "tags": [
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
+    {
+      "id": "7ab3617209d7",
+      "date": "2026-02-10",
+      "title": "In Bypassing MFA, ZeroDayRAT Is 'Textbook Stalkerware'",
+      "url": "https://www.darkreading.com/threat-intelligence/zerodayrat-brings-commercial-spyware-to-mass-market",
+      "source": "Dark Reading",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "4ca4d74f2081",
+      "date": "2026-02-10",
+      "title": "Microsoft Patches 6 Actively Exploited Zero-Days",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/microsoft-fixes-6-actively-exploited-zero-days",
+      "source": "Dark Reading",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Windows",
+        "Cloud"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "21f1adffe43b",
+      "date": "2026-02-12",
+      "title": "AMOS infostealer targets macOS through a popular AI app",
+      "url": "https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    }
+  ]
+}

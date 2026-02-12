@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-12",
   "items": [
     {
+      "id": "2b23c62ec5ee",
+      "date": "2026-02-12",
+      "title": "WordPress plugin with 900k installs vulnerable to critical RCE flaw",
+      "summary": "A critical vulnerability in the WPvivid Backup & Migration plugin for WordPress, installed on more than 900,000 websites, can be exploited to achieve remote code execution by uploading arbitrary fi...",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-plugin-with-900k-installs-vulnerable-to-critical-rce-flaw/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "21f1adffe43b",
       "date": "2026-02-12",
       "title": "AMOS infostealer targets macOS through a popular AI app",
@@ -548,19 +560,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "bc7a9f657c10",
-      "date": "2026-02-09",
-      "title": "Hackers breach SmarterTools network using flaw in its own software",
-      "summary": "SmarterTools confirmed last week that the Warlock ransomware gang breached its network after compromising an email system, but did not impact business applications or account data.",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-smartertools-network-using-flaw-in-its-own-software/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Ransomware",
-        "Data breach",
-        "Account takeover"
       ]
     }
   ]
