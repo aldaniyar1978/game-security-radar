@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-12",
   "items": [
     {
+      "id": "416272ebd609",
+      "date": "2026-02-12",
+      "title": "Bitwarden introduces ‘Cupid Vault’ for secure password sharing",
+      "summary": "Bitwarden has launched a new system called 'Cupid Vault' that allows users to safely share passwords with trusted email addresses. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "4c2737886232",
       "date": "2026-02-12",
       "title": "Those 'Summarize With AI' Buttons May Be Lying to You",
@@ -549,17 +560,6 @@
       "source": "Dark Reading",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "ec820a1047a6",
-      "date": "2026-02-06",
-      "title": "Shai-hulud: The Hidden Costs of Supply Chain Attacks",
-      "summary": "Recent supply chain attacks involving self-propagating worms have spread far, but the damage and long-term impact is hard to quantify.",
-      "url": "https://www.darkreading.com/application-security/shai-hulud-hidden-cost-supply-chain-attacks",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]

@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-12T21:54:49Z",
+  "lastUpdated": "2026-02-12T22:18:44Z",
   "items": [
+    {
+      "id": "416272ebd609",
+      "date": "2026-02-12",
+      "title": "Bitwarden introduces ‘Cupid Vault’ for secure password sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-introduces-cupid-vault-for-secure-password-sharing/",
+      "source": "BleepingComputer",
+      "summary": "Bitwarden has launched a new system called 'Cupid Vault' that allows users to safely share passwords with trusted email addresses. [...]",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "97dca18ae56a",
       "date": "2026-02-12",
