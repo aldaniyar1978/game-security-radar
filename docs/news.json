@@ -49,7 +49,7 @@
       "id": "3c4bc5c339af",
       "date": "2026-02-06",
       "title": "OpenClaw's Gregarious Insecurities Make Safe Usage Difficult",
-      "summary": "Malicious &quot;skills&quot; and persnickety configuration settings are just some of the issues that security researchers have found when installing — and removing — the OpenClaw AI assistant.",
+      "summary": "Malicious \"skills\" and persnickety configuration settings are just some of the issues that security researchers have found when installing — and removing — the OpenClaw AI assistant.",
       "url": "https://www.darkreading.com/application-security/openclaw-insecurities-safe-usage-difficult",
       "source": "Dark Reading",
       "tags": [
@@ -140,7 +140,7 @@
       "id": "e8ab5e8716d0",
       "date": "2026-02-08",
       "title": "New tool blocks imposter attacks disguised as safe commands",
-      "summary": "A new open-source and cross-platform tool called Tirith can detect homoglyph attacks over command-line environments by analyzing URLs in typed commands and stopping their execution.  [...]",
+      "summary": "A new open-source and cross-platform tool called Tirith can detect homoglyph attacks over command-line environments by analyzing URLs in typed commands and stopping their execution.",
       "url": "https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/",
       "source": "BleepingComputer",
       "tags": [
@@ -149,9 +149,9 @@
     },
     {
       "id": "acf7f1b64dde",
-      "date": "2026-02-09",
+      "date": "2026-02-08",
       "title": "European Commission discloses breach that exposed staff data",
-      "summary": "The European Commission is investigating a breach after finding evidence that its mobile device management platform was hacked. [...]",
+      "summary": "The European Commission is investigating a breach after finding evidence that its mobile device management platform was hacked.",
       "url": "https://www.bleepingcomputer.com/news/security/european-commission-discloses-breach-that-exposed-staff-data/",
       "source": "BleepingComputer",
       "tags": [
@@ -162,7 +162,7 @@
       "id": "bc06193fbfd6",
       "date": "2026-02-09",
       "title": "Microsoft: Exchange Online flags legitimate emails as phishing",
-      "summary": "Microsoft is investigating an ongoing Exchange Online issue that mistakenly flags legitimate emails as phishing and quarantines them. [...]",
+      "summary": "Microsoft is investigating an ongoing Exchange Online issue that mistakenly flags legitimate emails as phishing and quarantines them.",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-flags-legitimate-emails-as-phishing/",
       "source": "BleepingComputer",
       "tags": [
@@ -173,7 +173,7 @@
       "id": "edd97ce3b198",
       "date": "2026-02-09",
       "title": "Men charged in FanDuel scheme fueled by thousands of stolen identities",
-      "summary": "Two Connecticut men face federal charges for allegedly defrauding FanDuel and other online gambling sites of $3 million over several years using the stolen identities of approximately 3,000 victims...",
+      "summary": "Two Connecticut men face federal charges for allegedly defrauding FanDuel and other online gambling sites of $3 million over several years using the stolen identities of approximately 3,000 victims.",
       "url": "https://www.bleepingcomputer.com/news/security/men-charged-in-massive-fanduel-fraud-scheme-fueled-by-thousands-of-stolen-identities/",
       "source": "BleepingComputer",
       "tags": [
@@ -184,7 +184,7 @@
       "id": "021f21373368",
       "date": "2026-02-09",
       "title": "BeyondTrust warns of critical RCE flaw in remote support software",
-      "summary": "BeyondTrust warned customers to patch a critical security flaw in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow unauthenticated attackers to execute arbitrary...",
+      "summary": "BeyondTrust warned customers to patch a critical security flaw in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow unauthenticated attackers to execute arbitrary code.",
       "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-rce-flaw-in-remote-support-software/",
       "source": "BleepingComputer",
       "tags": [
@@ -195,7 +195,7 @@
       "id": "84c427992b2a",
       "date": "2026-02-09",
       "title": "Password guessing without AI: How attackers build targeted wordlists",
-      "summary": "Attackers don't need AI to crack passwords, they build targeted wordlists from an organization's own public language. This article explains how tools like CeWL turn websites into high-success passw...",
+      "summary": "Attackers don't need AI to crack passwords, they build targeted wordlists from an organization's own public language. This article explains how tools like CeWL turn websites into high-success password lists.",
       "url": "https://www.bleepingcomputer.com/news/security/password-guessing-without-ai-how-attackers-build-targeted-wordlists/",
       "source": "BleepingComputer",
       "tags": [
@@ -206,7 +206,7 @@
       "id": "bc7a9f657c10",
       "date": "2026-02-09",
       "title": "Hackers breach SmarterTools network using flaw in its own software",
-      "summary": "SmarterTools confirmed last week that the Warlock ransomware gang breached its network after compromising an email system, but did not impact business applications or account data. [...]",
+      "summary": "SmarterTools confirmed last week that the Warlock ransomware gang breached its network after compromising an email system, but did not impact business applications or account data.",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-smartertools-network-using-flaw-in-its-own-software/",
       "source": "BleepingComputer",
       "tags": [
@@ -219,7 +219,7 @@
       "id": "9059334022f7",
       "date": "2026-02-09",
       "title": "Hackers exploit SolarWinds WHD flaws to deploy DFIR tool in attacks",
-      "summary": "Hackers are now exploiting SolarWinds Web Help Desk (WHD) vulnerabilities to gain code execution rights on exposed systems and deploy legitimate tools, including the Velociraptor forensics tools, f...",
+      "summary": "Hackers are now exploiting SolarWinds Web Help Desk (WHD) vulnerabilities to gain code execution rights on exposed systems and deploy legitimate tools, including the Velociraptor forensics tools.",
       "url": "https://www.bleepingcomputer.com/news/security/threat-actors-exploit-solarwinds-wdh-flaws-to-deploy-velociraptor/",
       "source": "BleepingComputer",
       "tags": [
@@ -231,7 +231,7 @@
       "id": "821fd57e0ece",
       "date": "2026-02-09",
       "title": "Chinese cyberspies breach Singapore's four largest telcos",
-      "summary": "The Chinese threat actor tracked as UNC3886 breached Singapore's four largest telecommunication service providers, Singtel, StarHub, M1, and Simba, at least once last year. [...]",
+      "summary": "The Chinese threat actor tracked as UNC3886 breached Singapore's four largest telecommunication service providers, Singtel, StarHub, M1, and Simba, at least once last year.",
       "url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/",
       "source": "BleepingComputer",
       "tags": [
@@ -242,7 +242,7 @@
       "id": "84024d51066e",
       "date": "2026-02-06",
       "title": "China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery",
-      "summary": "Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife that's operated by China-nexus threat actors since at least 2019.\n...",
+      "summary": "Cybersecurity researchers have taken the wraps off a gateway-monitoring and adversary-in-the-middle (AitM) framework dubbed DKnife that's operated by China-nexus threat actors since at least 2019.",
       "url": "https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html",
       "source": "The Hacker News",
       "tags": [
@@ -253,7 +253,7 @@
       "id": "0712ae436be2",
       "date": "2026-02-07",
       "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
-      "summary": "Germany's Federal Office for the Protection of the Constitution (aka Bundesamt für Verfassungsschutz or BfV) and Federal Office for Information Security (BSI) have issued a joint advisory warning o...",
+      "summary": "Germany's Federal Office for the Protection of the Constitution and Federal Office for Information Security issued a joint advisory warning of Signal-themed phishing targeting high-profile individuals.",
       "url": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
       "source": "The Hacker News",
       "tags": [
@@ -264,7 +264,7 @@
       "id": "d8f049d7bd57",
       "date": "2026-02-08",
       "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
-      "summary": "OpenClaw (formerly Moltbot and Clawdbot) has announced that it's partnering with Google-owned VirusTotal to scan skills that are being uploaded to ClawHub, its skill marketplace, as part of broader...",
+      "summary": "OpenClaw has announced that it's partnering with VirusTotal to scan skills uploaded to ClawHub, its skill marketplace, as part of broader security improvements.",
       "url": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
       "source": "The Hacker News",
       "tags": [
@@ -275,7 +275,7 @@
       "id": "8d468961f258",
       "date": "2026-02-09",
       "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
-      "summary": "BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could result in remot...",
+      "summary": "BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that could result in remote code execution.",
       "url": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
       "source": "The Hacker News",
       "tags": [
@@ -286,7 +286,7 @@
       "id": "3fb91ceaaddb",
       "date": "2026-02-09",
       "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
-      "summary": "Cybersecurity researchers have called attention to a \"massive campaign\" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation.\nThe...",
+      "summary": "Researchers have called attention to a massive campaign that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation.",
       "url": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
       "source": "The Hacker News",
       "tags": [
@@ -297,7 +297,7 @@
       "id": "c5c70afc44d6",
       "date": "2026-02-09",
       "title": "Bloody Wolf Targets Uzbekistan, Russia Using NetSupport RAT in Spear-Phishing Campaign",
-      "summary": "The threat actor known as Bloody Wolf has been linked to a campaign targeting Uzbekistan and Russia to infect systems with a remote access trojan known as NetSupport RAT.\nCybersecurity vendor Kaspe...",
+      "summary": "The threat actor known as Bloody Wolf has been linked to a campaign targeting Uzbekistan and Russia to infect systems with NetSupport RAT.",
       "url": "https://thehackernews.com/2026/02/bloody-wolf-targets-uzbekistan-russia.html",
       "source": "The Hacker News",
       "tags": [
@@ -309,7 +309,7 @@
       "id": "badeb57b4c66",
       "date": "2026-02-09",
       "title": "How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring",
-      "summary": "Why do SOC teams keep burning out and missing SLAs even after spending big on security tools? Routine triage piles up, senior specialists get dragged into basic validation, and MTTR climbs, while s...",
+      "summary": "Why do SOC teams keep burning out and missing SLAs even after spending big on security tools? This article explores approaches to reduce burnout and MTTR.",
       "url": "https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html",
       "source": "The Hacker News",
       "tags": [
@@ -320,7 +320,7 @@
       "id": "6c56d70301a4",
       "date": "2026-02-09",
       "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
-      "summary": "Cyber threats are no longer coming from just malware or exploits. They’re showing up inside the tools, platforms, and ecosystems organizations use every day. As companies connect AI, cloud apps, de...",
+      "summary": "Weekly recap of major cyber threats including AI skill malware, record DDoS attacks, supply chain compromises and LLM backdoors.",
       "url": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
       "source": "The Hacker News",
       "tags": [
@@ -333,7 +333,7 @@
       "id": "b7de8c3232e6",
       "date": "2026-02-09",
       "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
-      "summary": "Microsoft has revealed that it observed a multi‑stage intrusion that involved the threat actors exploiting internet‑exposed SolarWinds Web Help Desk (WHD) instances to obtain initial access and mov...",
+      "summary": "Microsoft observed a multi-stage intrusion where threat actors exploited internet-exposed SolarWinds Web Help Desk instances to obtain initial access and move laterally.",
       "url": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
       "source": "The Hacker News",
       "tags": [
@@ -344,7 +344,7 @@
       "id": "8b431a13cec5",
       "date": "2026-02-09",
       "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
-      "summary": "The Cyber Security Agency (CSA) of Singapore on Monday revealed that the China-nexus cyber espionage group known as UNC3886 targeted its telecommunications sector.\n\"UNC3886 had launched a deliberat...",
+      "summary": "The Cyber Security Agency of Singapore revealed that China-nexus cyber espionage group UNC3886 targeted its telecommunications sector.",
       "url": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
       "source": "The Hacker News",
       "tags": [
@@ -374,8 +374,7 @@
         "tag2",
         "tag3"
       ]
-    }
-  ]
+    },
     {
       "id": "e4a1b2c3d4e5",
       "date": "2026-02-12",
@@ -383,7 +382,10 @@
       "summary": "A critical vulnerability in Microsoft Outlook allows attackers to execute code remotely. Patch is currently in development.",
       "url": "https://example.com/outlook-zero-day",
       "source": "Cyber Security News",
-      "tags": ["Zero-Day", "Microsoft"]
+      "tags": [
+        "Zero-Day",
+        "Microsoft"
+      ]
     },
     {
       "id": "f5b2c3d4e5f6",
@@ -392,7 +394,10 @@
       "summary": "Patient data has been compromised in a large-scale ransomware attack. Systems are being restored from backups.",
       "url": "https://example.com/healthcare-ransomware",
       "source": "HealthSec",
-      "tags": ["Ransomware", "Healthcare"]
+      "tags": [
+        "Ransomware",
+        "Healthcare"
+      ]
     },
     {
       "id": "a1b2c3d4e5f7",
@@ -401,7 +406,10 @@
       "summary": "A privilege escalation bug in the Linux kernel has been discovered. Users are advised to update their systems immediately.",
       "url": "https://example.com/linux-kernel-bug",
       "source": "LinuxSec",
-      "tags": ["Linux", "Exploit"]
+      "tags": [
+        "Linux",
+        "Exploit"
+      ]
     }
   ]
 }
