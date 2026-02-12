@@ -1,6 +1,32 @@
 {
-  "lastUpdated": "2026-02-12T22:18:44Z",
+  "lastUpdated": "2026-02-12T22:54:06Z",
   "items": [
+    {
+      "id": "dd05e43506d5",
+      "date": "2026-02-12",
+      "title": "Ivanti EPMM Zero-Day Bugs Spark Exploit Frenzy — Again",
+      "url": "https://www.darkreading.com/endpoint-security/ivanti-epmm-zero-day-bugs-exploit",
+      "source": "Dark Reading",
+      "summary": "It's time to phase out the &quot;patch and pray&quot; approach, eliminate needless public interfaces, and enforce authentication controls, one expert says.",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Medium",
+      "recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ],
+      "scripts": [
+        {
+          "name": "Search for requests related to this article URL in web logs (Linux)",
+          "language": "bash",
+          "body": "# Replace access.log paths with your actual web server logs\ngrep -i \"https://www.darkreading.com/endpoint-security/ivanti-epmm-zero-day-bugs-exploit\" /var/log/nginx/access.log* /var/log/apache2/access.log* 2>/dev/null || echo \"No hits for indicator\""
+        }
+      ]
+    },
     {
       "id": "416272ebd609",
       "date": "2026-02-12",

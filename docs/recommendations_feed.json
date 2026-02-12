@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-12T22:18:44Z",
+  "generatedAt": "2026-02-12T22:54:06Z",
   "items": [
+    {
+      "id": "dd05e43506d5",
+      "date": "2026-02-12",
+      "title": "Ivanti EPMM Zero-Day Bugs Spark Exploit Frenzy — Again",
+      "url": "https://www.darkreading.com/endpoint-security/ivanti-epmm-zero-day-bugs-exploit",
+      "source": "Dark Reading",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
     {
       "id": "97dca18ae56a",
       "date": "2026-02-12",
