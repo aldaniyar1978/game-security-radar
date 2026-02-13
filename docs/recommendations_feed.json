@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-13T09:08:19Z",
+  "generatedAt": "2026-02-13T10:05:17Z",
   "items": [
+    {
+      "id": "204fd1b70c66",
+      "date": "2026-02-13",
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "url": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
     {
       "id": "dd05e43506d5",
       "date": "2026-02-12",

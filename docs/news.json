@@ -2,6 +2,28 @@
   "lastUpdated": "2026-02-13",
   "items": [
     {
+      "id": "83e09e2a5ae7",
+      "date": "2026-02-13",
+      "title": "Microsoft fixes bug that blocked Google Chrome from launching",
+      "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": "204fd1b70c66",
+      "date": "2026-02-13",
+      "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+      "summary": "Threat actors have started to exploit a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products, according to watchTowr.\n\"Ove...",
+      "url": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "512c601ceddf",
       "date": "2026-02-12",
       "title": "Russia tries to block WhatsApp, Telegram in communication blockade",
@@ -538,28 +560,6 @@
       "source": "The Hacker News",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "db47d3d18a61",
-      "date": "2026-02-05",
-      "title": "Data Tool to Triage Exploited Vulnerabilities Can Make KEV More Useful",
-      "summary": "A disconnect exists between an organization's cybersecurity needs and lists like CISA's KEV Catalog. KEV Collider combines data from multiple open source vulnerability frameworks to help security t...",
-      "url": "https://www.darkreading.com/threat-intelligence/data-tool-triage-exploited-vulnerabilities-make-kev-catalog-more-useful",
-      "source": "Dark Reading",
-      "tags": [
-        "Vulnerability"
-      ]
-    },
-    {
-      "id": "bd37bb81bc0c",
-      "date": "2026-02-05",
-      "title": "Agentic AI Site 'Moltbook' Is Riddled With Security Risks",
-      "summary": "Someone used AI to build an entire Web platform, which then did something predictable and preventable: It exposed all its data through a publicly accessible API.",
-      "url": "https://www.darkreading.com/cyber-risk/agentic-ai-moltbook-security-risks",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
