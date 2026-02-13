@@ -145,13 +145,13 @@
     const container = document.getElementById('recommendations-list');
     try {
         console.log('Starting to load recommendations...');
-        const res = await fetch('data/feed.json', { cache: 'no-cache' });            console.log('Fetch response:', res.status);
-            if (!res.ok) throw new Error('HTTP ' + res.status);
-            const data = await res.json();
-            console.log('Data loaded:', data);
-            const items = data.items || [];
-            console.log('Items count:', items.length);
-            if (!items.length) {
+        const res = await fetch('data/feed.json', { cache: 'no-cache' });
+              console.log('Fetch response:', res.status);
+              if (!res.ok) throw new Error('HTTP ' + res.status);
+              const data = await res.json();
+              console.log('Data loaded:', data);
+              const items = data.items || [];
+              console.log('Items count:', items.length);if (!items.length) {
                 container.innerHTML = '<p style="color:#f97316;">No recommendations yet.</p>';
                 return;
             }
