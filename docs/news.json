@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-13",
   "items": [
     {
+      "id": "53d9872b7671",
+      "date": "2026-02-13",
+      "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
+      "summary": "Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "ac9b1d7e4589",
       "date": "2026-02-13",
       "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
@@ -549,18 +560,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Phishing"
-      ]
-    },
-    {
-      "id": "093d651f7467",
-      "date": "2026-02-11",
-      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
-      "summary": "A member of the Crazy ransomware gang is abusing legitimate employee monitoring software and the SimpleHelp remote support tool to maintain persistence in corporate networks, evade detection, and p...",
-      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware",
-        "Ransomware"
       ]
     }
   ]
