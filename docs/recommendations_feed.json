@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-13T13:40:41Z",
+  "generatedAt": "2026-02-13T14:32:29Z",
   "items": [
+    {
+      "id": "aa74d0794d54",
+      "date": "2026-02-12",
+      "title": "Senegalese Data Breaches Expose Lack of Security Maturity",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-breach-senegal-national-biometric-database",
+      "source": "Dark Reading",
+      "severity": "High",
+      "tags": [
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
     {
       "id": "e7be3b8c8718",
       "date": "2026-02-13",
