@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-13",
   "items": [
     {
+      "id": "e502c91e786b",
+      "date": "2026-02-13",
+      "title": "Fake job recruiters hide malware in developer coding challenges",
+      "summary": "A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "53d9872b7671",
       "date": "2026-02-13",
       "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
@@ -549,17 +560,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "e090fe6afa1b",
-      "date": "2026-02-11",
-      "title": "Police arrest seller of JokerOTP MFA passcode capturing tool",
-      "summary": "The Netherlands Police have arrested a a 21-year-old man from Dordrecht, suspected of selling access to the JokerOTP phishing automation tool that can intercept one-time passwords (OTP) for hijacki...",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrest-seller-of-jokerotp-mfa-passcode-capturing-tool/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Phishing"
       ]
     }
   ]
