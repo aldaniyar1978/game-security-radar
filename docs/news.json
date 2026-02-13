@@ -2,6 +2,30 @@
   "lastUpdated": "2026-02-13",
   "items": [
     {
+      "id": "e7be3b8c8718",
+      "date": "2026-02-13",
+      "title": "CISA flags critical Microsoft SCCM flaw as exploited in attacks",
+      "summary": "CISA ordered federal agencies on Thursday to secure their systems against a critical Microsoft Configuration Manager vulnerability patched in October 2024 and now exploited in attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ]
+    },
+    {
+      "id": "4fe26708d087",
+      "date": "2026-02-12",
+      "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
+      "summary": "Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted ...",
+      "url": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "d4c053622cc8",
       "date": "2026-02-13",
       "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
@@ -537,28 +561,6 @@
       "source": "The Hacker News",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "a85675565d7f",
-      "date": "2026-02-12",
-      "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
-      "summary": "A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting ...",
-      "url": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Vulnerability"
-      ]
-    },
-    {
-      "id": "c064b71dcec2",
-      "date": "2026-02-12",
-      "title": "The CTEM Divide: Why 84% of Security Programs Are Falling Behind",
-      "summary": "A new 2026 market intelligence study of 128 enterprise security decision-makers (available here) reveals a stark divide forming between organizations – one that has nothing to do with budget size o...",
-      "url": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
