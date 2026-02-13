@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-13T18:00:19Z",
+  "generatedAt": "2026-02-13T19:11:52Z",
   "items": [
+    {
+      "id": "ac9b1d7e4589",
+      "date": "2026-02-13",
+      "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
+      "url": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
     {
       "id": "7a643336f0ca",
       "date": "2026-02-13",
