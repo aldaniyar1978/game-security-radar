@@ -144,15 +144,8 @@
   async function loadRecommendations() {
     const container = document.getElementById('recommendations-list');
     try {
-      const res = await fetch('data/feed.json', { cache: 'no-cache' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-            const data = await res.json();
-    async function loadRecommendations() {
-        const container = document.getElementById('recommendations-list');
         console.log('Starting to load recommendations...');
-        try {
-            const res = await fetch('data/feed.json', { cache: 'no-cache' });
-            console.log('Fetch response:', res.status);
+        const res = await fetch('data/feed.json', { cache: 'no-cache' });            console.log('Fetch response:', res.status);
             if (!res.ok) throw new Error('HTTP ' + res.status);
             const data = await res.json();
             console.log('Data loaded:', data);
