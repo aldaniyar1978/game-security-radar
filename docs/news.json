@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-13",
   "items": [
     {
+      "id": "d4c053622cc8",
+      "date": "2026-02-13",
+      "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+      "summary": "Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager.\nThe extension, named C...",
+      "url": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "a2997cc05b92",
       "date": "2026-02-13",
       "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
@@ -548,18 +559,6 @@
       "source": "The Hacker News",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "4fe26708d087",
-      "date": "2026-02-12",
-      "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
-      "summary": "Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted ...",
-      "url": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Malware",
-        "Vulnerability"
       ]
     }
   ]

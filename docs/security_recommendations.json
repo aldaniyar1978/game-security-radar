@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-13T11:50:33Z",
+  "lastUpdated": "2026-02-13T12:28:04Z",
   "items": [
+    {
+      "id": "d4c053622cc8",
+      "date": "2026-02-13",
+      "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+      "url": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+      "source": "The Hacker News",
+      "summary": "Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager.\nThe extension, named C...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "a2997cc05b92",
       "date": "2026-02-13",
