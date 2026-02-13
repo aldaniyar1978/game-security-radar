@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-13",
   "items": [
     {
+      "id": "61fca8234e9b",
+      "date": "2026-02-13",
+      "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
+      "summary": "Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment...",
+      "url": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "aa74d0794d54",
       "date": "2026-02-12",
       "title": "Senegalese Data Breaches Expose Lack of Security Maturity",
@@ -549,18 +560,6 @@
       "source": "The Hacker News",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "8555b4fc0197",
-      "date": "2026-02-11",
-      "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
-      "summary": "Intentionally vulnerable training applications are widely used for security education, internal testing, and product demonstrations. Tools such as OWASP Juice Shop, DVWA, Hackazon, and bWAPP are de...",
-      "url": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Malware",
-        "Data breach"
       ]
     }
   ]
