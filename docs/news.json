@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-14",
   "items": [
     {
+      "id": "b66202b52e1b",
+      "date": "2026-02-13",
+      "title": "Zscaler-SquareX Deal Boosts Zero Trust, Secure Browsing Capabilities",
+      "summary": "Zscaler's acquisition of SquareX comes as competitors like CrowdStrike and Palo Alto Networks are also investing in secure browser technologies.",
+      "url": "https://www.darkreading.com/remote-workforce/zscaler-squarex-deal-boosts-zero-trust-secure-browsing-capabilities",
+      "source": "Dark Reading",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "e502c91e786b",
       "date": "2026-02-13",
       "title": "Fake job recruiters hide malware in developer coding challenges",
@@ -546,17 +557,6 @@
       "title": "LummaStealer infections surge after CastleLoader malware campaigns",
       "summary": "A surge in LummaStealer infections has been observed, driven by social engineering campaigns leveraging the ClickFix technique to deliver the CastleLoader malware. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/lummastealer-infections-surge-after-castleloader-malware-campaigns/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "a5f4c33a8c70",
-      "date": "2026-02-11",
-      "title": "Proactive strategies for cyber resilience with Wazuh",
-      "summary": "Cyber resilience means anticipating threats, detecting them early, and recovering fast when incidents occur. Wazuh shows how its open source SIEM and XDR unify visibility, detection, and automated ...",
-      "url": "https://www.bleepingcomputer.com/news/security/proactive-strategies-for-cyber-resilience-with-wazuh/",
       "source": "BleepingComputer",
       "tags": [
         "Malware"

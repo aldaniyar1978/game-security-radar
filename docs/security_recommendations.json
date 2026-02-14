@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-13T22:56:34Z",
+  "lastUpdated": "2026-02-14T14:18:48Z",
   "items": [
+    {
+      "id": "b66202b52e1b",
+      "date": "2026-02-13",
+      "title": "Zscaler-SquareX Deal Boosts Zero Trust, Secure Browsing Capabilities",
+      "url": "https://www.darkreading.com/remote-workforce/zscaler-squarex-deal-boosts-zero-trust-secure-browsing-capabilities",
+      "source": "Dark Reading",
+      "summary": "Zscaler's acquisition of SquareX comes as competitors like CrowdStrike and Palo Alto Networks are also investing in secure browser technologies.",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "e502c91e786b",
       "date": "2026-02-13",
