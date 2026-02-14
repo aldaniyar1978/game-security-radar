@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T23:49:05.348238",
+  "updated": "2026-02-14T00:55:42.926917",
   "items": [
     {
       "id": "threat-001",
@@ -7,7 +7,7 @@
       "description": "A critical remote code execution vulnerability has been discovered in a widely-used web framework. Immediate patching recommended.",
       "category": "vulnerabilities",
       "severity": "critical",
-      "date": "2026-02-13",
+      "date": "2026-02-14",
       "source": "CVE Database",
       "tags": [
         "zero-day",
@@ -21,7 +21,7 @@
       "description": "Security researchers have identified a sophisticated ransomware campaign specifically targeting healthcare organizations with improved encryption methods.",
       "category": "malware",
       "severity": "high",
-      "date": "2026-02-13",
+      "date": "2026-02-14",
       "source": "Threat Intelligence Report",
       "tags": [
         "ransomware",
@@ -35,7 +35,7 @@
       "description": "Advanced persistent threat actors have been observed exploiting known vulnerabilities in enterprise VPN solutions to gain initial access.",
       "category": "apt",
       "severity": "high",
-      "date": "2026-02-13",
+      "date": "2026-02-14",
       "source": "Cybersecurity Agency",
       "tags": [
         "APT",
@@ -49,7 +49,7 @@
       "description": "A large-scale phishing operation has been detected targeting customers of major banks with sophisticated credential harvesting techniques.",
       "category": "phishing",
       "severity": "medium",
-      "date": "2026-02-13",
+      "date": "2026-02-14",
       "source": "Anti-Phishing Working Group",
       "tags": [
         "phishing",
@@ -63,7 +63,7 @@
       "description": "Researchers have observed a significant botnet expansion targeting IoT devices using newly discovered exploitation methods.",
       "category": "botnet",
       "severity": "medium",
-      "date": "2026-02-13",
+      "date": "2026-02-14",
       "source": "IoT Security Research",
       "tags": [
         "IoT",

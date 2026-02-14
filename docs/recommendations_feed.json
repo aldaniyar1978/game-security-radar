@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-13T23:49:05Z",
+  "generatedAt": "2026-02-14T00:55:42Z",
   "items": [
     {
       "id": "ac9b1d7e4589",
@@ -353,81 +353,6 @@
       ]
     },
     {
-      "id": "ab1e2e00d11d",
-      "date": "2026-02-11",
-      "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
-      "url": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
-      "source": "The Hacker News",
-      "severity": "Medium",
-      "tags": [
-        "Account takeover"
-      ],
-      "tech": [
-        "Windows"
-      ],
-      "top_recommendations": [
-        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
-        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
-      ]
-    },
-    {
-      "id": "8555b4fc0197",
-      "date": "2026-02-11",
-      "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
-      "url": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
-      "source": "The Hacker News",
-      "severity": "High",
-      "tags": [
-        "Malware",
-        "Data breach"
-      ],
-      "tech": [
-        "Cloud"
-      ],
-      "top_recommendations": [
-        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
-        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
-      ]
-    },
-    {
-      "id": "b690cac87aeb",
-      "date": "2026-02-11",
-      "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
-      "url": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
-      "source": "The Hacker News",
-      "severity": "Medium",
-      "tags": [
-        "Vulnerability"
-      ],
-      "tech": [
-        "Windows",
-        "Cloud"
-      ],
-      "top_recommendations": [
-        "Map affected product versions from the article to the software actually deployed in your environment.",
-        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
-      ]
-    },
-    {
-      "id": "10adbb41a76e",
-      "date": "2026-02-11",
-      "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
-      "url": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
-      "source": "The Hacker News",
-      "severity": "Medium",
-      "tags": [
-        "Malware",
-        "Vulnerability"
-      ],
-      "tech": [
-        "Linux"
-      ],
-      "top_recommendations": [
-        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
-        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
-      ]
-    },
-    {
       "id": "6ce20ac4aa20",
       "date": "2026-02-12",
       "title": "Fake AI Chrome extensions with 300K users steal credentials, emails",
@@ -479,62 +404,6 @@
       "top_recommendations": [
         "Map affected product versions from the article to the software actually deployed in your environment.",
         "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
-      ]
-    },
-    {
-      "id": "fb1205232f72",
-      "date": "2026-02-11",
-      "title": "Windows 11 Notepad flaw let files execute silently via Markdown links",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/",
-      "source": "BleepingComputer",
-      "severity": "Medium",
-      "tags": [
-        "Vulnerability"
-      ],
-      "tech": [
-        "Windows"
-      ],
-      "top_recommendations": [
-        "Map affected product versions from the article to the software actually deployed in your environment.",
-        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
-      ]
-    },
-    {
-      "id": "10ee7108428a",
-      "date": "2026-02-11",
-      "title": "Microsoft Store Outlook add-in hijacked to steal 4,000 Microsoft accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-store-outlook-add-in-hijacked-to-steal-4-000-microsoft-accounts/",
-      "source": "BleepingComputer",
-      "severity": "Medium",
-      "tags": [
-        "Phishing",
-        "Account takeover"
-      ],
-      "tech": [
-        "Windows"
-      ],
-      "top_recommendations": [
-        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
-        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
-      ]
-    },
-    {
-      "id": "093d651f7467",
-      "date": "2026-02-11",
-      "title": "Crazy ransomware gang abuses employee monitoring tool in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/",
-      "source": "BleepingComputer",
-      "severity": "High",
-      "tags": [
-        "Malware",
-        "Ransomware"
-      ],
-      "tech": [
-        "Generic"
-      ],
-      "top_recommendations": [
-        "Validate the integrity and recoverability of recent backups for all critical systems.",
-        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
       ]
     },
     {
