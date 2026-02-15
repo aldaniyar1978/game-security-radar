@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-15",
   "items": [
     {
+      "id": "e3ee556310c3",
+      "date": "2026-02-15",
+      "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
+      "summary": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hi...",
+      "url": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "379789ce0f3b",
       "date": "2026-02-15",
       "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
@@ -546,17 +557,6 @@
       "title": "How to Stay on Top of Future Threats With a Cutting-Edge SOC",
       "summary": "CISOs should focus on harnessing and securing AI and building new skills among their people. Vision and change management can transform security.",
       "url": "https://www.darkreading.com/cybersecurity-operations/stay-top-future-threats-cutting-edge-soc",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "b1482f54333b",
-      "date": "2026-02-11",
-      "title": "North Korea's UNC1069 Hammers Crypto Firms With AI",
-      "summary": "In moving away from traditional banks to focus on Web3 companies, the threat actor is leveraging LLMs, deepfakes, legitimate platforms, and ClickFix.",
-      "url": "https://www.darkreading.com/threat-intelligence/north-koreas-unc1069-hammers-crypto-firms",
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"

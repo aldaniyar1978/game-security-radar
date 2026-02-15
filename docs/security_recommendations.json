@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-15T15:13:24Z",
+  "lastUpdated": "2026-02-15T15:44:46Z",
   "items": [
+    {
+      "id": "e3ee556310c3",
+      "date": "2026-02-15",
+      "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
+      "url": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
+      "source": "BleepingComputer",
+      "summary": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hi...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "379789ce0f3b",
       "date": "2026-02-15",
