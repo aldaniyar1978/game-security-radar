@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-15",
   "items": [
     {
+      "id": "1f51868d7f88",
+      "date": "2026-02-15",
+      "title": "Windows 11 KB5077181 fixes boot failures linked to failed updates",
+      "summary": "Microsoft says it has resolved a Windows 11 bug that caused some commercial systems to fail to boot with an \"UNMOUNTABLE_BOOT_VOLUME\" error after installing recent security updates, with the fix de...",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-fixes-boot-failures-linked-to-failed-updates/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "a02b8efd67f4",
       "date": "2026-02-15",
       "title": "CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google Groups",
@@ -549,17 +560,6 @@
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "e13c8890f9bd",
-      "date": "2026-02-11",
-      "title": "AI Rising: Do We Know Enough About the Data Populating It?",
-      "summary": "Organizations remain reluctant to address the fact that AI can dangerously expose business operations as well as personal data.",
-      "url": "https://www.darkreading.com/data-privacy/do-we-know-enough-about-data-populating-ai",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
       ]
     }
   ]
