@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-15",
   "items": [
     {
+      "id": "a02b8efd67f4",
+      "date": "2026-02-15",
+      "title": "CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google Groups",
+      "summary": "CTM360 reports 4,000+ malicious Google Groups and 3,500+ Google-hosted URLs used to spread the Lumma Stealer infostealing malware and a trojanized \"Ninja Browser.\" The report details how attackers ...",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "e3ee556310c3",
       "date": "2026-02-15",
       "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
@@ -549,17 +560,6 @@
       "source": "Dark Reading",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "a6dc7bdaaf05",
-      "date": "2026-02-11",
-      "title": "How to Stay on Top of Future Threats With a Cutting-Edge SOC",
-      "summary": "CISOs should focus on harnessing and securing AI and building new skills among their people. Vision and change management can transform security.",
-      "url": "https://www.darkreading.com/cybersecurity-operations/stay-top-future-threats-cutting-edge-soc",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
