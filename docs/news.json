@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "9a1400cbc42d",
+      "date": "2026-02-16",
+      "title": "Google patches first Chrome zero-day exploited in attacks this year",
+      "summary": "Google has released emergency updates to fix a high-severity Chrome vulnerability exploited in zero-day attacks, marking the first such security flaw patched since the start of the year. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "021d53b365b1",
       "date": "2026-02-16",
       "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
@@ -549,18 +560,6 @@
       "source": "Dark Reading",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "7ab3617209d7",
-      "date": "2026-02-10",
-      "title": "In Bypassing MFA, ZeroDayRAT Is 'Textbook Stalkerware'",
-      "summary": "With access to SIM, location data, and a preview of recent SMSes, attackers have everything they need for account takeover or targeted social engineering.",
-      "url": "https://www.darkreading.com/threat-intelligence/zerodayrat-brings-commercial-spyware-to-mass-market",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware",
-        "Account takeover"
       ]
     }
   ]

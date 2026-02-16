@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-16T07:43:47Z",
+  "generatedAt": "2026-02-16T08:31:41Z",
   "items": [
+    {
+      "id": "9a1400cbc42d",
+      "date": "2026-02-16",
+      "title": "Google patches first Chrome zero-day exploited in attacks this year",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/",
+      "source": "BleepingComputer",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
     {
       "id": "021d53b365b1",
       "date": "2026-02-16",
