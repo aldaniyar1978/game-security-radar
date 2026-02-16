@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "ae30d16f93ec",
+      "date": "2026-02-16",
+      "title": "New ZeroDayRAT Mobile Spyware Enables Real-Time Surveillance and Data Theft",
+      "summary": "Cybersecurity researchers have disclosed details of a new mobile spyware platform dubbed ZeroDayRAT that's being advertised on Telegram as a way to grab sensitive data and facilitate real-time surv...",
+      "url": "https://thehackernews.com/2026/02/new-zerodayrat-mobile-spyware-enables.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "9a1400cbc42d",
       "date": "2026-02-16",
       "title": "Google patches first Chrome zero-day exploited in attacks this year",
@@ -549,17 +560,6 @@
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "4ca4d74f2081",
-      "date": "2026-02-10",
-      "title": "Microsoft Patches 6 Actively Exploited Zero-Days",
-      "summary": "Three of those zero-days are security feature bypass flaws, which give attackers a way to slip past built-in protections in multiple Microsoft products.",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/microsoft-fixes-6-actively-exploited-zero-days",
-      "source": "Dark Reading",
-      "tags": [
-        "Vulnerability"
       ]
     }
   ]
