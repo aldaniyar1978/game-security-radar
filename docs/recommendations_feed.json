@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-02-16T03:38:43Z",
+  "generatedAt": "2026-02-16T05:20:48Z",
   "items": [
+    {
+      "id": "ab2b10e0ebcc",
+      "date": "2026-02-16",
+      "title": "Canada Goose investigating as hackers leak 600K customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Ransomware",
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
     {
       "id": "94f24518b504",
       "date": "2026-02-14",

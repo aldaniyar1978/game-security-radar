@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "ab2b10e0ebcc",
+      "date": "2026-02-16",
+      "title": "Canada Goose investigating as hackers leak 600K customer records",
+      "summary": "ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComput...",
+      "url": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Ransomware",
+        "Data breach"
+      ]
+    },
+    {
       "id": "0e3fac02372e",
       "date": "2026-02-16",
       "title": "New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS",
@@ -546,17 +558,6 @@
       "title": "SolarWinds WHD Attacks Highlight Risks of Exposed Apps",
       "summary": "Organizations that have exposed their instances of Web Help Desk to the public Internet have inadvertently made them prime targets for attackers.",
       "url": "https://www.darkreading.com/vulnerabilities-threats/solarwinds-whd-attacks-exposed-apps",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "59a00167e2e4",
-      "date": "2026-02-11",
-      "title": "Asia Fumbles With Throttling Back Telnet Traffic in Region",
-      "summary": "Only Taiwan made the top 10 list of governments, effectively blocking the threat-ridden protocol, but overall, the region lagged in curbing Telnet traffic.",
-      "url": "https://www.darkreading.com/threat-intelligence/asia-fumbles-telnet-threat-traffic",
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
