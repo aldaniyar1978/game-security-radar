@@ -2,6 +2,51 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "24d40b50f866",
+      "date": "2026-02-16",
+      "title": "Man arrested for demanding reward after accidental police data leak",
+      "summary": "Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received \"something in ret...",
+      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Data breach"
+      ]
+    },
+    {
+      "id": "5e6b7f3045b4",
+      "date": "2026-02-16",
+      "title": "Eurail says stolen traveler data now up for sale on dark web",
+      "summary": "Eurail B.V., the operator that provides access to 250,000 kilometers of European railways, confirmed that data stolen in a breach earlier this year is being offered for sale on the dark web. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ]
+    },
+    {
+      "id": "9cc15baab731",
+      "date": "2026-02-16",
+      "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
+      "summary": "A new study has found that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions.\n\"The attacks r...",
+      "url": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": "7b8b3f8afa0f",
+      "date": "2026-02-16",
+      "title": "Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens",
+      "summary": "Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw (formerly Clawdbot and Moltbot) configuration environ...",
+      "url": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "6e7015370f5d",
       "date": "2026-02-16",
       "title": "Operation DoppelBrand: Weaponizing Fortune 500 Brands",
@@ -513,51 +558,6 @@
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "59b22e305ef3",
-      "date": "2026-02-12",
-      "title": "Gone With the Shame: One in Two Americans Are Reluctant to Talk About Romance Scam Incidents",
-      "summary": "Men should take extra care on Valentine’s Day because they are nearly twice as likely as women to fall victim to romance scams.",
-      "url": "https://www.darkreading.com/cyber-risk/one-in-two-americans-romance-scam-incidents",
-      "source": "Dark Reading",
-      "tags": [
-        "Phishing"
-      ]
-    },
-    {
-      "id": "b6eb8a673d18",
-      "date": "2026-02-12",
-      "title": "SpecterOps Launches BloodHound Scentry to Accelerate the Practice of Identity Attack Path Management",
-      "summary": "Drawing on years of adversary tradecraft, SpecterOps experts work alongside customers to analyze and eliminate attack paths, protect critical assets, and stay ahead of emerging threats.",
-      "url": "https://www.darkreading.com/identity-access-management-security/specterops-launches-bloodhound-scentry",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "8c4c198e625a",
-      "date": "2026-02-12",
-      "title": "Microsoft: New Windows LNK spoofing issues aren't vulnerabilities",
-      "summary": "Today, at Wild West Hackin' Fest, security researcher Wietze Beukema disclosed multiple vulnerabilities in Windows LK shortcut files that allow attackers to deploy malicious payloads. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-lnk-spoofing-issues-arent-vulnerabilities/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Data breach"
-      ]
-    },
-    {
-      "id": "6f45c0c9e647",
-      "date": "2026-02-12",
-      "title": "Romania's oil pipeline operator Conpet confirms data stolen in attack",
-      "summary": "Romania's national oil pipeline operator, Conpet S.A., confirmed that the Qilin ransomware gang stole company data in an attack last week. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/romanias-oil-pipeline-operator-conpet-confirms-data-stolen-in-attack/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware",
-        "Ransomware"
       ]
     }
   ]

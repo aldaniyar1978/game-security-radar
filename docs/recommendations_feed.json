@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-02-16T18:38:00Z",
+  "generatedAt": "2026-02-16T19:23:58Z",
   "items": [
+    {
+      "id": "5e6b7f3045b4",
+      "date": "2026-02-16",
+      "title": "Eurail says stolen traveler data now up for sale on dark web",
+      "url": "https://www.bleepingcomputer.com/news/security/eurail-says-stolen-traveler-data-now-up-for-sale-on-dark-web/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "24d40b50f866",
+      "date": "2026-02-16",
+      "title": "Man arrested for demanding reward after accidental police data leak",
+      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
     {
       "id": "6e7015370f5d",
       "date": "2026-02-16",
