@@ -2,6 +2,28 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "59b22e305ef3",
+      "date": "2026-02-12",
+      "title": "Gone With the Shame: One in Two Americans Are Reluctant to Talk About Romance Scam Incidents",
+      "summary": "Men should take extra care on Valentine’s Day because they are nearly twice as likely as women to fall victim to romance scams.",
+      "url": "https://www.darkreading.com/cyber-risk/one-in-two-americans-romance-scam-incidents",
+      "source": "Dark Reading",
+      "tags": [
+        "Phishing"
+      ]
+    },
+    {
+      "id": "b6eb8a673d18",
+      "date": "2026-02-12",
+      "title": "SpecterOps Launches BloodHound Scentry to Accelerate the Practice of Identity Attack Path Management",
+      "summary": "Drawing on years of adversary tradecraft, SpecterOps experts work alongside customers to analyze and eliminate attack paths, protect critical assets, and stay ahead of emerging threats.",
+      "url": "https://www.darkreading.com/identity-access-management-security/specterops-launches-bloodhound-scentry",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "24d40b50f866",
       "date": "2026-02-16",
       "title": "Man arrested for demanding reward after accidental police data leak",
@@ -536,28 +558,6 @@
       "source": "Dark Reading",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "97dca18ae56a",
-      "date": "2026-02-12",
-      "title": "Critical BeyondTrust RCE flaw now exploited in attacks, patch now",
-      "summary": "A critical pre-authentication remote code execution vulnerability in BeyondTrust Remote Support and Privileged Remote Access appliances is now being exploited in attacks after a PoC was published o...",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-beyondtrust-rce-flaw-now-exploited-in-attacks-patch-now/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Vulnerability"
-      ]
-    },
-    {
-      "id": "5bd973267c4a",
-      "date": "2026-02-12",
-      "title": "Those 'Summarize With AI' Buttons May Lying to You",
-      "summary": "Microsoft uncovered AI recommendation poisoning in 31 companies across 14 industries, and turnkey tools make it trivially easy to pull off.",
-      "url": "https://www.darkreading.com/cyber-risk/summarize-ai-buttons-may-be-lying",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
