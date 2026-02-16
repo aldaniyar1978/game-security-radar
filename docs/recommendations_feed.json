@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-16T20:52:18Z",
+  "generatedAt": "2026-02-16T21:17:00Z",
   "items": [
+    {
+      "id": "89b00c627697",
+      "date": "2026-02-16",
+      "title": "Washington Hotel in Japan discloses ransomware infection incident",
+      "url": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Ransomware"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
     {
       "id": "5e6b7f3045b4",
       "date": "2026-02-16",

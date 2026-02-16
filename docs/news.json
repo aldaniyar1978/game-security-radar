@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "89b00c627697",
+      "date": "2026-02-16",
+      "title": "Washington Hotel in Japan discloses ransomware infection incident",
+      "summary": "The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Ransomware"
+      ]
+    },
+    {
       "id": "59b22e305ef3",
       "date": "2026-02-12",
       "title": "Gone With the Shame: One in Two Americans Are Reluctant to Talk About Romance Scam Incidents",
@@ -547,17 +558,6 @@
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "422154bc8910",
-      "date": "2026-02-12",
-      "title": "Booz Allen Announces General Availability of Vellox Reverser to Automate Malware Defense",
-      "summary": "The AI-powered product delivers expert-grade malware analysis and reverse engineering in minutes.",
-      "url": "https://www.darkreading.com/endpoint-security/booz-allen-announces-general-availability-vellox-reverser",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
       ]
     }
   ]
