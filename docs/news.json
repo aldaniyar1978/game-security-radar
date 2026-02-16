@@ -2,6 +2,28 @@
   "lastUpdated": "2026-02-16",
   "items": [
     {
+      "id": "f55ae2d79fd1",
+      "date": "2026-02-16",
+      "title": "CISA gives feds 3 days to patch actively exploited BeyondTrust flaw",
+      "summary": "CISA ordered U.S. government agencies on Friday to secure their BeyondTrust Remote Support instances against an actively exploited vulnerability within three days. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-beyondtrust-flaw-within-three-days/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
+      "id": "04e217b06029",
+      "date": "2026-02-16",
+      "title": "Safe and Inclusive E‑Society: How Lithuania Is Bracing for AI‑Driven Cyber Fraud",
+      "summary": "Presentation of the KTU Consortium Mission ‘A Safe and Inclusive Digital Society’ at the Innovation Agency event ‘Innovation Breakfast: How Mission-Oriented Science and Innovation Programmes Will A...",
+      "url": "https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "ae30d16f93ec",
       "date": "2026-02-16",
       "title": "New ZeroDayRAT Mobile Spyware Enables Real-Time Surveillance and Data Theft",
@@ -537,29 +559,6 @@
       "tags": [
         "Malware",
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "21f1adffe43b",
-      "date": "2026-02-12",
-      "title": "AMOS infostealer targets macOS through a popular AI app",
-      "summary": "AMOS infostealer is targeting macOS users by abusing popular AI apps and extension marketplaces to harvest credentials. Flare examines how AMOS operates, spreads through AI-driven lures, and feeds ...",
-      "url": "https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware",
-        "Account takeover"
-      ]
-    },
-    {
-      "id": "24d575d571cf",
-      "date": "2026-02-10",
-      "title": "Automaker Secures the Supply Chain With Developer-Friendly Platform",
-      "summary": "How a platform engineering team embeds supply chain security into infrastructure without slowing developers.",
-      "url": "https://www.darkreading.com/application-security/automaker-secures-supply-chain-developer-friendly-platform",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
