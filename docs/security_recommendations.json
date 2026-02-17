@@ -1,6 +1,56 @@
 {
-  "lastUpdated": "2026-02-17T07:29:54Z",
+  "lastUpdated": "2026-02-17T10:09:38Z",
   "items": [
+    {
+      "id": "d7b2a6742259",
+      "date": "2026-02-17",
+      "title": "Microsoft Finds “Summarize with AI” Prompts Manipulating Chatbot Recommendations",
+      "url": "https://thehackernews.com/2026/02/microsoft-finds-summarize-with-ai.html",
+      "source": "The Hacker News",
+      "summary": "New research from Microsoft has revealed that legitimate businesses are gaming artificial intelligence (AI) chatbots via the \"Summarize with AI\" button that's being increasingly placed on websites ...",
+      "tags": [
+        "Gaming"
+      ],
+      "tech": [
+        "Windows"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
+    {
+      "id": "65ca84d3e46c",
+      "date": "2026-02-17",
+      "title": "Ireland now also investigating X over Grok-made sexual images",
+      "url": "https://www.bleepingcomputer.com/news/security/ireland-now-also-investigating-x-over-grok-made-sexual-images/",
+      "source": "BleepingComputer",
+      "summary": "Ireland's Data Protection Commission (DPC), the country's data protection authority, has opened a formal investigation into X over the use of the platform's Grok artificial intelligence tool to gen...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "e349148728f7",
       "date": "2026-02-17",
