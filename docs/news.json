@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-17",
   "items": [
     {
+      "id": "b8b65f2e1f37",
+      "date": "2026-02-17",
+      "title": "ClickFix Attacks Abuses DNS Lookup Command to Deliver ModeloRAT",
+      "summary": "ClickFix campaigns have adapted to the latest defenses with a new technique to trick users into infecting their own machines with malware.",
+      "url": "https://www.darkreading.com/endpoint-security/clickfix-attacks-dns-lookup-command-modelorat",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "f8956037c885",
       "date": "2026-02-17",
       "title": "Chinese hackers exploiting Dell zero-day flaw since mid-2024",
@@ -548,17 +559,6 @@
       "tags": [
         "Malware",
         "Data breach"
-      ]
-    },
-    {
-      "id": "2fa8102d04a0",
-      "date": "2026-02-13",
-      "title": "Microsoft Under Pressure to Bolster Defenses for BYOVD Attacks",
-      "summary": "Threat actors are exploiting security gaps to weaponize Windows drivers and terminate security processes in targeted networks, and there may be no easy fixes in sight.",
-      "url": "https://www.darkreading.com/application-security/microsoft-under-pressure-defenses-byovd-attacks",
-      "source": "Dark Reading",
-      "tags": [
-        "Vulnerability"
       ]
     }
   ]
