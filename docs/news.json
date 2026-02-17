@@ -2,6 +2,19 @@
   "lastUpdated": "2026-02-17",
   "items": [
     {
+      "id": "db8c02e7f15e",
+      "date": "2026-02-17",
+      "title": "Poland arrests suspect linked to Phobos ransomware operation",
+      "summary": "Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server ...",
+      "url": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Ransomware",
+        "Account takeover"
+      ]
+    },
+    {
       "id": "dd05e43506d5",
       "date": "2026-02-12",
       "title": "Ivanti EPMM Zero-Day Bugs Spark Exploit Frenzy — Again",
@@ -545,17 +558,6 @@
       "summary": "In December 2025, in response to the Sha1-Hulud incident, npm completed a major authentication overhaul intended to reduce supply-chain attacks. While the overhaul is a solid step forward, the chan...",
       "url": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
       "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "83e09e2a5ae7",
-      "date": "2026-02-13",
-      "title": "Microsoft fixes bug that blocked Google Chrome from launching",
-      "summary": "Microsoft has fixed a known issue causing its Family Safety parental control service to block Windows users from launching Google Chrome and other web browsers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
-      "source": "BleepingComputer",
       "tags": [
         "Cybersecurity"
       ]

@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-02-17T11:10:19Z",
+  "generatedAt": "2026-02-17T11:57:40Z",
   "items": [
+    {
+      "id": "db8c02e7f15e",
+      "date": "2026-02-17",
+      "title": "Poland arrests suspect linked to Phobos ransomware operation",
+      "url": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Ransomware",
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
     {
       "id": "89b00c627697",
       "date": "2026-02-16",
