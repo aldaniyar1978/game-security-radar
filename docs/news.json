@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-17",
   "items": [
     {
+      "id": "db90bb82d36f",
+      "date": "2026-02-17",
+      "title": "Supply Chain Attack Embeds Malware in Android Devices",
+      "summary": "Keenadu downloads payloads that hijack browser searches, commit ad fraud, and execute other actions without user knowledge.",
+      "url": "https://www.darkreading.com/mobile-security/supply-chain-attack-embeds-malware-android-devices",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "e9c3b9df61b7",
       "date": "2026-02-13",
       "title": "AI Agents 'Swarm,' Security Complexity Follows Suit",
@@ -548,17 +559,6 @@
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "e502c91e786b",
-      "date": "2026-02-13",
-      "title": "Fake job recruiters hide malware in developer coding challenges",
-      "summary": "A new variation of the fake recruiter campaign from North Korean threat actors is targeting JavaScript and Python developers with cryptocurrency-related tasks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware"
       ]
     }
   ]
