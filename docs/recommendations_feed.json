@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-16T23:49:09Z",
+  "generatedAt": "2026-02-17T00:57:51Z",
   "items": [
     {
       "id": "89b00c627697",
@@ -165,24 +165,6 @@
       "top_recommendations": [
         "Validate the integrity and recoverability of recent backups for all critical systems.",
         "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
-      ]
-    },
-    {
-      "id": "94f24518b504",
-      "date": "2026-02-14",
-      "title": "One threat actor responsible for 83% of recent Ivanti RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/one-threat-actor-responsible-for-83-percent-of-recent-ivanti-rce-attacks/",
-      "source": "BleepingComputer",
-      "severity": "Medium",
-      "tags": [
-        "Vulnerability"
-      ],
-      "tech": [
-        "Generic"
-      ],
-      "top_recommendations": [
-        "Map affected product versions from the article to the software actually deployed in your environment.",
-        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
       ]
     }
   ]
