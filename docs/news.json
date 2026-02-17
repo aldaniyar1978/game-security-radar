@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-17",
   "items": [
     {
+      "id": "9686e1501eaa",
+      "date": "2026-02-17",
+      "title": "Spain orders NordVPN and ProtonVPN to block LaLiga stream piracy",
+      "summary": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]",
+      "url": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-and-protonvpn-to-block-laliga-stream-piracy/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "db90bb82d36f",
       "date": "2026-02-17",
       "title": "Supply Chain Attack Embeds Malware in Android Devices",
@@ -546,17 +557,6 @@
       "summary": "Threat actors are sending physical letters pretending to be from Trezor and Ledger, makers of cryptocurrency hardware wallets, to trick users into submitting recovery phrases in crypto theft attack...",
       "url": "https://www.bleepingcomputer.com/news/security/snail-mail-letters-target-trezor-and-ledger-users-in-crypto-theft-attacks/",
       "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "b66202b52e1b",
-      "date": "2026-02-13",
-      "title": "Zscaler-SquareX Deal Boosts Zero Trust, Secure Browsing Capabilities",
-      "summary": "Zscaler's acquisition of SquareX comes as competitors like CrowdStrike and Palo Alto Networks are also investing in secure browser technologies.",
-      "url": "https://www.darkreading.com/remote-workforce/zscaler-squarex-deal-boosts-zero-trust-secure-browsing-capabilities",
-      "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
       ]

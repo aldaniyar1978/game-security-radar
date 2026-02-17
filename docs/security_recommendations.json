@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-17T22:54:23Z",
+  "lastUpdated": "2026-02-17T23:16:26Z",
   "items": [
+    {
+      "id": "9686e1501eaa",
+      "date": "2026-02-17",
+      "title": "Spain orders NordVPN and ProtonVPN to block LaLiga stream piracy",
+      "url": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-and-protonvpn-to-block-laliga-stream-piracy/",
+      "source": "BleepingComputer",
+      "summary": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "db90bb82d36f",
       "date": "2026-02-17",
