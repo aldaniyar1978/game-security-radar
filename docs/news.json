@@ -2,6 +2,40 @@
   "lastUpdated": "2026-02-17",
   "items": [
     {
+      "id": "e9c3b9df61b7",
+      "date": "2026-02-13",
+      "title": "AI Agents 'Swarm,' Security Complexity Follows Suit",
+      "summary": "As AI deployments scale and start to include packs of agents autonomously working in concert, organizations face a naturally amplified attack surface.",
+      "url": "https://www.darkreading.com/cloud-security/ai-agents-swarm-security-complexity",
+      "source": "Dark Reading",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": "8d938b0eb234",
+      "date": "2026-02-13",
+      "title": "Nation-State Hackers Put Defense Industrial Base Under Siege",
+      "summary": "Espionage groups from China, Russia and other nations burned at least two dozen zero-days in edge devices in attempts to infiltrate defense contractors' networks.",
+      "url": "https://www.darkreading.com/cyber-risk/nation-state-hackers-defense-industrial-base-under-siege",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ]
+    },
+    {
+      "id": "b38553f3a6b2",
+      "date": "2026-02-17",
+      "title": "Poland Energy Survives Attack on Wind, Solar Infrastructure",
+      "summary": "Russia-aligned groups are probable culprits behind the wiper attacks against renewable energy farms, a manufacturer, and a heating and power plant.",
+      "url": "https://www.darkreading.com/threat-intelligence/poland-energy-attack-wind-solar-infrastructure",
+      "source": "Dark Reading",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "2fa8102d04a0",
       "date": "2026-02-13",
       "title": "Microsoft Under Pressure to Bolster Defenses for BYOVD Attacks",
@@ -525,40 +559,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "53d9872b7671",
-      "date": "2026-02-13",
-      "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
-      "summary": "Threat actors are abusing Claude artifacts and Google Ads in ClickFix campaigns that deliver infostealer malware to macOS users searching for specific queries. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "ac9b1d7e4589",
-      "date": "2026-02-13",
-      "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
-      "summary": "South Korea has fined luxury fashion brands Louis Vuitton, Christian Dior Couture, and Tiffany $25 million for failing to implement adequate security measures, which facilitated unauthorized access...",
-      "url": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Data breach"
-      ]
-    },
-    {
-      "id": "24d0fa61910d",
-      "date": "2026-02-13",
-      "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
-      "summary": "Several state-sponsored actors, hacktivist entities, and criminal groups from China, Iran, North Korea, and Russia have trained their sights on the defense industrial base (DIB) sector, according t...",
-      "url": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Malware",
-        "Data breach"
       ]
     }
   ]

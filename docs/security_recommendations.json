@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-17T21:36:35Z",
+  "lastUpdated": "2026-02-17T22:17:03Z",
   "items": [
+    {
+      "id": "b38553f3a6b2",
+      "date": "2026-02-17",
+      "title": "Poland Energy Survives Attack on Wind, Solar Infrastructure",
+      "url": "https://www.darkreading.com/threat-intelligence/poland-energy-attack-wind-solar-infrastructure",
+      "source": "Dark Reading",
+      "summary": "Russia-aligned groups are probable culprits behind the wiper attacks against renewable energy farms, a manufacturer, and a heating and power plant.",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "44a40212a55a",
       "date": "2026-02-17",
