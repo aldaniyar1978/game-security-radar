@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-18",
   "items": [
     {
+      "id": "7e2e6fe0474b",
+      "date": "2026-02-18",
+      "title": "Microsoft says bug causes Copilot to summarize confidential emails",
+      "summary": "Microsoft says a Microsoft 365 Copilot bug has been causing the AI assistant to summarize confidential emails since late January, bypassing data loss prevention (DLP) policies that organizations re...",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-causes-copilot-to-summarize-confidential-emails/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "8685806a46ad",
       "date": "2026-02-18",
       "title": "3 Ways to Start Your Intelligent Workflow Program",
@@ -546,17 +557,6 @@
       "summary": "Google has released emergency updates to fix a high-severity Chrome vulnerability exploited in zero-day attacks, marking the first such security flaw patched since the start of the year. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/",
       "source": "BleepingComputer",
-      "tags": [
-        "Vulnerability"
-      ]
-    },
-    {
-      "id": "021d53b365b1",
-      "date": "2026-02-16",
-      "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
-      "summary": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild.\nThe high-severity vulnerability, tracked as CVE-2026-2441 (...",
-      "url": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
-      "source": "The Hacker News",
       "tags": [
         "Vulnerability"
       ]
