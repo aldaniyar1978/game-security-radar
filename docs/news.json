@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-18",
   "items": [
     {
+      "id": "58e7a17c449b",
+      "date": "2026-02-18",
+      "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
+      "summary": "Notepad++ has released a security fix to plug gaps that were exploited by an advanced threat actor from China to hijack the software update mechanism to selectively deliver malware to targets of in...",
+      "url": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "f00e56108157",
       "date": "2026-02-18",
       "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
@@ -548,17 +560,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "a02b8efd67f4",
-      "date": "2026-02-15",
-      "title": "CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google Groups",
-      "summary": "CTM360 reports 4,000+ malicious Google Groups and 3,500+ Google-hosted URLs used to spread the Lumma Stealer infostealing malware and a trojanized \"Ninja Browser.\" The report details how attackers ...",
-      "url": "https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware"
       ]
     }
   ]

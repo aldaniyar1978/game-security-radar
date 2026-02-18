@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-02-18T08:30:16Z",
+  "generatedAt": "2026-02-18T09:33:33Z",
   "items": [
+    {
+      "id": "58e7a17c449b",
+      "date": "2026-02-18",
+      "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
+      "url": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
     {
       "id": "f00e56108157",
       "date": "2026-02-18",
