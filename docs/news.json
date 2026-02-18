@@ -2,6 +2,29 @@
   "lastUpdated": "2026-02-18",
   "items": [
     {
+      "id": "2c5990e6054e",
+      "date": "2026-02-18",
+      "title": "Dell's Hard-Coded Flaw: A Nation-State Goldmine",
+      "summary": "A China-related attacker has exploited the vendor flaw since mid-2024, allowing it to move laterally, maintain persistent access, and deploy malware.",
+      "url": "https://www.darkreading.com/application-security/dells-hard-coded-flaw-a-nation-state-goldmine",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ]
+    },
+    {
+      "id": "f48bcd2a2a56",
+      "date": "2026-02-18",
+      "title": "Critical Grandstream VoIP Bug Highlights SMB Security Blind Spot",
+      "summary": "CVE-2026-2329 allows unauthenticated root-level access to SMB phone infrastructure, so attackers can intercept calls, commit toll fraud, and impersonate users.",
+      "url": "https://www.darkreading.com/threat-intelligence/grandstream-bug-voip-security-blind-spot",
+      "source": "Dark Reading",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "22d033ef229a",
       "date": "2026-02-18",
       "title": "Critical infra Honeywell CCTVs vulnerable to auth bypass flaw",
@@ -539,28 +562,6 @@
       "source": "Dark Reading",
       "tags": [
         "Phishing"
-      ]
-    },
-    {
-      "id": "b6eb8a673d18",
-      "date": "2026-02-12",
-      "title": "SpecterOps Launches BloodHound Scentry to Accelerate the Practice of Identity Attack Path Management",
-      "summary": "Drawing on years of adversary tradecraft, SpecterOps experts work alongside customers to analyze and eliminate attack paths, protect critical assets, and stay ahead of emerging threats.",
-      "url": "https://www.darkreading.com/identity-access-management-security/specterops-launches-bloodhound-scentry",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "24d40b50f866",
-      "date": "2026-02-16",
-      "title": "Man arrested for demanding reward after accidental police data leak",
-      "summary": "Dutch authorities arrested a 40-year-old man after he downloaded confidential documents that had been mistakenly shared by the police and refused to delete them unless he received \"something in ret...",
-      "url": "https://www.bleepingcomputer.com/news/security/man-arrested-for-demanding-reward-after-accidental-police-data-leak/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Data breach"
       ]
     }
   ]

@@ -1,6 +1,43 @@
 {
-  "generatedAt": "2026-02-18T21:01:10Z",
+  "generatedAt": "2026-02-18T21:52:39Z",
   "items": [
+    {
+      "id": "f48bcd2a2a56",
+      "date": "2026-02-18",
+      "title": "Critical Grandstream VoIP Bug Highlights SMB Security Blind Spot",
+      "url": "https://www.darkreading.com/threat-intelligence/grandstream-bug-voip-security-blind-spot",
+      "source": "Dark Reading",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "2c5990e6054e",
+      "date": "2026-02-18",
+      "title": "Dell's Hard-Coded Flaw: A Nation-State Goldmine",
+      "url": "https://www.darkreading.com/application-security/dells-hard-coded-flaw-a-nation-state-goldmine",
+      "source": "Dark Reading",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
     {
       "id": "22d033ef229a",
       "date": "2026-02-18",

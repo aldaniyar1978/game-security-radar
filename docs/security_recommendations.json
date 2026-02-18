@@ -1,6 +1,71 @@
 {
-  "lastUpdated": "2026-02-18T21:01:10Z",
+  "lastUpdated": "2026-02-18T21:52:39Z",
   "items": [
+    {
+      "id": "f48bcd2a2a56",
+      "date": "2026-02-18",
+      "title": "Critical Grandstream VoIP Bug Highlights SMB Security Blind Spot",
+      "url": "https://www.darkreading.com/threat-intelligence/grandstream-bug-voip-security-blind-spot",
+      "source": "Dark Reading",
+      "summary": "CVE-2026-2329 allows unauthenticated root-level access to SMB phone infrastructure, so attackers can intercept calls, commit toll fraud, and impersonate users.",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Medium",
+      "recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ],
+      "scripts": [
+        {
+          "name": "Search for requests related to this article URL in web logs (Linux)",
+          "language": "bash",
+          "body": "# Replace access.log paths with your actual web server logs\ngrep -i \"https://www.darkreading.com/threat-intelligence/grandstream-bug-voip-security-blind-spot\" /var/log/nginx/access.log* /var/log/apache2/access.log* 2>/dev/null || echo \"No hits for indicator\""
+        }
+      ]
+    },
+    {
+      "id": "2c5990e6054e",
+      "date": "2026-02-18",
+      "title": "Dell's Hard-Coded Flaw: A Nation-State Goldmine",
+      "url": "https://www.darkreading.com/application-security/dells-hard-coded-flaw-a-nation-state-goldmine",
+      "source": "Dark Reading",
+      "summary": "A China-related attacker has exploited the vendor flaw since mid-2024, allowing it to move laterally, maintain persistent access, and deploy malware.",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Medium",
+      "recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline.",
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ],
+      "scripts": [
+        {
+          "name": "PowerShell: hunt for suspicious processes and autoruns",
+          "language": "powershell",
+          "body": "Get-WmiObject Win32_Process |\n  Where-Object { $_.Path -and ($_.Path -like \"*AppData*\" -or $_.Path -like \"*Temp*\") } |\n  Select-Object ProcessId, Name, Path\n\nGet-CimInstance Win32_StartupCommand |\n  Select-Object Name, Command, Location"
+        },
+        {
+          "name": "Linux: hunt for suspicious processes and SUID binaries",
+          "language": "bash",
+          "body": "ps aux | egrep \"crypto|minerd|xmrig|kdevtmpfsi\" | grep -v egrep || echo \"No obvious miners found\"\n\nfind / -xdev -type f -perm -4000 2>/dev/null"
+        },
+        {
+          "name": "Search for requests related to this article URL in web logs (Linux)",
+          "language": "bash",
+          "body": "# Replace access.log paths with your actual web server logs\ngrep -i \"https://www.darkreading.com/application-security/dells-hard-coded-flaw-a-nation-state-goldmine\" /var/log/nginx/access.log* /var/log/apache2/access.log* 2>/dev/null || echo \"No hits for indicator\""
+        }
+      ]
+    },
     {
       "id": "22d033ef229a",
       "date": "2026-02-18",
