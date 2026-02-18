@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-18T17:32:06Z",
+  "lastUpdated": "2026-02-18T18:34:18Z",
   "items": [
+    {
+      "id": "57d7ff984868",
+      "date": "2026-02-18",
+      "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
+      "url": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html",
+      "source": "The Hacker News",
+      "summary": "New research from the Citizen Lab has found signs that Kenyan authorities used a commercial forensic extraction tool manufactured by Israeli company Cellebrite to break into a prominent dissident's...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "bae3f23d86a8",
       "date": "2026-02-18",
