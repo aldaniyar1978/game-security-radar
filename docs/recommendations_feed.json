@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-18T06:34:36Z",
+  "generatedAt": "2026-02-18T07:41:05Z",
   "items": [
+    {
+      "id": "f00e56108157",
+      "date": "2026-02-18",
+      "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
+      "url": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Cloud"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
     {
       "id": "fc045feb138c",
       "date": "2026-02-18",

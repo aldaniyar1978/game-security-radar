@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-18",
   "items": [
     {
+      "id": "f00e56108157",
+      "date": "2026-02-18",
+      "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in...",
+      "url": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "fc045feb138c",
       "date": "2026-02-18",
       "title": "Singapore &amp; Its 4 Major Telcos Fend Off Chinese Hackers",
@@ -548,17 +559,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "e3ee556310c3",
-      "date": "2026-02-15",
-      "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
-      "summary": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hi...",
-      "url": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
