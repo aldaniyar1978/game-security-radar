@@ -2,6 +2,29 @@
   "lastUpdated": "2026-02-18",
   "items": [
     {
+      "id": "6e7015370f5d",
+      "date": "2026-02-16",
+      "title": "Operation DoppelBrand: Weaponizing Fortune 500 Brands",
+      "summary": "The GS7 cyber-threat group targets US financial institutions with near-perfect imitations of corporate portals to steal credentials and gain remote access.",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/operation-doppelbrand-weaponizing-fortune-500-brands",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware",
+        "Account takeover"
+      ]
+    },
+    {
+      "id": "07acd8325b3a",
+      "date": "2026-02-18",
+      "title": "AI platforms can be abused for stealthy malware communication",
+      "summary": "AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "e43dd1f21bcd",
       "date": "2026-02-18",
       "title": "A CISO's Playbook for Defending Data Assets Against AI Scraping",
@@ -538,28 +561,6 @@
       "tags": [
         "Malware",
         "Data breach"
-      ]
-    },
-    {
-      "id": "9cc15baab731",
-      "date": "2026-02-16",
-      "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
-      "summary": "A new study has found that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions.\n\"The attacks r...",
-      "url": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "7b8b3f8afa0f",
-      "date": "2026-02-16",
-      "title": "Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens",
-      "summary": "Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw (formerly Clawdbot and Moltbot) configuration environ...",
-      "url": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Malware"
       ]
     }
   ]
