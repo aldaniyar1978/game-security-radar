@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-19",
   "items": [
     {
+      "id": "b7d24ce71f02",
+      "date": "2026-02-19",
+      "title": "More Than 40% of South Africans Were Scammed in 2025",
+      "summary": "Survey underscores the reality that scammers follow &quot;scalable opportunities and low friction,&quot; rather than rich targets that tend to be better protected.",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/south-africans-scammed-2025",
+      "source": "Dark Reading",
+      "tags": [
+        "Phishing",
+        "Malware"
+      ]
+    },
+    {
       "id": "7aafa0184778",
       "date": "2026-02-18",
       "title": "Scam Abuses Gemini Chatbots to Convince People to Buy Fake Crypto",
@@ -551,17 +563,6 @@
       "source": "Dark Reading",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "89b00c627697",
-      "date": "2026-02-16",
-      "title": "Washington Hotel in Japan discloses ransomware infection incident",
-      "summary": "The Washington Hotel brand in Japan has announced that that its servers were compromised in a ransomware attack, exposing various business data. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Ransomware"
       ]
     }
   ]
