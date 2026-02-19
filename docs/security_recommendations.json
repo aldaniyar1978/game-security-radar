@@ -1,6 +1,32 @@
 {
-  "lastUpdated": "2026-02-19T15:35:08Z",
+  "lastUpdated": "2026-02-19T17:40:29Z",
   "items": [
+    {
+      "id": "c4ebcdf6fdcf",
+      "date": "2026-02-19",
+      "title": "Flaw in Grandstream VoIP phones allows stealthy eavesdropping",
+      "url": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
+      "source": "BleepingComputer",
+      "summary": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Medium",
+      "recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ],
+      "scripts": [
+        {
+          "name": "Search for requests related to this article URL in web logs (Linux)",
+          "language": "bash",
+          "body": "# Replace access.log paths with your actual web server logs\ngrep -i \"https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/\" /var/log/nginx/access.log* /var/log/apache2/access.log* 2>/dev/null || echo \"No hits for indicator\""
+        }
+      ]
+    },
     {
       "id": "89be89f0bed2",
       "date": "2026-02-19",

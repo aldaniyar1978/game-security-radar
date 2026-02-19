@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-19",
   "items": [
     {
+      "id": "c4ebcdf6fdcf",
+      "date": "2026-02-19",
+      "title": "Flaw in Grandstream VoIP phones allows stealthy eavesdropping",
+      "summary": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "f10a534a0003",
       "date": "2026-02-19",
       "title": "How infostealers turn stolen credentials into real identities",
@@ -557,17 +568,6 @@
       "source": "The Hacker News",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "2afb8ce11e59",
-      "date": "2026-02-17",
-      "title": "Keenadu Firmware Backdoor Infects Android Tablets via Signed OTA Updates",
-      "summary": "A new Android backdoor that's embedded deep into the device firmware can silently harvest data and remotely control its behavior, according to new findings from Kaspersky.\nThe Russian cybersecurity...",
-      "url": "https://thehackernews.com/2026/02/keenadu-firmware-backdoor-infects.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
