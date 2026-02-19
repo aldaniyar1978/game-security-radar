@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-19T18:35:44Z",
+  "generatedAt": "2026-02-19T19:31:52Z",
   "items": [
+    {
+      "id": "567da9b63edb",
+      "date": "2026-02-19",
+      "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+      "url": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Windows"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
     {
       "id": "c4ebcdf6fdcf",
       "date": "2026-02-19",

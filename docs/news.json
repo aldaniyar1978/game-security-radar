@@ -2,6 +2,51 @@
   "lastUpdated": "2026-02-19",
   "items": [
     {
+      "id": "753e7acd3c47",
+      "date": "2026-02-19",
+      "title": "Google blocked over 1.75 million Play Store app submissions in 2025",
+      "summary": "Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected over 1.75 million apps from being published on Google Pl...",
+      "url": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": "567da9b63edb",
+      "date": "2026-02-19",
+      "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+      "summary": "Microsoft has disclosed a now-patched security flaw in Windows Admin Center that could allow an attacker to escalate their privileges.\nWindows Admin Center is a locally deployed, browser-based mana...",
+      "url": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
+      "id": "2f1da3f96fb4",
+      "date": "2026-02-19",
+      "title": "INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown",
+      "summary": "An international cybercrime operation against online scams has led to 651 arrests and recovered more than $4.3 million as part of an effort led by law enforcement agencies from 16 African countries...",
+      "url": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Phishing",
+        "Malware"
+      ]
+    },
+    {
+      "id": "9bbaf4505b0e",
+      "date": "2026-02-19",
+      "title": "PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence",
+      "summary": "Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and ...",
+      "url": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "c4ebcdf6fdcf",
       "date": "2026-02-19",
       "title": "Flaw in Grandstream VoIP phones allows stealthy eavesdropping",
@@ -523,51 +568,6 @@
       "tags": [
         "Malware",
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "b8b65f2e1f37",
-      "date": "2026-02-17",
-      "title": "ClickFix Attacks Abuses DNS Lookup Command to Deliver ModeloRAT",
-      "summary": "ClickFix campaigns have adapted to the latest defenses with a new technique to trick users into infecting their own machines with malware.",
-      "url": "https://www.darkreading.com/endpoint-security/clickfix-attacks-dns-lookup-command-modelorat",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "f8956037c885",
-      "date": "2026-02-17",
-      "title": "Chinese hackers exploiting Dell zero-day flaw since mid-2024",
-      "summary": "A suspected Chinese state-backed hacking group has been quietly exploiting a critical Dell security flaw in zero-day attacks that started in mid-2024. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Vulnerability",
-        "Data breach"
-      ]
-    },
-    {
-      "id": "69f69d1de8ab",
-      "date": "2026-02-17",
-      "title": "Notepad++ boosts update security with ‘double-lock’ mechanism",
-      "summary": "Notepad++ has adopted a \"double-lock\" design for its update mechanism to address recently exploited security gaps that resulted in a supply-chain compromise. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/notepad-plus-plus-boosts-update-security-with-double-lock-mechanism/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Vulnerability"
-      ]
-    },
-    {
-      "id": "be1136e98fce",
-      "date": "2026-02-17",
-      "title": "Researchers Show Copilot and Grok Can Be Abused as Malware C2 Proxies",
-      "summary": "Cybersecurity researchers have disclosed that artificial intelligence (AI) assistants that support web browsing or URL fetching capabilities can be turned into stealthy command-and-control (C2) rel...",
-      "url": "https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Malware"
       ]
     }
   ]
