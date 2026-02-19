@@ -2,6 +2,29 @@
   "lastUpdated": "2026-02-19",
   "items": [
     {
+      "id": "f10a534a0003",
+      "date": "2026-02-19",
+      "title": "How infostealers turn stolen credentials into real identities",
+      "summary": "Infostealer dumps increasingly tie stolen credentials to real identities, linking usernames, cookies, and behavior across personal and enterprise accounts. Specops explains how analyzing 90,000 dum...",
+      "url": "https://www.bleepingcomputer.com/news/security/how-infostealers-turn-stolen-credentials-into-real-identities/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Account takeover"
+      ]
+    },
+    {
+      "id": "89be89f0bed2",
+      "date": "2026-02-19",
+      "title": "CISA orders feds to patch actively exploited Dell flaw within 3 days",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their systems within three days against a maximum-severity Dell vulnerability that has been und...",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-dell-flaw-within-3-days/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "3fa203cf9962",
       "date": "2026-02-19",
       "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
@@ -543,28 +566,6 @@
       "summary": "A new Android backdoor that's embedded deep into the device firmware can silently harvest data and remotely control its behavior, according to new findings from Kaspersky.\nThe Russian cybersecurity...",
       "url": "https://thehackernews.com/2026/02/keenadu-firmware-backdoor-infects.html",
       "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "82952aaa1d40",
-      "date": "2026-02-17",
-      "title": "What 5 Million Apps Revealed About Secrets in JavaScript",
-      "summary": "Leaked API keys are nothing new, but the scale of the problem in front-end code has been largely a mystery - until now. Intruder's research team built a new secrets detection method and scanned 5 m...",
-      "url": "https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Data breach"
-      ]
-    },
-    {
-      "id": "0adfdb425a94",
-      "date": "2026-02-17",
-      "title": "Microsoft Teams outage affects users in United States, Europe",
-      "summary": "​Microsoft is working to resolve an ongoing outage affecting Microsoft Teams users, causing delays and preventing some from accessing the service. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outage-affects-users-in-united-states-europe/",
-      "source": "BleepingComputer",
       "tags": [
         "Cybersecurity"
       ]
