@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-02-19T11:57:59Z",
+  "generatedAt": "2026-02-19T12:52:44Z",
   "items": [
+    {
+      "id": "06748fc63e85",
+      "date": "2026-02-19",
+      "title": "From Exposure to Exploitation: How AI Collapses Your Response Window",
+      "url": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Cloud"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "b0780a905ab8",
+      "date": "2026-02-19",
+      "title": "Texas sues TP-Link over Chinese hacking risks, user deception",
+      "url": "https://www.bleepingcomputer.com/news/security/texas-sues-tp-link-over-chinese-hacking-risks-user-deception/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Vulnerability",
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
+    {
+      "id": "172862b2ac45",
+      "date": "2026-02-19",
+      "title": "Hackers target Microsoft Entra accounts in device code vishing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-entra-accounts-in-device-code-vishing-attacks/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Phishing",
+        "Data breach",
+        "Account takeover"
+      ],
+      "tech": [
+        "Windows"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
     {
       "id": "f48bcd2a2a56",
       "date": "2026-02-18",
