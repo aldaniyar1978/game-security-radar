@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-19",
   "items": [
     {
+      "id": "c8b7f16da761",
+      "date": "2026-02-19",
+      "title": "Abu Dhabi Finance Week Exposed VIP Passport Details",
+      "summary": "Unprotected cloud data sends the wrong signal at a time when the emirate's trying to attract investors and establish itself as a global financial center.",
+      "url": "https://www.darkreading.com/cyber-risk/abu-dhabi-finance-week-leaked-vip-passport-details",
+      "source": "Dark Reading",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "f45e61415959",
       "date": "2026-02-19",
       "title": "Connected and Compromised: When IoT Devices Turn Into Threats",
@@ -555,18 +566,6 @@
       "source": "Dark Reading",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "17db5a112e33",
-      "date": "2026-02-17",
-      "title": "RMM Abuse Explodes as Hackers Ditch Malware",
-      "summary": "It's the path of lesser resistance, as remote monitoring and management (RMM) software offers stealth, persistence, and operational efficiency.",
-      "url": "https://www.darkreading.com/application-security/rmm-abuse-explodes-hackers-ditch-malware",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware",
-        "Data breach"
       ]
     }
   ]
