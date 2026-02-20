@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "839dd550db26",
+      "date": "2026-02-19",
+      "title": "Emerging Chiplet Designs Spark Fresh Cybersecurity Challenges",
+      "summary": "As scaled-down circuits with limited functions redefine computing for AI systems and autonomous vehicles, their flexibility demands new approaches to safeguard critical infrastructure.",
+      "url": "https://www.darkreading.com/cyber-risk/emerging-chiplet-designs-spark-fresh-cybersecurity-challenges",
+      "source": "Dark Reading",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "939739b03a56",
       "date": "2026-02-20",
       "title": "Mississippi medical center closes all clinics after ransomware attack",
@@ -553,17 +564,6 @@
       "source": "The Hacker News",
       "tags": [
         "Malware"
-      ]
-    },
-    {
-      "id": "b6fcd7dc5d5f",
-      "date": "2026-02-18",
-      "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
-      "summary": "A maximum severity security vulnerability in Dell RecoverPoint for Virtual Machines has been exploited as a zero-day by a suspected China-nexus threat cluster dubbed UNC6201 since mid-2024, accordi...",
-      "url": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Vulnerability"
       ]
     }
   ]
