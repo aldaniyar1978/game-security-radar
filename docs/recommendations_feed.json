@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-20T11:01:02Z",
+  "generatedAt": "2026-02-20T11:50:11Z",
   "items": [
+    {
+      "id": "1e0ee4dd8d5f",
+      "date": "2026-02-20",
+      "title": "Identity Cyber Scores: The New Metric Shaping Cyber Insurance in 2026",
+      "url": "https://thehackernews.com/2026/02/identity-cyber-scores-new-metric.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
+        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
+      ]
+    },
     {
       "id": "567da9b63edb",
       "date": "2026-02-19",

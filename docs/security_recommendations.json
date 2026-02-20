@@ -1,6 +1,57 @@
 {
-  "lastUpdated": "2026-02-20T11:01:02Z",
+  "lastUpdated": "2026-02-20T11:50:11Z",
   "items": [
+    {
+      "id": "1e0ee4dd8d5f",
+      "date": "2026-02-20",
+      "title": "Identity Cyber Scores: The New Metric Shaping Cyber Insurance in 2026",
+      "url": "https://thehackernews.com/2026/02/identity-cyber-scores-new-metric.html",
+      "source": "The Hacker News",
+      "summary": "With one in three cyber-attacks now involving compromised employee accounts, insurers and regulators are placing far greater emphasis on identity posture when assessing cyber risk.&nbsp;\nFor many o...",
+      "tags": [
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Medium",
+      "recommendations": [
+        "Run targeted awareness for users most likely to be impacted by the described phishing templates.",
+        "Review MFA policies and disable legacy authentication protocols (POP/IMAP/SMTP basic auth and other non‑MFA flows)."
+      ],
+      "scripts": [
+        {
+          "name": "M365: search for suspicious sign‑ins in unified audit log",
+          "language": "powershell",
+          "body": "# Requires Exchange Online / Security & Compliance modules and permissions to read audit logs\nSearch-UnifiedAuditLog -StartDate (Get-Date).AddDays(-3) -EndDate (Get-Date) -Operations UserLoggedIn |\n  Where-Object { $_.ClientIP -notlike \"YOUR_TRUSTED_RANGE*\" } |\n  Select-Object UserId, ClientIP, Operation, CreationDate"
+        }
+      ]
+    },
+    {
+      "id": "f83b41c89d96",
+      "date": "2026-02-20",
+      "title": "Ukrainian National Sentenced to 5 Years in North Korea IT Worker Fraud Case",
+      "url": "https://thehackernews.com/2026/02/ukrainian-national-sentenced-to-5-years.html",
+      "source": "The Hacker News",
+      "summary": "A 29-year-old Ukrainian national has been sentenced to five years in prison in the U.S. for his role in facilitating North Korea's fraudulent information technology (IT) worker scheme.\nIn November ...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "16f290953d2e",
       "date": "2026-02-20",
