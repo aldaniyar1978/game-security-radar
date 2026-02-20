@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-19T23:18:59Z",
+  "lastUpdated": "2026-02-20T06:10:31Z",
   "items": [
+    {
+      "id": "06ae1db2b04b",
+      "date": "2026-02-20",
+      "title": "Three Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
+      "url": "https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html",
+      "source": "The Hacker News",
+      "summary": "Two former Google engineers and one of their husbands have been indicted in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the info...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "fa49b5ceb832",
       "date": "2026-02-19",

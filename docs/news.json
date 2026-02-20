@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "06ae1db2b04b",
+      "date": "2026-02-20",
+      "title": "Three Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
+      "summary": "Two former Google engineers and one of their husbands have been indicted in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the info...",
+      "url": "https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "fa49b5ceb832",
       "date": "2026-02-19",
       "title": "PromptSpy is the first known Android malware to use generative AI at runtime",
@@ -554,17 +565,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "db90bb82d36f",
-      "date": "2026-02-17",
-      "title": "Supply Chain Attack Embeds Malware in Android Devices",
-      "summary": "Keenadu downloads payloads that hijack browser searches, commit ad fraud, and execute other actions without user knowledge.",
-      "url": "https://www.darkreading.com/mobile-security/supply-chain-attack-embeds-malware-android-devices",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
       ]
     }
   ]
