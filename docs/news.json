@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "0920ed559940",
+      "date": "2026-02-20",
+      "title": "Why the shift left dream has become a nightmare for security and developers",
+      "summary": "The \"shift left\" approach has increased pressure on developers, as speed demands override security checks in modern CI pipelines. Qualys explains how analyzing 34,000 public container images reveal...",
+      "url": "https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "7b5ff146e145",
       "date": "2026-02-20",
       "title": "Latin America's Cyber Maturity Lags Threat Landscape",
@@ -552,17 +563,6 @@
       "tags": [
         "Vulnerability",
         "Account takeover"
-      ]
-    },
-    {
-      "id": "bae3f23d86a8",
-      "date": "2026-02-18",
-      "title": "Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution",
-      "summary": "Cybersecurity researchers have disclosed a critical security flaw in the Grandstream GXP1600 series of VoIP phones that could allow an attacker to seize control of susceptible devices.\nThe vulnerab...",
-      "url": "https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]

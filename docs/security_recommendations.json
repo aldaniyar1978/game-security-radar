@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-20T14:30:33Z",
+  "lastUpdated": "2026-02-20T15:27:02Z",
   "items": [
+    {
+      "id": "0920ed559940",
+      "date": "2026-02-20",
+      "title": "Why the shift left dream has become a nightmare for security and developers",
+      "url": "https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/",
+      "source": "BleepingComputer",
+      "summary": "The \"shift left\" approach has increased pressure on developers, as speed demands override security checks in modern CI pipelines. Qualys explains how analyzing 34,000 public container images reveal...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "cb083f6dea1b",
       "date": "2026-02-20",
