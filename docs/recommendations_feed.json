@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-20T21:12:28Z",
+  "generatedAt": "2026-02-20T21:45:58Z",
   "items": [
+    {
+      "id": "0c7e9131f287",
+      "date": "2026-02-20",
+      "title": "Attackers Use New Tool to Scan for React2Shell Exposure",
+      "url": "https://www.darkreading.com/application-security/attackers-new-tool-scan-react2shell-exposure",
+      "source": "Dark Reading",
+      "severity": "Medium",
+      "tags": [
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Map affected product versions from the article to the software actually deployed in your environment.",
+        "If no vendor patch is available, implement temporary mitigations such as WAF rules, strict access control, and additional segmentation."
+      ]
+    },
     {
       "id": "7138163a748c",
       "date": "2026-02-20",

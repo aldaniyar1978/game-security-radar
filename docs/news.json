@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "0c7e9131f287",
+      "date": "2026-02-20",
+      "title": "Attackers Use New Tool to Scan for React2Shell Exposure",
+      "summary": "Researchers say threat actors wielded the sophisticated — and unfortunately named — toolkit to target high-value networks for React2Shell exploitation.",
+      "url": "https://www.darkreading.com/application-security/attackers-new-tool-scan-react2shell-exposure",
+      "source": "Dark Reading",
+      "tags": [
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "555510a51376",
       "date": "2026-02-20",
       "title": "Lessons From AI Hacking: Every Model, Every Layer Is Risky",
@@ -553,18 +564,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Vulnerability",
-        "Account takeover"
-      ]
-    },
-    {
-      "id": "6e7015370f5d",
-      "date": "2026-02-16",
-      "title": "Operation DoppelBrand: Weaponizing Fortune 500 Brands",
-      "summary": "The GS7 cyber-threat group targets US financial institutions with near-perfect imitations of corporate portals to steal credentials and gain remote access.",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/operation-doppelbrand-weaponizing-fortune-500-brands",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware",
         "Account takeover"
       ]
     }
