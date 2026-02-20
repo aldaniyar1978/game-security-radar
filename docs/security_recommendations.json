@@ -1,6 +1,39 @@
 {
-  "lastUpdated": "2026-02-20T09:02:05Z",
+  "lastUpdated": "2026-02-20T11:01:02Z",
   "items": [
+    {
+      "id": "16f290953d2e",
+      "date": "2026-02-20",
+      "title": "FBI: Over $20 million stolen in surge of ATM malware attacks in 2025",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/",
+      "source": "BleepingComputer",
+      "summary": "The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM \"jackpotting\" attacks, in which criminals use malware to force cash machines to dispense money. [...]",
+      "tags": [
+        "Malware"
+      ],
+      "tech": [
+        "Telecom"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline.",
+        "Review exposure of core network management interfaces (SSH, web, SNMP) on internet‑facing telecom devices.",
+        "Cross‑check the article’s TTPs against your current router/switch/AP firmware baselines."
+      ],
+      "scripts": [
+        {
+          "name": "PowerShell: hunt for suspicious processes and autoruns",
+          "language": "powershell",
+          "body": "Get-WmiObject Win32_Process |\n  Where-Object { $_.Path -and ($_.Path -like \"*AppData*\" -or $_.Path -like \"*Temp*\") } |\n  Select-Object ProcessId, Name, Path\n\nGet-CimInstance Win32_StartupCommand |\n  Select-Object Name, Command, Location"
+        },
+        {
+          "name": "Linux: hunt for suspicious processes and SUID binaries",
+          "language": "bash",
+          "body": "ps aux | egrep \"crypto|minerd|xmrig|kdevtmpfsi\" | grep -v egrep || echo \"No obvious miners found\"\n\nfind / -xdev -type f -perm -4000 2>/dev/null"
+        }
+      ]
+    },
     {
       "id": "d7f4774b8a3d",
       "date": "2026-02-20",

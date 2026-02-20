@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "16f290953d2e",
+      "date": "2026-02-20",
+      "title": "FBI: Over $20 million stolen in surge of ATM malware attacks in 2025",
+      "summary": "The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM \"jackpotting\" attacks, in which criminals use malware to force cash machines to dispense money. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
       "id": "545ad17744a8",
       "date": "2026-02-20",
       "title": "Ukrainian gets 5 years for helping North Koreans infiltrate US firms",
@@ -554,17 +565,6 @@
       "source": "The Hacker News",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "fc045feb138c",
-      "date": "2026-02-18",
-      "title": "Singapore &amp; Its 4 Major Telcos Fend Off Chinese Hackers",
-      "summary": "After detecting a zero-day attack, the country's effective response was attributed to the tight relationship between its government and private industry.",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/singapore-major-telcos-fend-chinese-hackers",
-      "source": "Dark Reading",
-      "tags": [
-        "Data breach"
       ]
     }
   ]
