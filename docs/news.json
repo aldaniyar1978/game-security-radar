@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "939739b03a56",
+      "date": "2026-02-20",
+      "title": "Mississippi medical center closes all clinics after ransomware attack",
+      "summary": "The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Ransomware"
+      ]
+    },
+    {
       "id": "f83b41c89d96",
       "date": "2026-02-20",
       "title": "Ukrainian National Sentenced to 5 Years in North Korea IT Worker Fraud Case",
@@ -553,17 +564,6 @@
       "source": "The Hacker News",
       "tags": [
         "Vulnerability"
-      ]
-    },
-    {
-      "id": "f417a03d454a",
-      "date": "2026-02-18",
-      "title": "Glendale man gets 5 years in prison for role in darknet drug ring",
-      "summary": "​A Glendale man was sentenced to nearly five years in federal prison for his role in a darknet drug trafficking operation that sold cocaine, methamphetamine, MDMA, and ketamine to customers across ...",
-      "url": "https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware"
       ]
     }
   ]

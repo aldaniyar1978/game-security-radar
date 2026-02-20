@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-02-20T11:50:11Z",
+  "generatedAt": "2026-02-20T12:27:54Z",
   "items": [
+    {
+      "id": "939739b03a56",
+      "date": "2026-02-20",
+      "title": "Mississippi medical center closes all clinics after ransomware attack",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Ransomware"
+      ],
+      "tech": [
+        "ICS/OT"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
     {
       "id": "1e0ee4dd8d5f",
       "date": "2026-02-20",
