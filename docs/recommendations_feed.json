@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-02-20T15:57:42Z",
+  "generatedAt": "2026-02-20T16:30:17Z",
   "items": [
+    {
+      "id": "27b1b5cefa42",
+      "date": "2026-02-20",
+      "title": "Data breach at French bank registry impacts 1.2 million accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Data breach",
+        "Account takeover"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Verify whether the impacted service, vendor, or product is used inside your organization.",
+        "Assess the need to rotate passwords, keys, and tokens associated with the affected service."
+      ]
+    },
     {
       "id": "7b5ff146e145",
       "date": "2026-02-20",

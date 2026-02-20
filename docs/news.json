@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "27b1b5cefa42",
+      "date": "2026-02-20",
+      "title": "Data breach at French bank registry impacts 1.2 million accounts",
+      "summary": "The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Data breach",
+        "Account takeover"
+      ]
+    },
+    {
       "id": "0920ed559940",
       "date": "2026-02-20",
       "title": "Why the shift left dream has become a nightmare for security and developers",
@@ -550,18 +562,6 @@
       "source": "BleepingComputer",
       "tags": [
         "Phishing",
-        "Account takeover"
-      ]
-    },
-    {
-      "id": "e2482dbc9e2c",
-      "date": "2026-02-18",
-      "title": "Telegram channels expose rapid weaponization of SmarterMail flaws",
-      "summary": "Underground Telegram channels shared SmarterMail exploit PoCs and stolen admin credentials within days of disclosure. Flare explains how monitoring these communities reveals rapid weaponization of ...",
-      "url": "https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Vulnerability",
         "Account takeover"
       ]
     }
