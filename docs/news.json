@@ -2,6 +2,39 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "545ad17744a8",
+      "date": "2026-02-20",
+      "title": "Ukrainian gets 5 years for helping North Koreans infiltrate US firms",
+      "summary": "A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware"
+      ]
+    },
+    {
+      "id": "70cb00ab7631",
+      "date": "2026-02-20",
+      "title": "Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
+      "summary": "Two former Google engineers and one of their husbands have been indicted in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the info...",
+      "url": "https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": "d7f4774b8a3d",
+      "date": "2026-02-20",
+      "title": "FBI Reports 1,900 ATM Jackpotting Incidents Since 2020, $20M Lost in 2025",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has warned of an increase in ATM jackpotting incidents across the country, leading to losses of more than $20 million in 2025.\nThe agency said 1,900 A...",
+      "url": "https://thehackernews.com/2026/02/fbi-reports-1900-atm-jackpotting.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "06ae1db2b04b",
       "date": "2026-02-20",
       "title": "Three Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
@@ -532,39 +565,6 @@
       "source": "Dark Reading",
       "tags": [
         "Data breach"
-      ]
-    },
-    {
-      "id": "b66202b52e1b",
-      "date": "2026-02-13",
-      "title": "Zscaler-SquareX Deal Boosts Zero Trust, Secure Browsing Capabilities",
-      "summary": "Zscaler's acquisition of SquareX comes as competitors like CrowdStrike and Palo Alto Networks also invest in secure browser technologies.",
-      "url": "https://www.darkreading.com/remote-workforce/zscaler-squarex-deal-boosts-zero-trust-secure-browsing-capabilities",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "13b5e6e495db",
-      "date": "2026-02-17",
-      "title": "Spain orders NordVPN, ProtonVPN to block LaLiga piracy sites",
-      "summary": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]",
-      "url": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-protonvpn-to-block-laliga-piracy-sites/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "9686e1501eaa",
-      "date": "2026-02-17",
-      "title": "Spain orders NordVPN and ProtonVPN to block LaLiga stream piracy",
-      "summary": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]",
-      "url": "https://www.bleepingcomputer.com/news/legal/spain-orders-nordvpn-and-protonvpn-to-block-laliga-stream-piracy/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
