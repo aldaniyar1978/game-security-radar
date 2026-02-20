@@ -2,6 +2,31 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "8e35e5d0e44e",
+      "date": "2026-02-20",
+      "title": "CISA: BeyondTrust RCE flaw now exploited in ransomware attacks",
+      "summary": "Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Ransomware",
+        "Vulnerability",
+        "Data breach"
+      ]
+    },
+    {
+      "id": "8e5008f1ffcd",
+      "date": "2026-02-20",
+      "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw impacting BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) products to conduct a wide range...",
+      "url": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ]
+    },
+    {
       "id": "27b1b5cefa42",
       "date": "2026-02-20",
       "title": "Data breach at French bank registry impacts 1.2 million accounts",
@@ -540,29 +565,6 @@
       "source": "Dark Reading",
       "tags": [
         "Cybersecurity"
-      ]
-    },
-    {
-      "id": "57d7ff984868",
-      "date": "2026-02-18",
-      "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
-      "summary": "New research from the Citizen Lab has found signs that Kenyan authorities used a commercial forensic extraction tool manufactured by Israeli company Cellebrite to break into a prominent dissident's...",
-      "url": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html",
-      "source": "The Hacker News",
-      "tags": [
-        "Cybersecurity"
-      ]
-    },
-    {
-      "id": "785ea0551db8",
-      "date": "2026-02-18",
-      "title": "Microsoft: Anti-phishing rules mistakenly blocked emails, Teams messages",
-      "summary": "Microsoft says an Exchange Online issue that mistakenly quarantined legitimate emails last week was triggered by faulty heuristic detection rules designed to block credential phishing campaigns. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-anti-phishing-rules-mistakenly-blocked-emails-teams-messages/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Phishing",
-        "Account takeover"
       ]
     }
   ]

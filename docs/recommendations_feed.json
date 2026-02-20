@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-02-20T16:30:17Z",
+  "generatedAt": "2026-02-20T17:27:09Z",
   "items": [
+    {
+      "id": "8e5008f1ffcd",
+      "date": "2026-02-20",
+      "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
+      "url": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+      "source": "The Hacker News",
+      "severity": "Medium",
+      "tags": [
+        "Malware",
+        "Vulnerability"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
+    {
+      "id": "8e35e5d0e44e",
+      "date": "2026-02-20",
+      "title": "CISA: BeyondTrust RCE flaw now exploited in ransomware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Ransomware",
+        "Vulnerability",
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Validate the integrity and recoverability of recent backups for all critical systems.",
+        "Review exposed RDP/VPN entry points and restrict access using MFA and network segmentation."
+      ]
+    },
     {
       "id": "27b1b5cefa42",
       "date": "2026-02-20",
