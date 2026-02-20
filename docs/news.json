@@ -2,6 +2,40 @@
   "lastUpdated": "2026-02-20",
   "items": [
     {
+      "id": "555510a51376",
+      "date": "2026-02-20",
+      "title": "Lessons From AI Hacking: Every Model, Every Layer Is Risky",
+      "summary": "After two years of finding flaws in AI infrastructure, two Wiz researchers advise security pros to worry less about prompt injection and more about vulnerabilities.",
+      "url": "https://www.darkreading.com/application-security/lessons-ai-hacking-model-every-layer-risky",
+      "source": "Dark Reading",
+      "tags": [
+        "Data breach"
+      ]
+    },
+    {
+      "id": "b1a34a65a4c8",
+      "date": "2026-02-20",
+      "title": "'God-Like' Attack Machines: AI Agents Ignore Security Policies",
+      "summary": "Microsoft Copilot recently summarized and leaked user emails; but any AI agent will go above and beyond to complete assigned tasks, even breaking through their carefully designed guardrails.",
+      "url": "https://www.darkreading.com/application-security/ai-agents-ignore-security-policies",
+      "source": "Dark Reading",
+      "tags": [
+        "Data breach"
+      ]
+    },
+    {
+      "id": "7138163a748c",
+      "date": "2026-02-20",
+      "title": "Japanese tech giant Advantest hit by ransomware attack",
+      "summary": "Advantest Corporation disclosed that its corporate network has been targeted in a ransomware attack that may have affected customer or employee data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Ransomware"
+      ]
+    },
+    {
       "id": "8e35e5d0e44e",
       "date": "2026-02-20",
       "title": "CISA: BeyondTrust RCE flaw now exploited in ransomware attacks",
@@ -532,39 +566,6 @@
       "tags": [
         "Malware",
         "Account takeover"
-      ]
-    },
-    {
-      "id": "07acd8325b3a",
-      "date": "2026-02-18",
-      "title": "AI platforms can be abused for stealthy malware communication",
-      "summary": "AI assistants like Grok and Microsoft Copilot with web browsing and URL-fetching capabilities can be abused to intermediate command-and-control (C2) activity. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-platforms-can-be-abused-for-stealthy-malware-communication/",
-      "source": "BleepingComputer",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "e43dd1f21bcd",
-      "date": "2026-02-18",
-      "title": "A CISO's Playbook for Defending Data Assets Against AI Scraping",
-      "summary": "Discover a strategic approach to govern scraping risks, balance security with business growth, and safeguard intellectual capital from automated data harvesting.",
-      "url": "https://www.darkreading.com/cyber-risk/ciso-playbook-defending-data-assets-against-ai-scraping",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "cd3a7b32d34f",
-      "date": "2026-02-16",
-      "title": "260K+ Chrome Users Duped by Fake AI Browser Extensions",
-      "summary": "30 copycat apps tricked users, and Google itself, into thinking they're legitimate AI tools.",
-      "url": "https://www.darkreading.com/cyber-risk/chrome-fake-ai-browser-extensions",
-      "source": "Dark Reading",
-      "tags": [
-        "Cybersecurity"
       ]
     }
   ]
