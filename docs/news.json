@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-21",
   "items": [
     {
+      "id": "b7d24ce71f02",
+      "date": "2026-02-19",
+      "title": "More Than 40% of South Africans Were Scammed in 2025",
+      "summary": "Survey underscores the reality that scammers follow &quot;scalable opportunities and low friction,&quot; rather than rich targets that tend to be better protected.",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/south-africans-scammed-2025",
+      "source": "Dark Reading",
+      "tags": [
+        "Phishing",
+        "Malware"
+      ]
+    },
+    {
       "id": "d5505445cdd5",
       "date": "2026-02-21",
       "title": "AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries",
@@ -550,17 +562,6 @@
       "summary": "A newly identified Android banking trojan named Massiv has been under active distribution across south Europe, disguised as an IPTV app. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/new-massiv-android-banking-malware-poses-as-an-iptv-app/",
       "source": "BleepingComputer",
-      "tags": [
-        "Malware"
-      ]
-    },
-    {
-      "id": "4eca47748dd2",
-      "date": "2026-02-19",
-      "title": "CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware",
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed CRESCENTHARVEST, likely targeting supporters of Iran's ongoing protests to conduct information theft and long-term espionag...",
-      "url": "https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html",
-      "source": "The Hacker News",
       "tags": [
         "Malware"
       ]
