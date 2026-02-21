@@ -1,6 +1,31 @@
 {
-  "lastUpdated": "2026-02-21T08:15:10Z",
+  "lastUpdated": "2026-02-21T08:51:25Z",
   "items": [
+    {
+      "id": "9c8ccd54aaf8",
+      "date": "2026-02-21",
+      "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+      "url": "https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html",
+      "source": "The Hacker News",
+      "summary": "With $5.5 trillion in global AI risk exposure and 700,000 U.S. workers needing reskilling, four new AI certifications and Certified CISO v4 help close the gap between AI adoption and workforce read...",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "severity": "Low",
+      "recommendations": [
+        "Assess the relevance of this story to your environment and map the described techniques to your technology stack."
+      ],
+      "scripts": [
+        {
+          "name": "Generic: search for IOCs from the article across logs",
+          "language": "bash",
+          "body": "# Replace PATTERN with domains/IPs/URLs or other indicators extracted from the article:\ngrep -Ei \"PATTERN\" /var/log/* 2>/dev/null || echo \"No hits for pattern\""
+        }
+      ]
+    },
     {
       "id": "580c8e3e1722",
       "date": "2026-02-21",

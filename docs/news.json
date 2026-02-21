@@ -2,6 +2,17 @@
   "lastUpdated": "2026-02-21",
   "items": [
     {
+      "id": "9c8ccd54aaf8",
+      "date": "2026-02-21",
+      "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+      "summary": "With $5.5 trillion in global AI risk exposure and 700,000 U.S. workers needing reskilling, four new AI certifications and Certified CISO v4 help close the gap between AI adoption and workforce read...",
+      "url": "https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html",
+      "source": "The Hacker News",
+      "tags": [
+        "Cybersecurity"
+      ]
+    },
+    {
       "id": "ac460b1a6fa6",
       "date": "2026-02-21",
       "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog",
@@ -552,18 +563,6 @@
       "source": "Dark Reading",
       "tags": [
         "Phishing"
-      ]
-    },
-    {
-      "id": "2c5990e6054e",
-      "date": "2026-02-18",
-      "title": "Dell's Hard-Coded Flaw: A Nation-State Goldmine",
-      "summary": "A China-related attacker has exploited the vendor flaw since mid-2024, allowing it to move laterally, maintain persistent access, and deploy malware.",
-      "url": "https://www.darkreading.com/application-security/dells-hard-coded-flaw-a-nation-state-goldmine",
-      "source": "Dark Reading",
-      "tags": [
-        "Malware",
-        "Vulnerability"
       ]
     }
   ]
