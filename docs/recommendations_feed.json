@@ -1,6 +1,25 @@
 {
-  "generatedAt": "2026-02-21T13:13:54Z",
+  "generatedAt": "2026-02-21T13:55:30Z",
   "items": [
+    {
+      "id": "194da222d452",
+      "date": "2026-02-21",
+      "title": "Amazon: AI-assisted hacker breached 600 FortiGate firewalls in 5 weeks",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
+      "source": "BleepingComputer",
+      "severity": "High",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ],
+      "tech": [
+        "Generic"
+      ],
+      "top_recommendations": [
+        "Run an out-of-band malware scan on servers and endpoints, focusing on recent changes.",
+        "Collect suspicious binaries from Temp/AppData and submit them to a sandbox or reverse engineering pipeline."
+      ]
+    },
     {
       "id": "580c8e3e1722",
       "date": "2026-02-21",

@@ -2,6 +2,18 @@
   "lastUpdated": "2026-02-21",
   "items": [
     {
+      "id": "194da222d452",
+      "date": "2026-02-21",
+      "title": "Amazon: AI-assisted hacker breached 600 FortiGate firewalls in 5 weeks",
+      "summary": "Amazon is warning that a Russian-speaking hacker used multiple generative AI services as part of a campaign that breached more than 600 FortiGate firewalls across 55 countries in five weeks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
+      "source": "BleepingComputer",
+      "tags": [
+        "Malware",
+        "Data breach"
+      ]
+    },
+    {
       "id": "9c8ccd54aaf8",
       "date": "2026-02-21",
       "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
@@ -552,17 +564,6 @@
       "tags": [
         "Phishing",
         "Malware"
-      ]
-    },
-    {
-      "id": "7aafa0184778",
-      "date": "2026-02-18",
-      "title": "Scam Abuses Gemini Chatbots to Convince People to Buy Fake Crypto",
-      "summary": "A convincing presale site for phony &quot;Google Coin&quot; features an AI assistant that engages victims with a slick sales pitch, funneling payment to attackers.",
-      "url": "https://www.darkreading.com/endpoint-security/scam-abuses-gemini-chatbots-convince-people-buy-fake-crypto",
-      "source": "Dark Reading",
-      "tags": [
-        "Phishing"
       ]
     }
   ]
